@@ -1,0 +1,1764 @@
+Archive member included because of file (symbol)
+
+../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                              Debug/Usb_dev_serial.o (UARTOperatingModeSelect)
+../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+                              Debug/Usb_dev_serial.o (DelayTimerSetup)
+../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+                              ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o) (SysDelayTimerSetup)
+../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+                              Debug/Usb_dev_serial.o (UARTPinMuxSetup)
+../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o) (DMTimer7ModuleClkConfig)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                              Debug/Usb_dev_serial.o (USBBufferInit)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                              Debug/Usb_dev_serial.o (USBDCDCInit)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o) (g_sUSBDefaultFIFOConfig)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+                              Debug/Usb_dev_serial.o (USB0DeviceIntHandler)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o) (USBRingBufFlush)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o) (g_ulUSBSOFCount)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o) (g_USBInstance)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o) (USBDCDConfigDescGetSize)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o) (USBDeviceConfig)
+../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o) (USBDescGetNum)
+../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+                              (Entry)
+../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                              Debug/Usb_dev_serial.o (IntRegister)
+../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+                              Debug/Usb_dev_serial.o (MMUInit)
+../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o) (start_boot)
+../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o) (CP15Ttb0Set)
+../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o) (CPUIntStatus)
+../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o) (IRQHandler)
+/home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+                              Debug/ustdlib.o (strlen)
+/home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncmp.o)
+                              Debug/ustdlib.o (strncmp)
+/home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncpy.o)
+                              Debug/ustdlib.o (strncpy)
+/home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                              (__aeabi_uidiv)
+/home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                              (__aeabi_idiv)
+/home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                              /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o) (DMTimerEnable)
+../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o) (USBHostResume)
+../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o) (UsbPhyOn)
+../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+                              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o) (USBVersionGet)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_pucTxBufferWorkspace
+                    0x10              Debug/usb_serial_structs.o
+g_sCDCInstance      0x2c              Debug/usb_serial_structs.o
+g_USBPerfInfo       0x9c40            ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+g_USBInstance       0x30              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+g_psUSBDevice       0xa8              ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+g_pfTickHandlers    0xc               ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+fnRAMVectors        0x200             ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+g_pvTickInstance    0xc               ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+g_pcStatus          0x4               Debug/Usb_dev_serial.o
+g_pcUSBTxBuffer     0x100             Debug/usb_serial_structs.o
+g_pucRxBufferWorkspace
+                    0x10              Debug/usb_serial_structs.o
+g_pcUSBRxBuffer     0x100             Debug/usb_serial_structs.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 Debug/Usb_dev_serial.o
+ .data          0x00000000        0x0 Debug/Usb_dev_serial.o
+ .bss           0x00000000        0x0 Debug/Usb_dev_serial.o
+ .bss.g_ulSysTickCount
+                0x00000000        0x4 Debug/Usb_dev_serial.o
+ .text.SysTickIntHandler
+                0x00000000       0x30 Debug/Usb_dev_serial.o
+ .text          0x00000000        0x0 Debug/usb_serial_structs.o
+ .data          0x00000000        0x0 Debug/usb_serial_structs.o
+ .bss           0x00000000        0x0 Debug/usb_serial_structs.o
+ .text          0x00000000        0x0 Debug/ustdlib.o
+ .data          0x00000000        0x0 Debug/ustdlib.o
+ .bss           0x00000000        0x0 Debug/ustdlib.o
+ .rodata        0x00000000       0x1c Debug/ustdlib.o
+ .rodata.g_pcHex
+                0x00000000        0x4 Debug/ustdlib.o
+ .text.uvsnprintf
+                0x00000000      0x8fc Debug/ustdlib.o
+ .text.usprintf
+                0x00000000       0x54 Debug/ustdlib.o
+ .text.usnprintf
+                0x00000000       0x58 Debug/ustdlib.o
+ .rodata.g_psDaysToMonth
+                0x00000000       0x18 Debug/ustdlib.o
+ .text.ulocaltime
+                0x00000000      0x2dc Debug/ustdlib.o
+ .text.ustrtoul
+                0x00000000      0x2a0 Debug/ustdlib.o
+ .text.ustrstr  0x00000000       0x84 Debug/ustdlib.o
+ .text.ustrnicmp
+                0x00000000      0x138 Debug/ustdlib.o
+ .text.ustrcasecmp
+                0x00000000       0x3c Debug/ustdlib.o
+ .debug_info    0x00000000      0x50d Debug/ustdlib.o
+ .debug_abbrev  0x00000000      0x172 Debug/ustdlib.o
+ .debug_loc     0x00000000      0x178 Debug/ustdlib.o
+ .debug_aranges
+                0x00000000       0x58 Debug/ustdlib.o
+ .debug_ranges  0x00000000       0x48 Debug/ustdlib.o
+ .debug_line    0x00000000      0x37e Debug/ustdlib.o
+ .debug_str     0x00000000      0x307 Debug/ustdlib.o
+ .comment       0x00000000       0x71 Debug/ustdlib.o
+ .ARM.attributes
+                0x00000000       0x37 Debug/ustdlib.o
+ .debug_frame   0x00000000       0xf8 Debug/ustdlib.o
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDivisorLatchEnable
+                0x00000000       0x38 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRegConfModeRestore
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTParityModeSet
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTParityModeGet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMAEnable
+                0x00000000       0x80 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMADisable
+                0x00000000       0x54 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSubConfigMSRSPRModeEn
+                0x00000000      0x124 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSubConfigXOFFModeEn
+                0x00000000      0x124 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharPutNonBlocking
+                0x00000000       0x8c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharGet
+                0x00000000       0x84 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTCharGetTimeout
+                0x00000000       0xac ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOCharPut
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOCharGet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOWrite
+                0x00000000       0x78 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIntPendingStatusGet
+                0x00000000       0x78 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOEnableStatusGet
+                0x00000000       0x78 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutoRTSAutoCTSControl
+                0x00000000       0xb4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSpecialCharDetectControl
+                0x00000000       0x8c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTSoftwareFlowCtrlOptSet
+                0x00000000       0x8c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTPulseShapingControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTIdleModeConfigure
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutoIdleModeControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFlowCtrlTrigLvlConfig
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXON1XOFF1ValProgram
+                0x00000000       0x4c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXON2XOFF2ValProgram
+                0x00000000       0x4c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTXONAnyFeatureControl
+                0x00000000      0x100 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTLoopbackModeControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemControlSet
+                0x00000000       0x44 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemControlClear
+                0x00000000       0x48 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemStatusGet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModemStatusChangeCheck
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTResumeOperation
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpEventsEnable
+                0x00000000       0x44 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTWakeUpEventsDisable
+                0x00000000       0x48 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTFIFOTrigLvlGranControl
+                0x00000000       0x88 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDSRInterruptControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxEmptyIntControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRXCTSDSRWakeUpConfigure
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRXCTSDSRTransitionStatusGet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTDMACounterResetControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxFIFOFullStatusGet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxFIFOLevelGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTRxFIFOLevelGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudParityGet
+                0x00000000       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudWordLenGet
+                0x00000000       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTAutobaudSpeedGet
+                0x00000000       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTScratchPadRegWrite
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTScratchPadRegRead
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTModuleVersionNumberGet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxDMAThresholdControl
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text.UARTTxDMAThresholdValConfig
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .text.StartTimer
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .text.StopTimer
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .text.IsTimerElapsed
+                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .text.SysStartTimer
+                0x00000000       0x80 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .text.SysStopTimer
+                0x00000000       0x38 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .text.SysIsTimerElapsed
+                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .text.DMTimer3ModuleClkConfig
+                0x00000000      0x260 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .text.DMTimer2ModuleClkConfig
+                0x00000000      0x260 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .text.DMTimer4ModuleClkConfig
+                0x00000000      0x268 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .text.DMTimer6ModuleClkConfig
+                0x00000000       0xc4 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .text.DMTimer1msModuleClkConfig
+                0x00000000       0xd8 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.USBBufferInfoGet
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.USBBufferDataWritten
+                0x00000000       0x5c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.USBBufferDataRemoved
+                0x00000000       0x4c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.USBBufferCallbackDataSet
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.USBDCDCTerm
+                0x00000000       0xb0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.USBDCDCSetControlCBData
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.USBDCDCSetRxCBData
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.USBDCDCSetTxCBData
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.USBDCDCPowerStatusSet
+                0x00000000       0x38 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.USBDCDCRemoteWakeupRequest
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDCDTerm
+                0x00000000      0x274 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDCDSetDefaultConfiguration
+                0x00000000       0x48 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDCDPowerStatusSet
+                0x00000000       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDCDRemoteWakeupRequest
+                0x00000000      0x114 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .text.USB1DeviceIntHandler
+                0x00000000       0xe0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .text.USBRingBufFull
+                0x00000000       0x74 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .text.USBRingBufEmpty
+                0x00000000       0x50 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .text.USBRingBufSize
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .bss.g_bUSBTimerInitialized
+                0x00000000        0x1 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .text.InternalUSBTickInit
+                0x00000000       0x88 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .bss.ulPerfInfoCounter
+                0x00000000        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .bss.fReadEnabled
+                0x00000000        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .bss.fWriteEnabled
+                0x00000000        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .bss.fUSBDisconnected
+                0x00000000        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .text.USBDCDConfigGetNumAlternateInterfaces
+                0x00000000       0xac ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .text.USBDescGetNumAlternateInterfaces
+                0x00000000       0xbc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .text.USBDescGetAlternateInterface
+                0x00000000       0xd8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .text.USBDescGetInterface
+                0x00000000       0x84 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .text.USBDescGetInterfaceEndpoint
+                0x00000000       0x64 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntUnRegister
+                0x00000000       0x34 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSystemDisable
+                0x00000000       0x4c ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntIfClkFreeRunSet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntIfClkAutoGateSet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntActiveIrqNumGet
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSpurIrqFlagGet
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntProtectionEnable
+                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntProtectionDisable
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSyncClkFreeRunSet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSyncClkAutoGateSet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntFuncClkFreeRunSet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntFuncClkAutoGateSet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntCurrIrqPriorityGet
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPriorityThresholdGet
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPriorityThresholdSet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntRawStatusGet
+                0x00000000       0x5c ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSoftwareIntSet
+                0x00000000       0x48 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSoftwareIntClear
+                0x00000000       0x48 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPendingIrqMaskedStatusGet
+                0x00000000       0x58 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterFIQEnable
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterFIQDisable
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUSwitchToPrivilegedMode
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUSwitchToUserMode
+                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUAbortHandler
+                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqd  0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqe  0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .text          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .text.strlen   0x00000000       0x60 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x30 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000000       0x20 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncmp.o)
+ .text.strncmp  0x00000000      0x140 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000000       0x30 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncmp.o)
+ .debug_frame   0x00000000       0x28 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncmp.o)
+ .text          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncpy.o)
+ .text.strncpy  0x00000000       0xc8 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x00000000       0x30 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncpy.o)
+ .debug_frame   0x00000000       0x2c /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerPreScalerClkEnable
+                0x00000000       0xcc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerPreScalerClkDisable
+                0x00000000       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerCounterGet
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerReloadSet
+                0x00000000       0x64 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerReloadGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerGPOConfigure
+                0x00000000       0xcc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerCompareSet
+                0x00000000       0x64 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerCompareGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntRawStatusSet
+                0x00000000       0x34 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntRawStatusGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntStatusGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerTriggerSet
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerIntEnableGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerResetConfigure
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerReset
+                0x00000000       0x54 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerContextSave
+                0x00000000       0xb8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerContextRestore
+                0x00000000      0x160 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text.DMTimerPostedModeConfig
+                0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIndexRead
+                0x00000000       0xa0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostSuspend
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostReset
+                0x00000000       0x7c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostSpeedGet
+                0x00000000       0x90 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIntStatus
+                0x00000000      0x120 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIntDisable
+                0x00000000      0x148 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIntEnable
+                0x00000000      0x130 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIntDisableControl
+                0x00000000       0xac ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIntDisableEndpoint
+                0x00000000       0x98 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIntRegister
+                0x00000000       0x48 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBIntUnregister
+                0x00000000       0x24 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostEndpointStatusClear
+                0x00000000      0x118 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostEndpointDataToggle
+                0x00000000      0x190 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBEndpointDataToggleClear
+                0x00000000       0xbc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBDevAddrGet
+                0x00000000       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostEndpointConfig
+                0x00000000      0x2f4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBFIFOConfigGet
+                0x00000000      0x100 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBEndpointDMAEnable
+                0x00000000       0xb8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBEndpointDMADisable
+                0x00000000       0xb8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostEndpointDataAck
+                0x00000000       0xa0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBFIFOFlush
+                0x00000000      0x14c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostRequestIN
+                0x00000000       0x5c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostRequestINClear
+                0x00000000       0x74 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostAutoReqSet
+                0x00000000       0x74 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostAutoReqClear
+                0x00000000       0x74 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBRxChAbort
+                0x00000000      0x13c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBDmaTxChDisable
+                0x00000000       0x70 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBDmaTxChTeardown
+                0x00000000       0xc0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostTxFifoFlush
+                0x00000000      0x130 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostRequestStatus
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostAddrSet
+                0x00000000       0x7c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostAddrGet
+                0x00000000       0x74 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostHubAddrSet
+                0x00000000       0x7c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostHubAddrGet
+                0x00000000       0x74 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostPwrConfig
+                0x00000000       0x70 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostPwrFaultEnable
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostPwrFaultDisable
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostPwrEnable
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostPwrDisable
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBFrameNumberGet
+                0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBOTGSessionRequest
+                0x00000000       0x7c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBFIFOAddrGet
+                0x00000000       0x38 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBModeGet
+                0x00000000       0x34 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBEndpointDMAChannel
+                0x00000000       0x84 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .text.UsbPhyOff
+                0x00000000       0x98 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+ .text.USBModuleClkDisable
+                0x00000000       0x38 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+DDR0             0x80000000         0x10000000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD Debug/Usb_dev_serial.o
+LOAD Debug/usb_serial_structs.o
+LOAD Debug/ustdlib.o
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a
+LOAD ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a
+LOAD /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a
+LOAD /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a
+LOAD ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a
+LOAD ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a
+LOAD /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//arm-none-eabi/lib//libc.a
+LOAD /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a
+
+.startcode      0x80000000       0xb4
+                0x80000000                . = ALIGN (0x4)
+ *init.o(.text)
+ .text          0x80000000       0xb4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+                0x80000000                Entry
+
+.text           0x800000b4     0xbe2c
+                0x800000b4                . = ALIGN (0x4)
+ *(.text*)
+ .text.CheckForSerialStateChange
+                0x800000b4       0xb8 Debug/Usb_dev_serial.o
+ .text.MMUConfigAndEnable
+                0x8000016c       0xd8 Debug/Usb_dev_serial.o
+ .text.UartFIFOConfigure
+                0x80000244       0x40 Debug/Usb_dev_serial.o
+ .text.UartBaudRateSet
+                0x80000284       0x5c Debug/Usb_dev_serial.o
+ .text.ReadUARTData
+                0x800002e0      0x100 Debug/Usb_dev_serial.o
+ .text.USBUARTPrimeTransmit
+                0x800003e0       0xb0 Debug/Usb_dev_serial.o
+ .text.UARTHandleError
+                0x80000490       0x44 Debug/Usb_dev_serial.o
+                0x80000490                UARTHandleError
+ .text.USBUARTIntHandler
+                0x800004d4       0xdc Debug/Usb_dev_serial.o
+                0x800004d4                USBUARTIntHandler
+ .text.SetControlLineState
+                0x800005b0       0x20 Debug/Usb_dev_serial.o
+ .text.SetLineCoding
+                0x800005d0      0x160 Debug/Usb_dev_serial.o
+ .text.GetLineCoding
+                0x80000730       0x74 Debug/Usb_dev_serial.o
+ .text.SendBreak
+                0x800007a4       0x7c Debug/Usb_dev_serial.o
+ .text.ControlHandler
+                0x80000820      0x208 Debug/Usb_dev_serial.o
+                0x80000820                ControlHandler
+ .text.TxHandler
+                0x80000a28       0x44 Debug/Usb_dev_serial.o
+                0x80000a28                TxHandler
+ .text.RxHandler
+                0x80000a6c       0x8c Debug/Usb_dev_serial.o
+                0x80000a6c                RxHandler
+ .text.UARTAINTCConfigure
+                0x80000af8       0x4c Debug/Usb_dev_serial.o
+ .text.USB0AINTCConfigure
+                0x80000b44       0x4c Debug/Usb_dev_serial.o
+ .text.USBInterruptEnable
+                0x80000b90       0x3c Debug/Usb_dev_serial.o
+ .text.main     0x80000bcc      0x1d8 Debug/Usb_dev_serial.o
+                0x80000bcc                main
+ .text.UARTOperatingModeSelect
+                0x80000da4       0x84 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80000da4                UARTOperatingModeSelect
+ .text.UARTDivisorValCompute
+                0x80000e28      0x104 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80000e28                UARTDivisorValCompute
+ .text.UARTDivisorLatchWrite
+                0x80000f2c      0x210 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80000f2c                UARTDivisorLatchWrite
+ .text.UARTDivisorLatchDisable
+                0x8000113c       0x38 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x8000113c                UARTDivisorLatchDisable
+ .text.UARTRegConfigModeEnable
+                0x80001174       0x9c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001174                UARTRegConfigModeEnable
+ .text.UARTBreakCtl
+                0x80001210       0x60 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001210                UARTBreakCtl
+ .text.UARTLineCharacConfig
+                0x80001270       0xa4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001270                UARTLineCharacConfig
+ .text.UARTFIFOConfig
+                0x80001314      0x480 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001314                UARTFIFOConfig
+ .text.UARTFIFORegisterWrite
+                0x80001794       0xc0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001794                UARTFIFORegisterWrite
+ .text.UARTEnhanFuncEnable
+                0x80001854       0x88 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001854                UARTEnhanFuncEnable
+ .text.UARTEnhanFuncBitValRestore
+                0x800018dc       0x8c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x800018dc                UARTEnhanFuncBitValRestore
+ .text.UARTSubConfigTCRTLRModeEn
+                0x80001968      0x124 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001968                UARTSubConfigTCRTLRModeEn
+ .text.UARTTCRTLRBitValRestore
+                0x80001a8c      0x128 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001a8c                UARTTCRTLRBitValRestore
+ .text.UARTIntEnable
+                0x80001bb4      0x130 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001bb4                UARTIntEnable
+ .text.UARTIntDisable
+                0x80001ce4      0x110 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001ce4                UARTIntDisable
+ .text.UARTSpaceAvail
+                0x80001df4       0x78 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001df4                UARTSpaceAvail
+ .text.UARTCharsAvail
+                0x80001e6c       0x78 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001e6c                UARTCharsAvail
+ .text.UARTCharGetNonBlocking
+                0x80001ee4       0x80 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001ee4                UARTCharGetNonBlocking
+ .text.UARTCharPut
+                0x80001f64       0x78 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001f64                UARTCharPut
+ .text.UARTRxErrorGet
+                0x80001fdc       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80001fdc                UARTRxErrorGet
+ .text.UARTIntIdentityGet
+                0x80002048       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x80002048                UARTIntIdentityGet
+ .text.UARTModuleReset
+                0x800020b4       0x54 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                0x800020b4                UARTModuleReset
+ .text.DelayTimerSetup
+                0x80002108       0x18 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+                0x80002108                DelayTimerSetup
+ .text.delay    0x80002120       0x28 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+                0x80002120                delay
+ .text.SysDelayTimerSetup
+                0x80002148       0x88 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+                0x80002148                SysDelayTimerSetup
+ .text.Sysdelay
+                0x800021d0       0xb0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+                0x800021d0                Sysdelay
+ .text.DMTimerIsr
+                0x80002280       0x48 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .text.UARTPinMuxSetup
+                0x800022c8       0x48 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+                0x800022c8                UARTPinMuxSetup
+ .text.UART0ModuleClkConfig
+                0x80002310      0x35c ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+                0x80002310                UART0ModuleClkConfig
+ .text.DMTimer7ModuleClkConfig
+                0x8000266c      0x260 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+                0x8000266c                DMTimer7ModuleClkConfig
+ .text.ScheduleNextTransmission
+                0x800028cc      0x180 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.HandleRxAvailable
+                0x80002a4c      0x284 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.HandleDataRemaining
+                0x80002cd0       0x74 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.HandleTxComplete
+                0x80002d44       0x58 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.HandleRequestBuffer
+                0x80002d9c       0x8c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .text.USBBufferInit
+                0x80002e28       0x58 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                0x80002e28                USBBufferInit
+ .text.USBBufferWrite
+                0x80002e80       0x98 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                0x80002e80                USBBufferWrite
+ .text.USBBufferFlush
+                0x80002f18       0x38 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                0x80002f18                USBBufferFlush
+ .text.USBBufferRead
+                0x80002f50       0x88 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                0x80002f50                USBBufferRead
+ .text.USBBufferDataAvailable
+                0x80002fd8       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                0x80002fd8                USBBufferDataAvailable
+ .text.USBBufferSpaceAvailable
+                0x80003018       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                0x80003018                USBBufferSpaceAvailable
+ .text.USBBufferEventCallback
+                0x80003058      0x138 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                0x80003058                USBBufferEventCallback
+ .text.SetDeferredOpFlag
+                0x80003190       0x7c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.DeviceConsumedAllData
+                0x8000320c       0x58 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.SendBreak
+                0x80003264       0xac ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.SendLineCodingChange
+                0x80003310       0x6c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.SendLineStateChange
+                0x8000337c       0x70 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.CheckAndSendBreak
+                0x800033ec       0x74 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.CheckAndSendLineCodingChange
+                0x80003460       0x54 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.CheckAndSendLineStateChange
+                0x800034b4       0x54 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.SendSerialState
+                0x80003508      0x18c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.ProcessDataFromHost
+                0x80003694      0x170 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x80003694                ProcessDataFromHost
+ .text.ProcessNotificationToHost
+                0x80003804       0xc8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x80003804                ProcessNotificationToHost
+ .text.ProcessDataToHost
+                0x800038cc       0xcc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x800038cc                ProcessDataToHost
+ .text.HandleEndpoints
+                0x80003998       0xfc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.HandleConfigChange
+                0x80003a94       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.HandleEP0Data
+                0x80003b3c      0x110 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.HandleDevice
+                0x80003c4c      0x188 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.HandleRequests
+                0x80003dd4      0x430 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.HandleDisconnect
+                0x80004204       0x70 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.HandleSuspend
+                0x80004274       0x44 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.HandleResume
+                0x800042b8       0x44 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.CDCTickHandler
+                0x800042fc      0x1f0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .text.USBDCDCCompositeInit
+                0x800044ec      0x45c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x800044ec                USBDCDCCompositeInit
+ .text.USBDCDCInit
+                0x80004948       0xa0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x80004948                USBDCDCInit
+ .text.USBDCDCPacketWrite
+                0x800049e8      0x114 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x800049e8                USBDCDCPacketWrite
+ .text.USBDCDCPacketRead
+                0x80004afc      0x1b8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x80004afc                USBDCDCPacketRead
+ .text.USBDCDCTxPacketAvailable
+                0x80004cb4       0x4c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x80004cb4                USBDCDCTxPacketAvailable
+ .text.USBDCDCRxPacketAvailable
+                0x80004d00       0xc4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x80004d00                USBDCDCRxPacketAvailable
+ .text.USBDCDCSerialStateChange
+                0x80004dc4       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x80004dc4                USBDCDCSerialStateChange
+ .text.USBDCDInit
+                0x80004eb4      0x59c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x80004eb4                USBDCDInit
+ .text.USBDCDRequestDataEP0
+                0x80005450       0xc4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x80005450                USBDCDRequestDataEP0
+ .text.USBDCDSendDataEP0
+                0x80005514       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x80005514                USBDCDSendDataEP0
+ .text.USBDCDStallEP0
+                0x800055bc       0x84 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x800055bc                USBDCDStallEP0
+ .text.USBDeviceResumeTickHandler
+                0x80005640      0x1c8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x80005640                USBDeviceResumeTickHandler
+ .text.USBDReadAndDispatchRequest
+                0x80005808      0x1b0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDeviceEnumHandler
+                0x800059b8      0x39c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x800059b8                USBDeviceEnumHandler
+ .text.USBDeviceEnumResetHandler
+                0x80005d54       0xbc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x80005d54                USBDeviceEnumResetHandler
+ .text.USBDGetStatus
+                0x80005e10      0x184 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDClearFeature
+                0x80005f94      0x258 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDSetFeature
+                0x800061ec      0x1b0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDSetAddress
+                0x8000639c       0x90 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDGetDescriptor
+                0x8000642c      0x318 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDStringIndexFromRequest
+                0x80006744      0x1e4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDSetDescriptor
+                0x80006928       0x74 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDGetConfiguration
+                0x8000699c       0xc0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDSetConfiguration
+                0x80006a5c      0x1ec ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDGetInterface
+                0x80006c48      0x104 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDSetInterface
+                0x80006d4c      0x228 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDSyncFrame
+                0x80006f74       0x74 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDEP0StateTx
+                0x80006fe8      0x340 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDEP0StateTxConfig
+                0x80007328      0x7e8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .text.USBDeviceIntHandlerInternal
+                0x80007b10      0x350 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x80007b10                USBDeviceIntHandlerInternal
+ .text.USB0DeviceIntHandler
+                0x80007e60       0xe0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+                0x80007e60                USB0DeviceIntHandler
+ .text.UpdateIndexAtomic
+                0x80007f40       0x90 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .text.USBRingBufFlush
+                0x80007fd0       0x50 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x80007fd0                USBRingBufFlush
+ .text.USBRingBufUsed
+                0x80008020       0x70 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x80008020                USBRingBufUsed
+ .text.USBRingBufFree
+                0x80008090       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x80008090                USBRingBufFree
+ .text.USBRingBufContigUsed
+                0x800080d0       0x68 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x800080d0                USBRingBufContigUsed
+ .text.USBRingBufContigFree
+                0x80008138       0x88 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x80008138                USBRingBufContigFree
+ .text.USBRingBufReadOne
+                0x800081c0       0x64 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x800081c0                USBRingBufReadOne
+ .text.USBRingBufRead
+                0x80008224       0x6c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x80008224                USBRingBufRead
+ .text.USBRingBufAdvanceRead
+                0x80008290       0x6c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x80008290                USBRingBufAdvanceRead
+ .text.USBRingBufAdvanceWrite
+                0x800082fc       0xd4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x800082fc                USBRingBufAdvanceWrite
+ .text.USBRingBufWriteOne
+                0x800083d0       0x64 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x800083d0                USBRingBufWriteOne
+ .text.USBRingBufWrite
+                0x80008434       0x6c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x80008434                USBRingBufWrite
+ .text.USBRingBufInit
+                0x800084a0       0x50 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                0x800084a0                USBRingBufInit
+ .text.InternalUSBRegisterTickHandler
+                0x800084f0       0x4c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+                0x800084f0                InternalUSBRegisterTickHandler
+ .text.InternalUSBStartOfFrameTick
+                0x8000853c       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+                0x8000853c                InternalUSBStartOfFrameTick
+ .text.NextConfigDescGet
+                0x800085e4       0xec ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .text.ConfigAlternateInterfaceGet
+                0x800086d0       0xd8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .text.USBDCDConfigDescGetSize
+                0x800087a8       0x84 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+                0x800087a8                USBDCDConfigDescGetSize
+ .text.USBDCDConfigDescGetNum
+                0x8000882c       0xbc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+                0x8000882c                USBDCDConfigDescGetNum
+ .text.USBDCDConfigDescGet
+                0x800088e8      0x154 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+                0x800088e8                USBDCDConfigDescGet
+ .text.USBDCDConfigGetInterface
+                0x80008a3c       0x80 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+                0x80008a3c                USBDCDConfigGetInterface
+ .text.USBDCDConfigGetInterfaceEndpoint
+                0x80008abc       0xec ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+                0x80008abc                USBDCDConfigGetInterfaceEndpoint
+ .text.GetEndpointFIFOSize
+                0x80008ba8       0xf4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .text.GetEPDescriptorType
+                0x80008c9c      0x108 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .text.USBDeviceConfig
+                0x80008da4      0x67c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+                0x80008da4                USBDeviceConfig
+ .text.USBDeviceConfigAlternate
+                0x80009420      0x21c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+                0x80009420                USBDeviceConfigAlternate
+ .text.USBDescGetNum
+                0x8000963c       0xb0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+                0x8000963c                USBDescGetNum
+ .text.USBDescGet
+                0x800096ec       0xcc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+                0x800096ec                USBDescGet
+ .text.IntDefaultHandler
+                0x800097b8       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntRegister
+                0x800097cc       0x34 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x800097cc                IntRegister
+ .text.IntAINTCInit
+                0x80009800       0x90 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x80009800                IntAINTCInit
+ .text.IntPrioritySet
+                0x80009890       0x50 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x80009890                IntPrioritySet
+ .text.IntSystemEnable
+                0x800098e0       0x4c ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x800098e0                IntSystemEnable
+ .text.IntMasterIRQEnable
+                0x8000992c       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8000992c                IntMasterIRQEnable
+ .text.IntMasterIRQDisable
+                0x80009944       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x80009944                IntMasterIRQDisable
+ .text.IntMasterStatusGet
+                0x8000995c       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8000995c                IntMasterStatusGet
+ .text.IntDisable
+                0x8000997c       0x3c ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8000997c                IntDisable
+ .text.IntEnable
+                0x800099b8       0x38 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x800099b8                IntEnable
+ .text.MMUInit  0x800099f0       0x88 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+                0x800099f0                MMUInit
+ .text.MMUMemRegionMap
+                0x80009a78      0x110 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+                0x80009a78                MMUMemRegionMap
+ .text.MMUEnable
+                0x80009b88       0x38 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+                0x80009b88                MMUEnable
+ .text.start_boot
+                0x80009bc0       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                0x80009bc0                start_boot
+ .text.CopyVectorTable
+                0x80009be4       0x98 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .text          0x80009c7c      0x488 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+                0x80009c7c                CP15ICacheDisable
+                0x80009c98                CP15DCacheDisable
+                0x80009cb4                CP15ICacheEnable
+                0x80009cc4                CP15DCacheEnable
+                0x80009cd4                CP15DCacheFlush
+                0x80009d68                CP15DCacheClean
+                0x80009dfc                CP15DCacheCleanFlush
+                0x80009e90                CP15ICacheFlush
+                0x80009ea0                CP15DCacheCleanBuff
+                0x80009ef4                CP15DCacheCleanFlushBuff
+                0x80009f48                CP15DCacheFlushBuff
+                0x80009fac                CP15ICacheFlushBuff
+                0x8000a000                CP15Ttb0Set
+                0x8000a00c                CP15TlbInvalidate
+                0x8000a018                CP15MMUDisable
+                0x8000a030                CP15MMUEnable
+                0x8000a044                CP15VectorBaseAddrSet
+                0x8000a050                CP15BranchPredictorInvalidate
+                0x8000a05c                CP15BranchPredictionEnable
+                0x8000a06c                CP15BranchPredictionDisable
+                0x8000a07c                CP15DomainAccessClientSet
+                0x8000a08c                CP15ControlFeatureDisable
+                0x8000a0a0                CP15ControlFeatureEnable
+                0x8000a0b4                CP15TtbCtlTtb0Config
+                0x8000a0c4                CP15AuxControlFeatureEnable
+                0x8000a0d8                CP15AuxControlFeatureDisable
+                0x8000a0ec                CP15MainIdPrimPartNumGet
+ .text.CPUIntStatus
+                0x8000a104       0x2c ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                0x8000a104                CPUIntStatus
+ .text.CPUirqd  0x8000a130       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                0x8000a130                CPUirqd
+ .text.CPUirqe  0x8000a154       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                0x8000a154                CPUirqe
+ .text          0x8000a178       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+                0x8000a178                SVC_Handler
+                0x8000a1a0                IRQHandler
+                0x8000a24c                FIQHandler
+                0x8000a250                UndefInstHandler
+                0x8000a250                AbortHandler
+ .text          0x8000a268      0x114 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                0x8000a268                __udivsi3
+                0x8000a268                __aeabi_uidiv
+                0x8000a35c                __aeabi_uidivmod
+ .text          0x8000a37c      0x148 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                0x8000a37c                __aeabi_idiv
+                0x8000a37c                __divsi3
+                0x8000a4a4                __aeabi_idivmod
+ .text          0x8000a4c4        0x4 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                0x8000a4c4                __aeabi_ldiv0
+                0x8000a4c4                __aeabi_idiv0
+ .text.DMTimerEnable
+                0x8000a4c8       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a4c8                DMTimerEnable
+ .text.DMTimerDisable
+                0x8000a534       0x6c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a534                DMTimerDisable
+ .text.DMTimerModeConfigure
+                0x8000a5a0       0xcc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a5a0                DMTimerModeConfigure
+ .text.DMTimerCounterSet
+                0x8000a66c       0x64 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a66c                DMTimerCounterSet
+ .text.DMTimerIntStatusClear
+                0x8000a6d0       0x34 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a6d0                DMTimerIntStatusClear
+ .text.DMTimerIntEnable
+                0x8000a704       0x34 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a704                DMTimerIntEnable
+ .text.DMTimerIntDisable
+                0x8000a738       0x34 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a738                DMTimerIntDisable
+ .text.DMTimerWritePostedStatusGet
+                0x8000a76c       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                0x8000a76c                DMTimerWritePostedStatusGet
+ .text.USBIndexWrite
+                0x8000a798       0xa4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .text.USBHostResume
+                0x8000a83c       0x7c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000a83c                USBHostResume
+ .text.USBIntEnableControl
+                0x8000a8b8       0xa4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000a8b8                USBIntEnableControl
+ .text.USBIntStatusControl
+                0x8000a95c       0xd4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000a95c                USBIntStatusControl
+ .text.USBIntEnableEndpoint
+                0x8000aa30       0x88 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000aa30                USBIntEnableEndpoint
+ .text.USBIntStatusEndpoint
+                0x8000aab8       0x58 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000aab8                USBIntStatusEndpoint
+ .text.USBEndpointStatus
+                0x8000ab10       0x74 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000ab10                USBEndpointStatus
+ .text.USBDevEndpointStatusClear
+                0x8000ab84      0x1a8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000ab84                USBDevEndpointStatusClear
+ .text.USBDevEndpointStall
+                0x8000ad2c       0xf4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000ad2c                USBDevEndpointStall
+ .text.USBDevEndpointStallClear
+                0x8000ae20      0x178 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000ae20                USBDevEndpointStallClear
+ .text.USBDevConnect
+                0x8000af98       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000af98                USBDevConnect
+ .text.USBDevDisconnect
+                0x8000afd8       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000afd8                USBDevDisconnect
+ .text.USBDevAddrSet
+                0x8000b018       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b018                USBDevAddrSet
+ .text.USBDevEndpointConfigSet
+                0x8000b048      0x1e0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b048                USBDevEndpointConfigSet
+ .text.USBDevEndpointConfigGet
+                0x8000b228      0x230 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b228                USBDevEndpointConfigGet
+ .text.USBFIFOConfigSet
+                0x8000b458       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b458                USBFIFOConfigSet
+ .text.USBEndpointDataAvail
+                0x8000b548       0x8c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b548                USBEndpointDataAvail
+ .text.USBEndpointDataGet
+                0x8000b5d4      0x120 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b5d4                USBEndpointDataGet
+ .text.USBDevEndpointDataAck
+                0x8000b6f4       0xa4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b6f4                USBDevEndpointDataAck
+ .text.USBEndpointDataPut
+                0x8000b798       0xd8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b798                USBEndpointDataPut
+ .text.USBEndpointDataSend
+                0x8000b870       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b870                USBEndpointDataSend
+ .text.USBEnableOtgIntr
+                0x8000b918       0x54 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b918                USBEnableOtgIntr
+ .text.USBReset
+                0x8000b96c       0x64 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b96c                USBReset
+ .text.USBClearOtgIntr
+                0x8000b9d0       0x28 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                0x8000b9d0                USBClearOtgIntr
+ .text.UsbPhyOn
+                0x8000b9f8       0xa4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+                0x8000b9f8                UsbPhyOn
+ .text.USBVersionGet
+                0x8000ba9c       0x1c ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+                0x8000ba9c                USBVersionGet
+ .text.USB0ModuleClkConfig
+                0x8000bab8       0x84 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+                0x8000bab8                USB0ModuleClkConfig
+ .text.USBEnableInt
+                0x8000bb3c       0x3c ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+                0x8000bb3c                USBEnableInt
+ .text.USBClearInt
+                0x8000bb78       0x1c ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+                0x8000bb78                USBClearInt
+ .text.USBModuleClkEnable
+                0x8000bb94       0x28 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+                0x8000bb94                USBModuleClkEnable
+ *(.rodata*)
+ .rodata        0x8000bbbc       0x78 Debug/Usb_dev_serial.o
+ .rodata.g_pLangDescriptor
+                0x8000bc34        0x4 Debug/usb_serial_structs.o
+                0x8000bc34                g_pLangDescriptor
+ .rodata.g_pManufacturerString
+                0x8000bc38       0x24 Debug/usb_serial_structs.o
+                0x8000bc38                g_pManufacturerString
+ .rodata.g_pProductString
+                0x8000bc5c       0x24 Debug/usb_serial_structs.o
+                0x8000bc5c                g_pProductString
+ .rodata.g_pSerialNumberString
+                0x8000bc80       0x14 Debug/usb_serial_structs.o
+                0x8000bc80                g_pSerialNumberString
+ .rodata.g_pControlInterfaceString
+                0x8000bc94       0x2c Debug/usb_serial_structs.o
+                0x8000bc94                g_pControlInterfaceString
+ .rodata.g_pConfigString
+                0x8000bcc0       0x38 Debug/usb_serial_structs.o
+                0x8000bcc0                g_pConfigString
+ .rodata.g_pStringDescriptors
+                0x8000bcf8       0x18 Debug/usb_serial_structs.o
+                0x8000bcf8                g_pStringDescriptors
+ .rodata.g_sCDCDevice
+                0x8000bd10       0x2c Debug/usb_serial_structs.o
+                0x8000bd10                g_sCDCDevice
+ .rodata.g_sRxBuffer
+                0x8000bd3c       0x24 Debug/usb_serial_structs.o
+                0x8000bd3c                g_sRxBuffer
+ .rodata.g_sTxBuffer
+                0x8000bd60       0x24 Debug/usb_serial_structs.o
+                0x8000bd60                g_sTxBuffer
+ .rodata.g_sCDCSerConfigSection
+                0x8000bd84        0x8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bd84                g_sCDCSerConfigSection
+ .rodata.g_sIADSerConfigSection
+                0x8000bd8c        0x8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bd8c                g_sIADSerConfigSection
+ .rodata.g_pCDCSerCommInterface
+                0x8000bd94       0x24 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bd94                g_pCDCSerCommInterface
+ .rodata.g_sCDCSerCommInterfaceSection
+                0x8000bdb8        0x8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bdb8                g_sCDCSerCommInterfaceSection
+ .rodata.g_pCDCSerDataInterface
+                0x8000bdc0       0x18 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bdc0                g_pCDCSerDataInterface
+ .rodata.g_sCDCSerDataInterfaceSection
+                0x8000bdd8        0x8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bdd8                g_sCDCSerDataInterfaceSection
+ .rodata.g_sCDCSerConfigHeader
+                0x8000bde0        0x8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bde0                g_sCDCSerConfigHeader
+ .rodata.g_sCDCCompSerConfigHeader
+                0x8000bde8        0x8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bde8                g_sCDCCompSerConfigHeader
+ .rodata.g_pCDCSerConfigDescriptors
+                0x8000bdf0        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bdf0                g_pCDCSerConfigDescriptors
+ .rodata.g_pCDCCompSerConfigDescriptors
+                0x8000bdf4        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bdf4                g_pCDCCompSerConfigDescriptors
+ .rodata.g_sUSBDefaultFIFOConfig
+                0x8000bdf8       0x78 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x8000bdf8                g_sUSBDefaultFIFOConfig
+ .rodata.g_psUSBDStdRequests
+                0x8000be70       0x34 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .rodata.AM335X_VECTOR_BASE
+                0x8000bea4        0x4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                0x8000bea4                AM335X_VECTOR_BASE
+ .rodata.vecTbl
+                0x8000bea8       0x38 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+
+.glue_7         0x8000bee0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x8000bee0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x8000bee0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x8000bee0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x8000bee0        0x0
+ .iplt          0x00000000        0x0 Debug/Usb_dev_serial.o
+
+.rel.dyn        0x8000bee0        0x0
+ .rel.iplt      0x00000000        0x0 Debug/Usb_dev_serial.o
+
+.data           0x8000bee0       0x90
+                0x8000bee0                . = ALIGN (0x4)
+ *(.data*)
+ .data.flagIsr  0x8000bee0        0x4 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .data.g_pCDCSerDeviceDescriptor
+                0x8000bee4       0x14 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bee4                g_pCDCSerDeviceDescriptor
+ .data.g_pCDCSerDescriptor
+                0x8000bef8        0xc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bef8                g_pCDCSerDescriptor
+ .data.g_pIADSerDescriptor
+                0x8000bf04        0x8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bf04                g_pIADSerDescriptor
+ .data.g_psCDCSerSections
+                0x8000bf0c        0xc ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bf0c                g_psCDCSerSections
+ .data.g_psCDCCompSerSections
+                0x8000bf18       0x10 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bf18                g_psCDCCompSerSections
+ .data.g_sCDCSerDeviceInfo
+                0x8000bf28       0x48 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                0x8000bf28                g_sCDCSerDeviceInfo
+
+.igot.plt       0x8000bf70        0x0
+ .igot.plt      0x00000000        0x0 Debug/Usb_dev_serial.o
+
+.bss            0x8000c000    0x121d0
+                0x8000c000                . = ALIGN (0x4)
+                0x8000c000                _bss_start = .
+ *(.bss*)
+ .bss.g_ulUARTTxCount
+                0x8000c000        0x4 Debug/Usb_dev_serial.o
+                0x8000c000                g_ulUARTTxCount
+ .bss.g_ulUARTRxCount
+                0x8000c004        0x4 Debug/Usb_dev_serial.o
+                0x8000c004                g_ulUARTRxCount
+ .bss.g_bSendingBreak
+                0x8000c008        0x1 Debug/Usb_dev_serial.o
+ *fill*         0x8000c009        0x3 00
+ .bss.g_ulFlags
+                0x8000c00c        0x4 Debug/Usb_dev_serial.o
+                0x8000c00c                g_ulFlags
+ .bss.g_bUSBConfigured
+                0x8000c010        0x1 Debug/Usb_dev_serial.o
+ *fill*         0x8000c011     0x3fef 00
+ .bss.pageTable
+                0x80010000     0x4000 Debug/Usb_dev_serial.o
+ .bss.g_eUSBMode
+                0x80014000        0x1 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ *fill*         0x80014001        0x3 00
+ .bss.g_pucDataBufferIn
+                0x80014004       0x40 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .bss.ulSOFDivide.5080
+                0x80014044        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .bss.g_ulCurrentUSBTick
+                0x80014048        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+                0x80014048                g_ulCurrentUSBTick
+ .bss.g_ulUSBSOFCount
+                0x8001404c        0x4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+                0x8001404c                g_ulUSBSOFCount
+ *(COMMON)
+ COMMON         0x80014050        0x4 Debug/Usb_dev_serial.o
+                0x80014050                g_pcStatus
+ COMMON         0x80014054      0x24c Debug/usb_serial_structs.o
+                0x80014054                g_pucTxBufferWorkspace
+                0x80014064                g_sCDCInstance
+                0x80014090                g_pcUSBTxBuffer
+                0x80014190                g_pucRxBufferWorkspace
+                0x800141a0                g_pcUSBRxBuffer
+ COMMON         0x800142a0       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                0x800142a0                g_psUSBDevice
+ COMMON         0x80014348       0x18 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+                0x80014348                g_pfTickHandlers
+                0x80014354                g_pvTickInstance
+ COMMON         0x80014360     0x9c70 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+                0x80014360                g_USBPerfInfo
+                0x8001dfa0                g_USBInstance
+ COMMON         0x8001dfd0      0x200 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8001dfd0                fnRAMVectors
+                0x8001e1d0                _bss_end = .
+
+.heap           0x8001e1d0      0x800
+                0x8001e1d0                . = ALIGN (0x4)
+                0x8001e1d0                __end__ = .
+                0x8001e1d0                end = __end__
+                0x8001e1d0                __HeapBase = __end__
+ *(.heap*)
+                0x8001e9d0                . = (. + 0x800)
+ *fill*         0x8001e1d0      0x800 00
+                0x8001e9d0                __HeapLimit = .
+
+.stack          0x8001e9d0  0x7fffff8
+                0x8001e9d0                . = ALIGN (0x4)
+                0x8001e9d0                __StackLimit = .
+ *(.stack*)
+                0x8801e9c8                . = (. + 0x7fffff8)
+ *fill*         0x8001e9d0  0x7fffff8 00
+                0x8801e9c8                __StackTop = .
+                0x8801e9c8                _stack = __StackTop
+OUTPUT(Debug/usb_dev_serial.out elf32-littlearm)
+
+.debug_info     0x00000000     0xa11e
+ .debug_info    0x00000000      0xe56 Debug/Usb_dev_serial.o
+ .debug_info    0x00000e56      0xa34 Debug/usb_serial_structs.o
+ .debug_info    0x0000188a     0x14ab ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .debug_info    0x00002d35       0xc8 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .debug_info    0x00002dfd      0x11e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .debug_info    0x00002f1b       0x7e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .debug_info    0x00002f99       0xd3 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .debug_info    0x0000306c      0x788 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .debug_info    0x000037f4     0x1674 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .debug_info    0x00004e68     0x13d6 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .debug_info    0x0000623e      0x13c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .debug_info    0x0000637a      0x524 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .debug_info    0x0000689e      0x1ae ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .debug_info    0x00006a4c      0x16f ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .debug_info    0x00006bbb      0x588 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .debug_info    0x00007143      0x653 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .debug_info    0x00007796      0x499 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .debug_info    0x00007c2f       0x8d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_info    0x00007cbc      0x46f ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_info    0x0000812b      0x16d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .debug_info    0x00008298       0xe0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_info    0x00008378       0x8d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_info    0x00008405       0xf8 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_info    0x000084fd       0xa0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_info    0x0000859d      0x5d0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_info    0x00008b6d     0x134a ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .debug_info    0x00009eb7      0x13c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .debug_info    0x00009ff3      0x12b ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.debug_abbrev   0x00000000     0x1a64
+ .debug_abbrev  0x00000000      0x25e Debug/Usb_dev_serial.o
+ .debug_abbrev  0x0000025e       0xee Debug/usb_serial_structs.o
+ .debug_abbrev  0x0000034c      0x14e ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .debug_abbrev  0x0000049a       0x92 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .debug_abbrev  0x0000052c       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .debug_abbrev  0x000005d4       0x62 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .debug_abbrev  0x00000636       0x7a ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .debug_abbrev  0x000006b0      0x1b1 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .debug_abbrev  0x00000861      0x1e0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .debug_abbrev  0x00000a41      0x1eb ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .debug_abbrev  0x00000c2c       0x92 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .debug_abbrev  0x00000cbe      0x17e ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .debug_abbrev  0x00000e3c       0xce ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .debug_abbrev  0x00000f0a       0x7f ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .debug_abbrev  0x00000f89      0x102 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .debug_abbrev  0x0000108b      0x160 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .debug_abbrev  0x000011eb       0xe1 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .debug_abbrev  0x000012cc       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_abbrev  0x000012e0      0x1c2 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_abbrev  0x000014a2       0xd9 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .debug_abbrev  0x0000157b       0xa4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_abbrev  0x0000161f       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_abbrev  0x00001633       0x64 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_abbrev  0x00001697       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_abbrev  0x000016ab      0x122 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_abbrev  0x000017cd      0x148 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .debug_abbrev  0x00001915       0xa1 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .debug_abbrev  0x000019b6       0xae ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.debug_loc      0x00000000     0x4074
+ .debug_loc     0x00000000      0x370 Debug/Usb_dev_serial.o
+ .debug_loc     0x00000370      0xcb8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .debug_loc     0x00001028       0xdc ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .debug_loc     0x00001104      0x108 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .debug_loc     0x0000120c       0x58 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .debug_loc     0x00001264      0x108 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .debug_loc     0x0000136c      0x2c0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .debug_loc     0x0000162c      0x5d8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .debug_loc     0x00001c04      0x4a4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .debug_loc     0x000020a8       0x58 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .debug_loc     0x00002100      0x2c0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .debug_loc     0x000023c0       0x84 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .debug_loc     0x00002444      0x160 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .debug_loc     0x000025a4       0xb0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .debug_loc     0x00002654      0x108 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .debug_loc     0x0000275c      0x554 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_loc     0x00002cb0       0x84 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .debug_loc     0x00002d34       0x58 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_loc     0x00002d8c      0x160 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_loc     0x00002eec      0x478 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_loc     0x00003364      0xbb0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .debug_loc     0x00003f14       0x58 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .debug_loc     0x00003f6c      0x108 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.debug_aranges  0x00000000      0xe70
+ .debug_aranges
+                0x00000000       0xb8 Debug/Usb_dev_serial.o
+ .debug_aranges
+                0x000000b8       0x18 Debug/usb_serial_structs.o
+ .debug_aranges
+                0x000000d0      0x268 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .debug_aranges
+                0x00000338       0x40 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .debug_aranges
+                0x00000378       0x48 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .debug_aranges
+                0x000003c0       0x28 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .debug_aranges
+                0x000003e8       0x48 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .debug_aranges
+                0x00000430       0x98 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .debug_aranges
+                0x000004c8      0x128 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .debug_aranges
+                0x000005f0       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .debug_aranges
+                0x000006e0       0x28 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .debug_aranges
+                0x00000708       0x98 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .debug_aranges
+                0x000007a0       0x30 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .debug_aranges
+                0x000007d0       0x18 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .debug_aranges
+                0x000007e8       0x58 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .debug_aranges
+                0x00000840       0x38 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .debug_aranges
+                0x00000878       0x48 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .debug_aranges
+                0x000008c0       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_aranges
+                0x000008e0      0x110 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_aranges
+                0x000009f0       0x30 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .debug_aranges
+                0x00000a20       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_aranges
+                0x00000a48       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_aranges
+                0x00000a68       0x58 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_aranges
+                0x00000ac0       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_aranges
+                0x00000ae0       0xe8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_aranges
+                0x00000bc8      0x238 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .debug_aranges
+                0x00000e00       0x28 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .debug_aranges
+                0x00000e28       0x48 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.debug_ranges   0x00000000      0xc70
+ .debug_ranges  0x00000000       0xa8 Debug/Usb_dev_serial.o
+ .debug_ranges  0x000000a8      0x258 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .debug_ranges  0x00000300       0x30 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .debug_ranges  0x00000330       0x38 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .debug_ranges  0x00000368       0x18 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .debug_ranges  0x00000380       0x38 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .debug_ranges  0x000003b8       0x88 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .debug_ranges  0x00000440      0x118 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .debug_ranges  0x00000558       0xe0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .debug_ranges  0x00000638       0x18 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .debug_ranges  0x00000650       0x88 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .debug_ranges  0x000006d8       0x20 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .debug_ranges  0x000006f8       0x48 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .debug_ranges  0x00000740       0x28 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .debug_ranges  0x00000768       0x38 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .debug_ranges  0x000007a0      0x100 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_ranges  0x000008a0       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .debug_ranges  0x000008c0       0x18 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_ranges  0x000008d8       0x48 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_ranges  0x00000920       0xd8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_ranges  0x000009f8      0x228 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .debug_ranges  0x00000c20       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .debug_ranges  0x00000c38       0x38 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.debug_line     0x00000000     0x3c99
+ .debug_line    0x00000000      0x376 Debug/Usb_dev_serial.o
+ .debug_line    0x00000376       0xde Debug/usb_serial_structs.o
+ .debug_line    0x00000454      0x741 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .debug_line    0x00000b95       0x94 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .debug_line    0x00000c29       0xdb ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .debug_line    0x00000d04      0x16a ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .debug_line    0x00000e6e      0x304 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .debug_line    0x00001172      0x276 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .debug_line    0x000013e8      0x55d ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .debug_line    0x00001945      0x5fd ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .debug_line    0x00001f42       0xb4 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .debug_line    0x00001ff6      0x267 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .debug_line    0x0000225d       0xf3 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .debug_line    0x00002350       0x6b ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .debug_line    0x000023bb      0x1a1 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .debug_line    0x0000255c      0x22d ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .debug_line    0x00002789      0x152 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .debug_line    0x000028db       0x93 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_line    0x0000296e      0x2bb ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_line    0x00002c29       0xda ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .debug_line    0x00002d03       0x96 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_line    0x00002d99      0x18a ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_line    0x00002f23       0xde ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_line    0x00003001       0xb9 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .debug_line    0x000030ba      0x2f7 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_line    0x000033b1      0x77b ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .debug_line    0x00003b2c       0xa1 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .debug_line    0x00003bcd       0xcc ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.debug_str      0x00000000     0x39e6
+ .debug_str     0x00000000      0xa03 Debug/Usb_dev_serial.o
+                                0xa48 (size before relaxing)
+ .debug_str     0x00000a03      0x136 Debug/usb_serial_structs.o
+                                0x84d (size before relaxing)
+ .debug_str     0x00000b39      0x8be ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+                                0x94d (size before relaxing)
+ .debug_str     0x000013f7       0x53 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+                                 0xe3 (size before relaxing)
+ .debug_str     0x0000144a       0xd2 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+                                0x148 (size before relaxing)
+ .debug_str     0x0000151c       0x5f ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+                                0x107 (size before relaxing)
+ .debug_str     0x0000157b       0xcd ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+                                0x16c (size before relaxing)
+ .debug_str     0x00001648      0x23c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+                                0x3b1 (size before relaxing)
+ .debug_str     0x00001884      0x649 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+                                0xcf9 (size before relaxing)
+ .debug_str     0x00001ecd      0x604 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+                                0xb63 (size before relaxing)
+ .debug_str     0x000024d1       0x55 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+                                0x191 (size before relaxing)
+ .debug_str     0x00002526      0x176 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+                                0x2a2 (size before relaxing)
+ .debug_str     0x0000269c       0xee ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+                                0x1cf (size before relaxing)
+ .debug_str     0x0000278a       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+                                0x1d2 (size before relaxing)
+ .debug_str     0x00002832      0x1cb ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+                                0x3ad (size before relaxing)
+ .debug_str     0x000029fd      0x149 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+                                0x477 (size before relaxing)
+ .debug_str     0x00002b46       0xb3 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+                                0x316 (size before relaxing)
+ .debug_str     0x00002bf9      0x2b4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                                0x363 (size before relaxing)
+ .debug_str     0x00002ead       0x69 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+                                0x146 (size before relaxing)
+ .debug_str     0x00002f16       0x76 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                                0x118 (size before relaxing)
+ .debug_str     0x00002f8c       0x9f ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                                0x12a (size before relaxing)
+ .debug_str     0x0000302b      0x2b0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+                                0x354 (size before relaxing)
+ .debug_str     0x000032db      0x63a ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+                                0x753 (size before relaxing)
+ .debug_str     0x00003915       0x42 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x00003957       0x8f ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+                                0x146 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 Debug/Usb_dev_serial.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 Debug/usb_serial_structs.o
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.ARM.attributes
+                0x00000000       0x3b
+ .ARM.attributes
+                0x00000000       0x37 Debug/Usb_dev_serial.o
+ .ARM.attributes
+                0x00000037       0x37 Debug/usb_serial_structs.o
+ .ARM.attributes
+                0x0000006e       0x37 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .ARM.attributes
+                0x000000a5       0x37 ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .ARM.attributes
+                0x000000dc       0x37 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .ARM.attributes
+                0x00000113       0x37 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .ARM.attributes
+                0x0000014a       0x37 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .ARM.attributes
+                0x00000181       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .ARM.attributes
+                0x000001b8       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .ARM.attributes
+                0x000001ef       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .ARM.attributes
+                0x00000226       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .ARM.attributes
+                0x0000025d       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .ARM.attributes
+                0x00000294       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .ARM.attributes
+                0x000002cb       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdata.o)
+ .ARM.attributes
+                0x00000302       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .ARM.attributes
+                0x00000339       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .ARM.attributes
+                0x00000370       0x37 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .ARM.attributes
+                0x000003a7       0x23 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .ARM.attributes
+                0x000003ca       0x3d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .ARM.attributes
+                0x00000407       0x3d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .ARM.attributes
+                0x00000444       0x3d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .ARM.attributes
+                0x00000481       0x23 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .ARM.attributes
+                0x000004a4       0x3d ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .ARM.attributes
+                0x000004e1       0x23 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .ARM.attributes
+                0x00000504       0x18 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000051c       0x18 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000534       0x18 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000054c       0x37 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .ARM.attributes
+                0x00000583       0x37 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .ARM.attributes
+                0x000005ba       0x37 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .ARM.attributes
+                0x000005f1       0x37 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
+
+.debug_frame    0x00000000     0x27a8
+ .debug_frame   0x00000000      0x230 Debug/Usb_dev_serial.o
+ .debug_frame   0x00000230      0x778 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(uart_irda_cir.o)
+ .debug_frame   0x000009a8       0x9c ../../../../../..//binary/armv7a/gcc/utils/Debug/libutils.a(delay.o)
+ .debug_frame   0x00000a44       0xb4 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(sysdelay.o)
+ .debug_frame   0x00000af8       0x40 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(uart.o)
+ .debug_frame   0x00000b38       0xa0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(dmtimer.o)
+ .debug_frame   0x00000bd8      0x1c8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbbuffer.o)
+ .debug_frame   0x00000da0      0x3b0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdc.o)
+ .debug_frame   0x00001150      0x2f8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdenum.o)
+ .debug_frame   0x00001448       0x48 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdhandler.o)
+ .debug_frame   0x00001490      0x1c0 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbringbuf.o)
+ .debug_frame   0x00001650       0x5c ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbtick.o)
+ .debug_frame   0x000016ac       0xe8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdcdesc.o)
+ .debug_frame   0x00001794       0x78 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdconfig.o)
+ .debug_frame   0x0000180c       0xa8 ../../../../../..//binary/armv7a/gcc/am335x/usblib/Debug/libusblib.a(usbdesc.o)
+ .debug_frame   0x000018b4      0x314 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_frame   0x00001bc8       0x60 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(mmu.o)
+ .debug_frame   0x00001c28       0x48 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_frame   0x00001c70       0xd4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_frame   0x00001d44       0x20 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001d64       0x20 /home/abby/opt/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .debug_frame   0x00001d84      0x2b4 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(dmtimer.o)
+ .debug_frame   0x00002038      0x68c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usb.o)
+ .debug_frame   0x000026c4       0x40 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a(usbphyGS70.o)
+ .debug_frame   0x00002704       0xa4 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a(usb.o)
