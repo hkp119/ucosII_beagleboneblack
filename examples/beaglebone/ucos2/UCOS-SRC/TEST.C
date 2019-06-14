@@ -109,7 +109,7 @@ int main()
 	DEBUG_LED(0x0000F);
 	DEBUG_LED(0x0000F);
 	
-    OSStart();
+   // OSStart();
 
 	DEBUG_LED(0x4FFFF);
 } 

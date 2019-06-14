@@ -115,8 +115,9 @@ lib:
 
 
 bin:
-
+	echo $(CPU_ASM)
 	$(CC) $(CFLAGS) -fno-exceptions $(CPU_SRC) $(OS2_SRC) $(APP_SRC) $(CPU_ASM)
+#	$(CC) $(CFLAGS) -fno-exceptions $(CPU_ASM) $(CPU_SRC) $(OS2_SRC) $(APP_SRC) 
 	@mkdir -p $(TARGET_MODE)/
 	@mv *.o* $(TARGET_MODE)/
 	$(LD) ${LDFLAGS} ${LPATH} -o $(TARGET_MODE)/$(APPNAME).out \

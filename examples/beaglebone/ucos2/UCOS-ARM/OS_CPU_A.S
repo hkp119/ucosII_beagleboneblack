@@ -159,11 +159,11 @@ OSStartHighRdy:
 
 OS_CPU_SR_Save:
         MRS     R0,CPSR                        ;@ Set IRQ and FIQ bits in CPSR to disable all interrupts
-        ORR     R1,R0,#0xC0
+        ORR     R1,R0,#0x00C0
         MSR     CPSR_c,R1
         MRS     R1,CPSR                        ;@ Confirm that CPSR contains the proper interrupt disable flags
-        AND     R1,R1,#0xC0
-        CMP     R1,#0xC0
+        AND     R1,R1,#0x00C0
+        CMP     R1,#0x00C0
         BNE     OS_CPU_SR_Save                 ;@ Not properly disabled (try again)
         MOV     PC,LR                          ;@ Disabled, return the original CPSR contents in R0
 
