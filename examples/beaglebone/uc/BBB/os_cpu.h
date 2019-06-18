@@ -215,6 +215,8 @@ OS_CPU_EXT  INT16U  OS_CPU_IntDisMeasCntsOvrhd;
 
        void       OS_CPU_ExceptHndlr(INT32U  except_type);
 
+       void       OSTickISR(void);
+
 #if OS_CPU_INT_DIS_MEAS_EN > 0
        void       OS_CPU_IntDisMeasInit(void);
        void       OS_CPU_IntDisMeasStart(void);
