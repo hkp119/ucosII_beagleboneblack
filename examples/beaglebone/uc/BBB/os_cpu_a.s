@@ -190,11 +190,10 @@ OSTickISR:
    LDR     R0, =OSIntExit 
    MOV     LR, PC
    BX      R0
-
                                                                 @ RESTORE NEW TASK'S CONTEXT:
    LDMFD SP!, {R0}
    MSR CPSR_xsf, R0
-   LDMFD SP!, {R0-R12, LR, PC}^
+   LDMFD SP!, {R0-R12, LR, PC}
 
 
 
