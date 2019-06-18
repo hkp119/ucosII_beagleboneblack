@@ -1,233 +1,162 @@
+/* Standard C Header Files */
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<ctype.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
-
-#include "ucos_ii.h"
-#include "os_cpu.h"
-#include "os_cfg.h"
-                               
+/* uc-os ii Header Files */
+#include"ucos_ii.h"
+#include"os_cpu.h"
+#include"os_cfg.h"
+/* Starterware Header Files */
+#include "consoleUtils.h"
+#include "soc_AM335x.h"
+#include "beaglebone.h"
 #include "interrupt.h"
 #include "dmtimer.h"
-
-#define TASK_SIZE 255
-#define TASKS 3
+#include "error.h"
+/******************************************************************************
+**                      INTERNAL MACRO DEFINITIONS
+*******************************************************************************/
 #define TIMER_INITIAL_COUNT             (0xFF000000u)
 #define TIMER_RLD_COUNT                 (0xFF000000u)
-#define TIMER_FINAL_COUNT               (0x0FFFFu)
+/******************************************************************************
+**                      INTERNAL FUNCTION PROTOTYPES
+*******************************************************************************/
+static void DMTimerAintcConfigure(void);
+static void DMTimerSetUp(void);
+static void DMTimerIsr(void);
 
-/*******************************************************************************
+void MyTask(void *pdata);
+void Task1(void *pdata);
+void Task2(void *pdata);
+void Task3(void *pdata);
+/******************************************************************************
 **                      INTERNAL VARIABLE DEFINITIONS
 *******************************************************************************/
-volatile unsigned int tmrFlag = FALSE;
-unsigned int tmrClick = FALSE;
-volatile  unsigned int tmr4Flag = FALSE;
+static volatile unsigned int cntValue = 10;
+static volatile unsigned int flagIsr = 0;
 
-unsigned int timerCount[10] = 
-						{
-							0xFFF00000u,
-							0xFFE00000u,
-							0xFFC00000u,
-							0xFFA00000u,
-							0xFF800000u,
-							0xFF600000u,
-							0xFF400000u,
-							0xFF200000u,
-							0xFF000000u,
-							0xFD000000u,
-						};
-
-/*******************************************************************************
-**                      CREATE TASK STK 
-*******************************************************************************/
-
-OS_STK StartStk[TASK_SIZE];  
-OS_STK TaskStk[TASKS][TASK_SIZE];
-
-char TaskData[TASKS];                   // For Master Task
-void TaskStart(void *pdata);            // Master Task Start 
-void Task(void *pdata);                 // Others Task Start 
-char cnt = 0;                
-char cnt2 = 0; 
-/******************************************************************************
-**              INTERNAL FUNCTION PROTOTYPES
-******************************************************************************/
-static void TimerSetupAndEnable(void);
-static void DMTimerIsr(void);
-void App_Configure();
-
-/*
-** Enable all the peripherals in use
-*/
-static void PeripheralsSetup(void)
-{
-//    enableModuleClock(CLK_UART0);
-//    enableModuleClock(CLK_I2C0);
-    /* Timer6 is used for Standby wakeup */
-//    enableModuleClock(CLK_TIMER6);
-//    GPIO0ModuleClkConfig();
-    DMTimer2ModuleClkConfig();          /* Timer ? */
-//    DMTimer3ModuleClkConfig();
-//    DMTimer4ModuleClkConfig();
-//    RTCModuleClkConfig();
-//    CPSWPinMuxSetup();
-//    CPSWClkEnable();
-//    EDMAModuleClkConfig();
-    GPIO1ModuleClkConfig();             /* gpio module clk config */
-    GPIO1Pin23PinMuxSetup();
-//    HSMMCSDPinMuxSetup();
-//    HSMMCSDModuleClkConfig();
-//    I2CPinMuxSetup(0);
-}
-
-
-static void dummyIsr(void)
-{
-    ;
-}
-/*
-** Timer 2 Interrupt Service Routine
-*/
-static void Timer2Isr(void)
-{
-	static unsigned int index = 0;
-	
-    /* Clear the status of the interrupt flags */
-    DMTimerIntStatusClear(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
- 
-    if(TRUE == tmrClick)
-    {
-        tmrFlag = TRUE;
-    }
-    
-    else 
-    {
-        tmrFlag = FALSE;
-    }
-	
-    DMTimerCounterSet(SOC_DMTIMER_2_REGS, timerCount[index++%10]);
-	
-	DMTimerEnable(SOC_DMTIMER_2_REGS);	
-}	
-/* Register timer2 interrupt */
-void Timer2IntRegister(void)
-{
-    IntRegister(SYS_INT_TINT2, Timer2Isr);
-}
+OS_STK MyTaskStack[200];
+OS_STK TaskStack[3][200];
+int cnt;
 
 int main(void)
 {
-    UARTPuts("Start ucos Task\n"); 
-
-    PeripheralsSetup();     
-
-    UARTPuts("Initialize Interrupt\n");
-    IntAINTCInit();                     // NEED TO Configure before using interrupt
-
-    UARTPuts("Register the ISRs\n"); 
-    Timer2IntRegister();                                                                                                                                                     //    Timer4IntRegister();
-//    EnetIntRegister();
-//   RtcIntRegister();
-//    CM3IntRegister();
-//    HSMMCSDIntRegister();
-    IntRegister(127, dummyIsr);
-
-    UARTPuts("Activate Registered IRQ");
-    IntMasterIRQEnable();               // activate registed IRQ
-
-//    pageIndex = 0;                      // ??
-//    prevAction = 0;                     // ??
-
-    UARTPuts("Enable system interrupts");      
-//    IntSystemEnable(SYS_INT_RTCINT);
-//    IntPrioritySet(SYS_INT_RTCINT, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//    IntSystemEnable(SYS_INT_3PGSWTXINT0);
-//    IntPrioritySet(SYS_INT_3PGSWTXINT0, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//    IntSystemEnable(SYS_INT_3PGSWRXINT0);
-//    IntPrioritySet(SYS_INT_3PGSWRXINT0, 0, AINTC_HOSTINT_ROUTE_IRQ);
-    IntSystemEnable(SYS_INT_TINT2);
-    IntPrioritySet(SYS_INT_TINT2, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//    IntSystemEnable(SYS_INT_TINT4);
-//    IntPrioritySet(SYS_INT_TINT4, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//    IntSystemEnable(SYS_INT_MMCSD0INT);
-//    IntPrioritySet(SYS_INT_MMCSD0INT, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//    IntSystemEnable(SYS_INT_EDMACOMPINT);
-//    IntPrioritySet(SYS_INT_EDMACOMPINT, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//    IntPrioritySet(SYS_INT_M3_TXEV, 0, AINTC_HOSTINT_ROUTE_IRQ );
-//    IntSystemEnable(SYS_INT_M3_TXEV);
-    IntSystemEnable(127);
-    IntPrioritySet(127, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//
-//    IntSystemEnable(SYS_INT_UART0INT);
-//    IntPrioritySet(SYS_INT_UART0INT, 0, AINTC_HOSTINT_ROUTE_IRQ);
-//    IntRegister(SYS_INT_UART0INT, uartIsr);
-   
-
-
-    DEBUG_LED(0x3FFFF);
-
-    UARTPuts("OSInit\n", -1);
+    ConsoleUtilsPrintf("Start Main\n");
+    cnt = 0;
+    ConsoleUtilsPrintf("Start OSInit\n");
     OSInit();
-    UARTPuts("Create Master stack", -1);
-    OSTaskCreate(TaskStart, (void *)0, &StartStk[TASK_SIZE-1], 10);
-    OSStart();               
-
-    return 0;                
+    ConsoleUtilsPrintf("Start Master Task Create\n");
+    OSTaskCreate(MyTask, (void *)0, &MyTaskStack[199], 1);
+    ConsoleUtilsPrintf("Start MultiTasking\n");
+    OSStart();
+    return 0;
 }
 
-void App_Configure()
+void MyTask(void *pdata)
 {
+    ConsoleUtilsPrintf("MyTask Start point\n");
+    /********************* Timer and Interrupt initialization ***********************/
+    /* This function will enable clocks for the DMTimer2 instance */
+    ConsoleUtilsPrintf("......\n");
+    DMTimer2ModuleClkConfig();
+    /* Enable IRQ in CPSR */
+    ConsoleUtilsPrintf("......\n");
+    IntMasterIRQEnable();
+    /* Register DMTimer2 interrupts on to AINTC */
+    ConsoleUtilsPrintf("......\n");
+    DMTimerAintcConfigure();
+    /* Perform the necessary configurations for DMTimer */
+    ConsoleUtilsPrintf("......\n");
+    DMTimerSetUp();
+    /* Enable the DMTimer interrupts */
+    ConsoleUtilsPrintf("......\n");
+    DMTimerIntEnable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
+    /* Start the DMTimer */
+    ConsoleUtilsPrintf("......\n");
+    DMTimerEnable(SOC_DMTIMER_2_REGS);  
+    /**************************** Create Tasks ***********************************/
+    ConsoleUtilsPrintf("crtsk1.\n");
+    OSTaskCreate(Task1, (void *)0, &TaskStack[0][199], 2);
+    ConsoleUtilsPrintf("crts2.\n");
+    OSTaskCreate(Task2, (void *)0, &TaskStack[1][199], 3);
+    ConsoleUtilsPrintf("crtsk3.\n");
+    OSTaskCreate(Task3, (void *)0, &TaskStack[2][199], 4);
 
-// Enable IRQ in CPSR 
-    intMasterIRQEnable();
-
-// Initialize ARM interrupt controller 
-    IntAINTCInit();  
-
-    // Register Interrupt occure
-
-// Registers App_interrupt 
-    IntRegister(SYS_INT_TINT1_1MS, OSTickISR);
-    //IntPrioritySet(SYS_INT_TINT1_1MS, 0, AINTC_HOSTING_ROUTE_IRQ);
-
-    IntSystemEnable(SYS_INT_TINT1_1MS);
-// 
-}
-
-void TaskStart(void *pdata)  
-{ 
-    int i;
-
-    //OSStatInit(); //statistic process task
-
-    for (i = 0; i < TASKS; i++)
-    {
-        UARTPuts("Create Task" );
-        UARTPuts(i);
-        TaskData[i] = '0' + i;
-        OSTaskCreate(Task, (void *)&TaskData[i], &TaskStk[i][TASK_SIZE-1], i + 5);
-    }
-
-    for(;;)
-    {
-        OSTaskCtr;          // display #tasks running       
-        //OSCPUUsage;         // cpu usage %
-        OSCtxSwCtr;         // context switch per second    
-        OSCtxSwCtr = 0;
-
-        OSTimeDly(1);       // 1txick delay
+    for(;;) {
+        ConsoleUtilsPrintf("into loop.\n");
+        OSTimeDly(1000);
     }
 }
 
-void Task(void *data)
+void Task1(void *pdata)
 {
-    cnt2++;
-    for(;;)
-    {   
+    ConsoleUtilsPrintf("Task 1 Start point\n");
+    for(;;) {
+        ConsoleUtilsPrintf("Task 1 Loop Start\n");
         cnt++;
-        UARTPuts("Active task\n");
-        OSTimeDly(1);
+        OSTimeDly(3);
     }
 }
-            
 
+void Task2(void *pdata)
+{
+    ConsoleUtilsPrintf("Task 2 Start point\n");
+    for(;;) {
+        ConsoleUtilsPrintf("Task 2 Loop Start\n");
+        cnt++;
+        OSTimeDly(3);
+    }
+}
+
+void Task3(void *pdata)
+{
+    ConsoleUtilsPrintf("Task 3 Start point\n");
+    for(;;) {
+        ConsoleUtilsPrintf("Task 3 Loop Start\n");
+        cnt++;
+        OSTimeDly(3);
+    }
+}
+
+static void DMTimerAintcConfigure(void)
+{
+    /* Initialize the ARM interrupt control */
+    IntAINTCInit();
+    /* Registering DMTimerIsr */
+    IntRegister(SYS_INT_TINT2, DMTimerIsr);
+    /* Set the priority */
+    IntPrioritySet(SYS_INT_TINT2, 0, AINTC_HOSTINT_ROUTE_IRQ);
+    /* Enable the system interrupt */
+    IntSystemEnable(SYS_INT_TINT2);
+}
+/*
+** Setup the timer for one-shot and compare mode.
+*/
+static void DMTimerSetUp(void)
+{
+    /* Load the counter with the initial count value */
+    DMTimerCounterSet(SOC_DMTIMER_2_REGS, TIMER_INITIAL_COUNT);
+    /* Load the load register with the reload count value */
+    DMTimerReloadSet(SOC_DMTIMER_2_REGS, TIMER_RLD_COUNT);
+    /* Configure the DMTimer for Auto-reload and compare mode */
+    DMTimerModeConfigure(SOC_DMTIMER_2_REGS, DMTIMER_AUTORLD_NOCMP_ENABLE);
+}
+/*
+** DMTimer interrupt service routine. This will send a character to serial 
+** console.
+*/    
+static void DMTimerIsr(void)
+{
+    /* Disable the DMTimer interrupts */
+    DMTimerIntDisable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
+    /* Clear the status of the interrupt flags */
+    DMTimerIntStatusClear(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_IT_FLAG);
+
+    flagIsr = 1;
+
+    /* Enable the DMTimer interrupts */
+    DMTimerIntEnable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
+    ConsoleUtilsPrintf("!!!!\n");
+}
