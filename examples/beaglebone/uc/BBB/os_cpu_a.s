@@ -30,8 +30,12 @@
     .extern  OSTCBCur
     .extern  OSTCBHighRdy
     .extern  OSIntNesting
+    .extern  OSIntEnter
     .extern  OSIntExit
     .extern  OSTaskSwHook
+    .extern  DMTimerIntDisable
+    .extern  DMTimerIntStatusClear
+    .extern  DMTimerIntEnable
 
                                                                 @ Functions declared in this file.
     .global  OS_CPU_SR_Save
@@ -39,6 +43,8 @@
     .global  OSStartHighRdy
     .global  OSCtxSw
     .global  OSIntCtxSw
+    .global  SaveContextIRQ
+    .global  RestoreContextIRQ
 
 /*
                                                                 @ Functions related to exception handling.
@@ -173,27 +179,49 @@ OSStartHighRdy:
 
 
 OSTickISR:
-   STMFD   SP!, {LR}                                           @     Push return address,
+                                                                @@@@@@Save Contexts@@@@@@@
+   SUB     LR,  #-4
+   STMFD   SP!, {LR}                                            @     Push return address,
    STMFD   SP!, {LR, R12, R11, R10, R9, R8, R7, R6, R5, R4, R3, R2, R1, R0}
-
-   MRS     R0, CPSR                                             @     Push current CPSR,
-   STMFD   SP!, {R0}                                            @     Store current cpsr,
-
-   LDR R0, =OSIntNesting
-   LDRB R1, [R0]
-   ADD R1, R1, #1                                               @     Add IntNesting 
-   STRB R1, [R0]
-
-   LDR     R0, =OSTimeTick
+   MRS     R0, SPSR                                             @     Push Previous User mode's CPSR
+   STMFD   SP!, {R0}                                            @     Store previous User mode's CPSR,
+                                                                @@@@@@Disable Interrupt
+   LDR     R0, =DMTimerIntDisable                               @     Call DMTimerIntDisable
    MOV     LR, PC
    BX      R0
-   LDR     R0, =OSIntExit 
+                                                                @@@@@@OSIntEnter
+   LDR     R0, =OSIntEnter                                      @     Call OSIntEnter
+   MOV     LR, PC
+   BX      R0
+                                                                @@@@@@OSTimeTick
+   LDR     R0, =OSTimeTick                                      @     Call OSTimeTick
+   MOV     LR, PC
+   BX      R0
+                                                                @@@@@@DMTimerIntStatusClear
+   LDR     R0, =DMTimerIntStatusClear                           @     Call DMTimerIntStatusClear
+   MOV     LR, PC
+   BX      R0
+
+   LDR     R0, =OSIntExit                                       @     Call OSIntExit
    MOV     LR, PC
    BX      R0
                                                                 @ RESTORE NEW TASK'S CONTEXT:
    LDMFD SP!, {R0}
    MSR CPSR_xsf, R0
    LDMFD SP!, {R0-R12, LR, PC}
+
+SaveContextIRQ:
+   STMFD   SP!, {LR}                                            @     Push return address,
+   STMFD   SP!, {LR, R12, R11, R10, R9, R8, R7, R6, R5, R4, R3, R2, R1, R0}
+   MRS     R0,  CPSR                                            @     Push Previous User mode's CPSR
+   @??? --> CPSR이다
+   STMFD   SP!, {R0}                                            @     Store previous User mode's CPSR,
+
+RestoreContextIRQ:
+   LDMFD SP!, {R0}
+   MSR SPSR, R0
+   LDMFD SP!, {R0-R12, LR, PC}
+
 
 
 
@@ -247,7 +275,7 @@ OSCtxSw:
 
                                                                 @ RESTORE NEW TASK'S CONTEXT:
     LDMFD   SP!, {R0}                                          @    Pop new task's CPSR,
-    MSR     CPSR_cxsf, R0
+    MSR     CPSR, R0
     LDMFD   SP!, {R0-R12, LR, PC}                              @    Pop new task's context.
 
 
@@ -285,10 +313,10 @@ OSIntCtxSw:
     STR     R2, [R0]
 
     LDR     SP, [R2]                                            @ SP = OSTCBHighRdy->OSTCBStkPtr;
-
                                                                 @ RESTORE NEW TASK'S CONTEXT:
     LDMFD   SP!, {R0}                                           @    Pop new task's CPSR,
-    MSR     CPSR_cxsf, R0
+    MSR     SPSR, R0
+    @??? -> SPSR이다!
 
     LDMFD   SP!, {R0-R12, LR, PC}                              @    Pop new task's context.
 

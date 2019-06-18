@@ -2,6 +2,8 @@ Archive member included because of file (symbol)
 
 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
                               Release/app.o (DMTimerEnable)
+../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+                              Release/app.o (GPIOModuleReset)
 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
                               Release/app.o (ConsoleUtilsPrintf)
 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
@@ -10,6 +12,8 @@ Archive member included because of file (symbol)
                               ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o) (ASCIIToDigit)
 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
                               Release/app.o (DMTimer2ModuleClkConfig)
+../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+                              Release/app.o (GPIO1Pin23PinMuxSetup)
 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
                               ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o) (UARTConsoleInit)
 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uart.o)
@@ -84,330 +88,307 @@ Discarded input sections
  .text          0x00000000        0x0 Release/app.o
  .data          0x00000000        0x0 Release/app.o
  .bss           0x00000000        0x0 Release/app.o
+ .text.Delay    0x00000000       0x48 Release/app.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/app.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/app.o
  .data.cntValue
                 0x00000000        0x4 Release/app.o
+ .bss.flagIsr   0x00000000        0x4 Release/app.o
  .text          0x00000000        0x0 Release/os_core.o
  .data          0x00000000        0x0 Release/os_core.o
  .bss           0x00000000        0x0 Release/os_core.o
+ .text.Delay    0x00000000       0x48 Release/os_core.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_core.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_core.o
  .text.OSEventNameGet
-                0x00000000       0xf0 Release/os_core.o
- .text.OSIntEnter
-                0x00000000       0x30 Release/os_core.o
+                0x00000000      0x128 Release/os_core.o
  .text.OSSchedLock
-                0x00000000       0x60 Release/os_core.o
- .text.OSVersion
-                0x00000000        0x8 Release/os_core.o
- .text.OS_Dummy
-                0x00000000        0x4 Release/os_core.o
- .text.OS_MemCopy
-                0x00000000       0x28 Release/os_core.o
+                0x00000000       0x98 Release/os_core.o
  .text.OSSchedUnlock
-                0x00000000       0x88 Release/os_core.o
+                0x00000000       0xf4 Release/os_core.o
+ .text.OSVersion
+                0x00000000       0x1c Release/os_core.o
+ .text.OS_Dummy
+                0x00000000       0x14 Release/os_core.o
+ .text.OS_MemCopy
+                0x00000000       0x6c Release/os_core.o
  .text.OS_TaskStatStkChk
-                0x00000000       0x70 Release/os_core.o
+                0x00000000       0xc0 Release/os_core.o
  .data          0x00000000        0x0 Release/os_cpu_a.o
  .bss           0x00000000        0x0 Release/os_cpu_a.o
  .text          0x00000000        0x0 Release/os_cpu_c.o
  .data          0x00000000        0x0 Release/os_cpu_c.o
  .bss           0x00000000        0x0 Release/os_cpu_c.o
+ .text.Delay    0x00000000       0x48 Release/os_cpu_c.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_cpu_c.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_cpu_c.o
  .text.OSTaskDelHook
-                0x00000000        0x4 Release/os_cpu_c.o
+                0x00000000       0x1c Release/os_cpu_c.o
  .text.OSTaskStatHook
-                0x00000000        0x4 Release/os_cpu_c.o
+                0x00000000       0x14 Release/os_cpu_c.o
  .text          0x00000000        0x0 Release/os_dbg.o
  .data          0x00000000        0x0 Release/os_dbg.o
  .bss           0x00000000        0x0 Release/os_dbg.o
- .rodata.OSEventSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTmrTblSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTicksPerSec
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSQEn  0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTmrCfgNameSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSEventEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSEventMax
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTCBSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSStkWidth
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskStatStkChkEn
+ .text.Delay    0x00000000       0x48 Release/os_dbg.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_dbg.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_dbg.o
+ .rodata.OSTmrEn
                 0x00000000        0x2 Release/os_dbg.o
  .rodata.OSTmrCfgMax
                 0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTmrSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSEventNameSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskCreateExtEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskStatStkSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSVersionNbr
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSSemEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSLowestPrio
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskDelEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTmrWheelSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSFlagNameSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTmrEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskSwHookEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSMboxEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSQSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTmrWheelTblSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTimeTickHookEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSFlagEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTmrCfgTicksPerSec
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSRdyTblSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSDataSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskProfileEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSFlagGrpSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSMutexEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskIdleStkSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSFlagNodeSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTCBPrioTblMax
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskCreateEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSMemMax
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskStatEn
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSMemNameSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSMemSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSQMax
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSEventTblSize
+ .rodata.OSTmrCfgNameSize
                 0x00000000        0x2 Release/os_dbg.o
  .rodata.OSTmrCfgWheelSize
                 0x00000000        0x2 Release/os_dbg.o
- .rodata.OSMemEn
+ .rodata.OSTmrCfgTicksPerSec
                 0x00000000        0x2 Release/os_dbg.o
- .rodata.OSFlagWidth
+ .rodata.OSTmrSize
                 0x00000000        0x2 Release/os_dbg.o
- .rodata.OSDebugEn
+ .rodata.OSTmrTblSize
                 0x00000000        0x2 Release/os_dbg.o
- .rodata.OSMemTblSize
+ .rodata.OSTmrWheelSize
                 0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskNameSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSFlagMax
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSEndiannessTest
-                0x00000000        0x4 Release/os_dbg.o
- .rodata.OSPtrSize
-                0x00000000        0x2 Release/os_dbg.o
- .rodata.OSTaskMax
+ .rodata.OSTmrWheelTblSize
                 0x00000000        0x2 Release/os_dbg.o
  .text          0x00000000        0x0 Release/os_flag.o
  .data          0x00000000        0x0 Release/os_flag.o
  .bss           0x00000000        0x0 Release/os_flag.o
- .text.OS_FlagBlock
-                0x00000000       0x90 Release/os_flag.o
- .text.OS_FlagTaskRdy
-                0x00000000       0xb4 Release/os_flag.o
+ .text.Delay    0x00000000       0x48 Release/os_flag.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_flag.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_flag.o
  .text.OSFlagAccept
-                0x00000000      0x14c Release/os_flag.o
+                0x00000000      0x324 Release/os_flag.o
  .text.OSFlagCreate
-                0x00000000       0xac Release/os_flag.o
+                0x00000000      0x12c Release/os_flag.o
  .text.OSFlagDel
-                0x00000000      0x188 Release/os_flag.o
+                0x00000000      0x2a8 Release/os_flag.o
  .text.OSFlagNameGet
-                0x00000000       0xd8 Release/os_flag.o
+                0x00000000      0x130 Release/os_flag.o
  .text.OSFlagNameSet
-                0x00000000       0xdc Release/os_flag.o
+                0x00000000      0x158 Release/os_flag.o
  .text.OSFlagPend
-                0x00000000      0x308 Release/os_flag.o
+                0x00000000      0x638 Release/os_flag.o
  .text.OSFlagPendGetFlagsRdy
-                0x00000000       0x34 Release/os_flag.o
+                0x00000000       0x58 Release/os_flag.o
  .text.OSFlagPost
-                0x00000000      0x1c8 Release/os_flag.o
+                0x00000000      0x3c8 Release/os_flag.o
  .text.OSFlagQuery
-                0x00000000       0x78 Release/os_flag.o
+                0x00000000       0xbc Release/os_flag.o
+ .text.OS_FlagBlock
+                0x00000000      0x1cc Release/os_flag.o
+ .text.OS_FlagTaskRdy
+                0x00000000      0x10c Release/os_flag.o
  .text.OS_FlagUnlink
-                0x00000000       0x44 Release/os_flag.o
+                0x00000000       0xb0 Release/os_flag.o
  .text          0x00000000        0x0 Release/os_mbox.o
  .data          0x00000000        0x0 Release/os_mbox.o
  .bss           0x00000000        0x0 Release/os_mbox.o
+ .text.Delay    0x00000000       0x48 Release/os_mbox.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_mbox.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_mbox.o
  .text.OSMboxAccept
-                0x00000000       0x50 Release/os_mbox.o
+                0x00000000       0x8c Release/os_mbox.o
  .text.OSMboxCreate
-                0x00000000       0x98 Release/os_mbox.o
+                0x00000000       0xfc Release/os_mbox.o
  .text.OSMboxDel
-                0x00000000      0x190 Release/os_mbox.o
+                0x00000000      0x2a0 Release/os_mbox.o
  .text.OSMboxPend
-                0x00000000      0x168 Release/os_mbox.o
+                0x00000000      0x2ac Release/os_mbox.o
  .text.OSMboxPendAbort
-                0x00000000      0x10c Release/os_mbox.o
+                0x00000000      0x180 Release/os_mbox.o
  .text.OSMboxPost
-                0x00000000       0xc8 Release/os_mbox.o
- .text.OSMboxPostOpt
                 0x00000000      0x110 Release/os_mbox.o
+ .text.OSMboxPostOpt
+                0x00000000      0x16c Release/os_mbox.o
  .text.OSMboxQuery
-                0x00000000       0x90 Release/os_mbox.o
- .debug_info    0x00000000      0x927 Release/os_mbox.o
- .debug_abbrev  0x00000000      0x19a Release/os_mbox.o
- .debug_loc     0x00000000      0x8ff Release/os_mbox.o
+                0x00000000      0x110 Release/os_mbox.o
+ .debug_info    0x00000000      0x793 Release/os_mbox.o
+ .debug_abbrev  0x00000000      0x18d Release/os_mbox.o
+ .debug_loc     0x00000000      0x1e4 Release/os_mbox.o
  .debug_aranges
-                0x00000000       0x58 Release/os_mbox.o
- .debug_ranges  0x00000000       0x48 Release/os_mbox.o
- .debug_line    0x00000000      0x299 Release/os_mbox.o
- .debug_str     0x00000000      0x499 Release/os_mbox.o
+                0x00000000       0x70 Release/os_mbox.o
+ .debug_ranges  0x00000000       0x60 Release/os_mbox.o
+ .debug_line    0x00000000      0x298 Release/os_mbox.o
+ .debug_str     0x00000000      0x4c2 Release/os_mbox.o
  .comment       0x00000000       0x71 Release/os_mbox.o
  .ARM.attributes
                 0x00000000       0x37 Release/os_mbox.o
- .debug_frame   0x00000000      0x110 Release/os_mbox.o
+ .debug_frame   0x00000000      0x140 Release/os_mbox.o
  .text          0x00000000        0x0 Release/os_mem.o
  .data          0x00000000        0x0 Release/os_mem.o
  .bss           0x00000000        0x0 Release/os_mem.o
+ .text.Delay    0x00000000       0x48 Release/os_mem.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_mem.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_mem.o
  .text.OSMemCreate
-                0x00000000      0x110 Release/os_mem.o
+                0x00000000      0x208 Release/os_mem.o
  .text.OSMemGet
-                0x00000000       0x8c Release/os_mem.o
+                0x00000000       0xf0 Release/os_mem.o
  .text.OSMemNameGet
-                0x00000000       0xb0 Release/os_mem.o
+                0x00000000       0xfc Release/os_mem.o
  .text.OSMemNameSet
-                0x00000000       0xbc Release/os_mem.o
+                0x00000000      0x124 Release/os_mem.o
  .text.OSMemPut
-                0x00000000       0x7c Release/os_mem.o
+                0x00000000       0xd4 Release/os_mem.o
  .text.OSMemQuery
-                0x00000000       0x7c Release/os_mem.o
+                0x00000000       0xe0 Release/os_mem.o
  .text          0x00000000        0x0 Release/os_mutex.o
  .data          0x00000000        0x0 Release/os_mutex.o
  .bss           0x00000000        0x0 Release/os_mutex.o
- .text.OSMutex_RdyAtPrio
-                0x00000000       0x98 Release/os_mutex.o
+ .text.Delay    0x00000000       0x48 Release/os_mutex.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_mutex.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_mutex.o
  .text.OSMutexAccept
-                0x00000000       0xf8 Release/os_mutex.o
+                0x00000000      0x1b4 Release/os_mutex.o
  .text.OSMutexCreate
-                0x00000000      0x10c Release/os_mutex.o
+                0x00000000      0x1d8 Release/os_mutex.o
  .text.OSMutexDel
-                0x00000000      0x1ec Release/os_mutex.o
+                0x00000000      0x358 Release/os_mutex.o
  .text.OSMutexPend
-                0x00000000      0x2e8 Release/os_mutex.o
+                0x00000000      0x65c Release/os_mutex.o
  .text.OSMutexPost
-                0x00000000      0x160 Release/os_mutex.o
+                0x00000000      0x238 Release/os_mutex.o
  .text.OSMutexQuery
-                0x00000000       0xc4 Release/os_mutex.o
- .debug_info    0x00000000      0x91f Release/os_mutex.o
- .debug_abbrev  0x00000000      0x1fa Release/os_mutex.o
- .debug_loc     0x00000000      0x9da Release/os_mutex.o
+                0x00000000      0x174 Release/os_mutex.o
+ .text.OSMutex_RdyAtPrio
+                0x00000000      0x1b8 Release/os_mutex.o
+ .debug_info    0x00000000      0x80e Release/os_mutex.o
+ .debug_abbrev  0x00000000      0x1bf Release/os_mutex.o
+ .debug_loc     0x00000000      0x1b8 Release/os_mutex.o
  .debug_aranges
-                0x00000000       0x50 Release/os_mutex.o
- .debug_ranges  0x00000000       0x40 Release/os_mutex.o
- .debug_line    0x00000000      0x30b Release/os_mutex.o
- .debug_str     0x00000000      0x4d8 Release/os_mutex.o
+                0x00000000       0x68 Release/os_mutex.o
+ .debug_ranges  0x00000000       0x58 Release/os_mutex.o
+ .debug_line    0x00000000      0x2cb Release/os_mutex.o
+ .debug_str     0x00000000      0x501 Release/os_mutex.o
  .comment       0x00000000       0x71 Release/os_mutex.o
  .ARM.attributes
                 0x00000000       0x37 Release/os_mutex.o
- .debug_frame   0x00000000       0xf0 Release/os_mutex.o
+ .debug_frame   0x00000000      0x120 Release/os_mutex.o
  .text          0x00000000        0x0 Release/os_q.o
  .data          0x00000000        0x0 Release/os_q.o
  .bss           0x00000000        0x0 Release/os_q.o
+ .text.Delay    0x00000000       0x48 Release/os_q.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_q.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_q.o
  .text.OSQAccept
-                0x00000000       0xb0 Release/os_q.o
+                0x00000000      0x140 Release/os_q.o
  .text.OSQCreate
-                0x00000000       0xf4 Release/os_q.o
- .text.OSQDel   0x00000000      0x1bc Release/os_q.o
+                0x00000000      0x1f0 Release/os_q.o
+ .text.OSQDel   0x00000000      0x300 Release/os_q.o
  .text.OSQFlush
-                0x00000000       0x60 Release/os_q.o
- .text.OSQPend  0x00000000      0x18c Release/os_q.o
+                0x00000000       0xac Release/os_q.o
+ .text.OSQPend  0x00000000      0x300 Release/os_q.o
  .text.OSQPendAbort
-                0x00000000      0x110 Release/os_q.o
- .text.OSQPost  0x00000000       0xe4 Release/os_q.o
+                0x00000000      0x180 Release/os_q.o
+ .text.OSQPost  0x00000000      0x160 Release/os_q.o
  .text.OSQPostFront
-                0x00000000       0xe8 Release/os_q.o
+                0x00000000      0x168 Release/os_q.o
  .text.OSQPostOpt
-                0x00000000      0x15c Release/os_q.o
+                0x00000000      0x21c Release/os_q.o
  .text.OSQQuery
-                0x00000000       0xb0 Release/os_q.o
+                0x00000000      0x160 Release/os_q.o
  .text          0x00000000        0x0 Release/os_sem.o
  .data          0x00000000        0x0 Release/os_sem.o
  .bss           0x00000000        0x0 Release/os_sem.o
+ .text.Delay    0x00000000       0x48 Release/os_sem.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_sem.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_sem.o
  .text.OSSemAccept
-                0x00000000       0x60 Release/os_sem.o
+                0x00000000       0xa4 Release/os_sem.o
  .text.OSSemDel
-                0x00000000      0x190 Release/os_sem.o
+                0x00000000      0x2a0 Release/os_sem.o
  .text.OSSemPendAbort
-                0x00000000      0x110 Release/os_sem.o
+                0x00000000      0x180 Release/os_sem.o
  .text.OSSemQuery
-                0x00000000       0x90 Release/os_sem.o
+                0x00000000      0x110 Release/os_sem.o
  .text.OSSemSet
-                0x00000000       0x90 Release/os_sem.o
+                0x00000000       0xf4 Release/os_sem.o
  .text          0x00000000        0x0 Release/os_task.o
  .data          0x00000000        0x0 Release/os_task.o
  .bss           0x00000000        0x0 Release/os_task.o
+ .text.Delay    0x00000000       0x48 Release/os_task.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_task.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_task.o
  .text.OSTaskChangePrio
-                0x00000000      0x1d4 Release/os_task.o
+                0x00000000      0x424 Release/os_task.o
  .text.OSTaskDel
-                0x00000000      0x258 Release/os_task.o
+                0x00000000      0x45c Release/os_task.o
  .text.OSTaskDelReq
-                0x00000000       0xa4 Release/os_task.o
+                0x00000000      0x130 Release/os_task.o
  .text.OSTaskNameGet
-                0x00000000      0x124 Release/os_task.o
+                0x00000000      0x1a0 Release/os_task.o
  .text.OSTaskResume
-                0x00000000      0x11c Release/os_task.o
+                0x00000000      0x1d0 Release/os_task.o
  .text.OSTaskStkChk
-                0x00000000      0x104 Release/os_task.o
+                0x00000000      0x1c8 Release/os_task.o
  .text.OSTaskSuspend
-                0x00000000      0x124 Release/os_task.o
+                0x00000000      0x20c Release/os_task.o
  .text.OSTaskQuery
-                0x00000000       0xc0 Release/os_task.o
- .text.OS_TaskStkClr
-                0x00000000       0x28 Release/os_task.o
+                0x00000000      0x118 Release/os_task.o
  .text          0x00000000        0x0 Release/os_time.o
  .data          0x00000000        0x0 Release/os_time.o
  .bss           0x00000000        0x0 Release/os_time.o
+ .text.Delay    0x00000000       0x48 Release/os_time.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_time.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_time.o
  .text.OSTimeDlyHMSM
-                0x00000000       0xe8 Release/os_time.o
+                0x00000000      0x188 Release/os_time.o
  .text.OSTimeDlyResume
-                0x00000000      0x114 Release/os_time.o
+                0x00000000      0x1d4 Release/os_time.o
  .text.OSTimeGet
-                0x00000000       0x30 Release/os_time.o
+                0x00000000       0x54 Release/os_time.o
  .text.OSTimeSet
-                0x00000000       0x30 Release/os_time.o
+                0x00000000       0x50 Release/os_time.o
  .text          0x00000000        0x0 Release/os_tmr.o
  .data          0x00000000        0x0 Release/os_tmr.o
  .bss           0x00000000        0x0 Release/os_tmr.o
+ .text.Delay    0x00000000       0x48 Release/os_tmr.o
+ .text.GPIO_configuration
+                0x00000000       0x68 Release/os_tmr.o
+ .text.DEBUG_LED
+                0x00000000       0x9c Release/os_tmr.o
  .text.OSTmrCreate
-                0x00000000      0x19c Release/os_tmr.o
+                0x00000000      0x210 Release/os_tmr.o
  .text.OSTmrDel
-                0x00000000      0x168 Release/os_tmr.o
+                0x00000000      0x17c Release/os_tmr.o
  .text.OSTmrNameGet
-                0x00000000      0x114 Release/os_tmr.o
+                0x00000000      0x170 Release/os_tmr.o
  .text.OSTmrRemainGet
-                0x00000000      0x144 Release/os_tmr.o
+                0x00000000      0x1f0 Release/os_tmr.o
  .text.OSTmrStateGet
-                0x00000000       0xa8 Release/os_tmr.o
+                0x00000000       0xf8 Release/os_tmr.o
  .text.OSTmrStart
-                0x00000000      0x108 Release/os_tmr.o
+                0x00000000      0x184 Release/os_tmr.o
  .text.OSTmrStop
-                0x00000000      0x190 Release/os_tmr.o
+                0x00000000      0x21c Release/os_tmr.o
+ .text.OSTmr_Alloc
+                0x00000000       0xb8 Release/os_tmr.o
+ .text.OSTmr_Free
+                0x00000000       0xec Release/os_tmr.o
  .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
  .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
  .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
@@ -449,6 +430,79 @@ Discarded input sections
                 0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
  .text.DMTimerWritePostedStatusGet
                 0x00000000        0x8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOModuleReset
+                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOModuleEnable
+                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOModuleDisable
+                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIODirModeSet
+                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIODirModeGet
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinWrite
+                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinRead
+                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOMultiplePinsWrite
+                0x00000000        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOMultiplePinsRead
+                0x00000000        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntEnable
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntDisable
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOIntTypeSet
+                0x00000000      0x1bc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOIntTypeGet
+                0x00000000       0x50 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntStatus
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntClear
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIORawIntStatus
+                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOTriggerPinInt
+                0x00000000       0x18 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOWakeupGlobalEnable
+                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOWakeupGlobalDisable
+                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntWakeUpEnable
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOPinIntWakeUpDisable
+                0x00000000       0x28 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOAutoIdleModeControl
+                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOIdleModeConfigure
+                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIOGatingRatioConfigure
+                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIODebounceFuncControl
+                0x00000000       0x20 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIODebounceTimeConfig
+                0x00000000        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.GPIORevisionInfoGet
+                0x00000000        0x8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.gpioContextSave
+                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .text.gpioContextRestore
+                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_info    0x00000000      0x78f ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_abbrev  0x00000000      0x142 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_loc     0x00000000      0x4d1 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_aranges
+                0x00000000      0x100 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_ranges  0x00000000       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_line    0x00000000      0x2df ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_str     0x00000000      0x3c3 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .ARM.attributes
+                0x00000000       0x37 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
+ .debug_frame   0x00000000      0x1e0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(gpio_v2.o)
  .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
  .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
  .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
@@ -529,6 +583,31 @@ Discarded input sections
                 0x00000000      0x1a8 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
  .text.DMTimer1msModuleClkConfig
                 0x00000000       0x84 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+ .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GPIO1Pin23PinMuxSetup
+                0x00000000       0x14 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GPIO0ModuleClkConfig
+                0x00000000       0xdc ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GPIO1ModuleClkConfig
+                0x00000000       0x78 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GPIO1PinMuxSetup
+                0x00000000       0x1c ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .text.GpioPinMuxSetup
+                0x00000000       0x10 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_info    0x00000000       0xd7 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_abbrev  0x00000000       0x89 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_loc     0x00000000       0x35 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_aranges
+                0x00000000       0x40 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_ranges  0x00000000       0x30 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_line    0x00000000       0xfa ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_str     0x00000000      0x16b ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .comment       0x00000000       0x71 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .ARM.attributes
+                0x00000000       0x37 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
+ .debug_frame   0x00000000       0x60 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(gpio.o)
  .text          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
  .data          0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
  .bss           0x00000000        0x0 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
@@ -829,583 +908,737 @@ LOAD /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//li
  .text          0x80000000       0xb4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
                 0x80000000                Entry
 
-.text           0x800000b4     0x32c4
+.text           0x800000b4     0x4c64
                 0x800000b4                . = ALIGN (0x4)
  *(.text*)
- .text.Task3    0x800000b4       0x4c Release/app.o
-                0x800000b4                Task3
- .text.Task2    0x80000100       0x4c Release/app.o
-                0x80000100                Task2
- .text.Task1    0x8000014c       0x4c Release/app.o
-                0x8000014c                Task1
+ .text.main     0x800000b4       0xb0 Release/app.o
+                0x800000b4                main
+ .text.MyTask   0x80000164      0x1c8 Release/app.o
+                0x80000164                MyTask
+ .text.Task1    0x8000032c       0x68 Release/app.o
+                0x8000032c                Task1
+ .text.Task2    0x80000394       0x68 Release/app.o
+                0x80000394                Task2
+ .text.Task3    0x800003fc       0x68 Release/app.o
+                0x800003fc                Task3
+ .text.DMTimerAintcConfigure
+                0x80000464       0x58 Release/app.o
+ .text.DMTimerSetUp
+                0x800004bc       0x54 Release/app.o
  .text.DMTimerIsr
-                0x80000198       0x70 Release/app.o
- .text.MyTask   0x80000208      0x1c4 Release/app.o
-                0x80000208                MyTask
- .text.startup.main
-                0x800003cc       0x90 Release/app.o
-                0x800003cc                main
- .text.OS_TaskIdle
-                0x8000045c       0x40 Release/os_core.o
-                0x8000045c                OS_TaskIdle
+                0x80000510      0x130 Release/app.o
  .text.OSEventNameSet
-                0x8000049c      0x100 Release/os_core.o
-                0x8000049c                OSEventNameSet
- .text.OSInit   0x8000059c      0x274 Release/os_core.o
-                0x8000059c                OSInit
+                0x80000640      0x150 Release/os_core.o
+                0x80000640                OSEventNameSet
+ .text.OSInit   0x80000790       0x9c Release/os_core.o
+                0x80000790                OSInit
+ .text.OSIntEnter
+                0x8000082c       0x5c Release/os_core.o
+                0x8000082c                OSIntEnter
  .text.OSIntExit
-                0x80000810      0x11c Release/os_core.o
-                0x80000810                OSIntExit
- .text.OSStart  0x8000092c       0x94 Release/os_core.o
-                0x8000092c                OSStart
+                0x80000888      0x140 Release/os_core.o
+                0x80000888                OSIntExit
+ .text.OSStart  0x800009c8       0x90 Release/os_core.o
+                0x800009c8                OSStart
  .text.OSTimeTick
-                0x800009c0      0x12c Release/os_core.o
-                0x800009c0                OSTimeTick
+                0x80000a58      0x24c Release/os_core.o
+                0x80000a58                OSTimeTick
  .text.OS_EventTaskRdy
-                0x80000aec       0xb4 Release/os_core.o
-                0x80000aec                OS_EventTaskRdy
+                0x80000ca4      0x218 Release/os_core.o
+                0x80000ca4                OS_EventTaskRdy
  .text.OS_EventTaskWait
-                0x80000ba0       0x74 Release/os_core.o
-                0x80000ba0                OS_EventTaskWait
+                0x80000ebc      0x17c Release/os_core.o
+                0x80000ebc                OS_EventTaskWait
  .text.OS_EventTOAbort
-                0x80000c14       0x50 Release/os_core.o
-                0x80000c14                OS_EventTOAbort
+                0x80001038      0x124 Release/os_core.o
+                0x80001038                OS_EventTOAbort
  .text.OS_EventWaitListInit
-                0x80000c64       0x1c Release/os_core.o
-                0x80000c64                OS_EventWaitListInit
+                0x8000115c       0x70 Release/os_core.o
+                0x8000115c                OS_EventWaitListInit
+ .text.OS_InitEventList
+                0x800011cc       0xf4 Release/os_core.o
+ .text.OS_InitMisc
+                0x800012c0       0x84 Release/os_core.o
+ .text.OS_InitRdyList
+                0x80001344       0xb0 Release/os_core.o
+ .text.OS_InitTaskIdle
+                0x800013f4       0x84 Release/os_core.o
+ .text.OS_InitTCBList
+                0x80001478      0x104 Release/os_core.o
  .text.OS_MemClr
-                0x80000c80       0x24 Release/os_core.o
-                0x80000c80                OS_MemClr
+                0x8000157c       0x58 Release/os_core.o
+                0x8000157c                OS_MemClr
  .text.OS_Sched
-                0x80000ca4       0xec Release/os_core.o
-                0x80000ca4                OS_Sched
+                0x800015d4       0xf8 Release/os_core.o
+                0x800015d4                OS_Sched
+ .text.OS_SchedNew
+                0x800016cc       0x78 Release/os_core.o
  .text.OS_StrCopy
-                0x80000d90       0x48 Release/os_core.o
-                0x80000d90                OS_StrCopy
+                0x80001744       0x84 Release/os_core.o
+                0x80001744                OS_StrCopy
  .text.OS_StrLen
-                0x80000dd8       0x34 Release/os_core.o
-                0x80000dd8                OS_StrLen
+                0x800017c8       0x58 Release/os_core.o
+                0x800017c8                OS_StrLen
+ .text.OS_TaskIdle
+                0x80001820       0x64 Release/os_core.o
+                0x80001820                OS_TaskIdle
  .text.OS_TCBInit
-                0x80000e0c      0x188 Release/os_core.o
-                0x80000e0c                OS_TCBInit
- .text          0x80000f94      0x148 Release/os_cpu_a.o
-                0x80000f94                OS_CPU_SR_Save
-                0x80000fa4                OS_CPU_SR_Restore
-                0x80000fac                OSStartHighRdy
-                0x80001024                OSCtxSw
-                0x8000107c                OSIntCtxSw
+                0x80001884      0x330 Release/os_core.o
+                0x80001884                OS_TCBInit
+ .text          0x80001bb4      0x184 Release/os_cpu_a.o
+                0x80001bb4                OS_CPU_SR_Save
+                0x80001bc4                OS_CPU_SR_Restore
+                0x80001bcc                OSStartHighRdy
+                0x80001c5c                SaveContextIRQ
+                0x80001c6c                RestoreContextIRQ
+                0x80001c78                OSCtxSw
+                0x80001cd0                OSIntCtxSw
  .text.OSInitHookBegin
-                0x800010dc       0x14 Release/os_cpu_c.o
-                0x800010dc                OSInitHookBegin
+                0x80001d38       0x24 Release/os_cpu_c.o
+                0x80001d38                OSInitHookBegin
  .text.OSInitHookEnd
-                0x800010f0        0x4 Release/os_cpu_c.o
-                0x800010f0                OSInitHookEnd
+                0x80001d5c       0x14 Release/os_cpu_c.o
+                0x80001d5c                OSInitHookEnd
  .text.OSTaskCreateHook
-                0x800010f4        0x4 Release/os_cpu_c.o
-                0x800010f4                OSTaskCreateHook
+                0x80001d70       0x1c Release/os_cpu_c.o
+                0x80001d70                OSTaskCreateHook
  .text.OSTaskIdleHook
-                0x800010f8        0x4 Release/os_cpu_c.o
-                0x800010f8                OSTaskIdleHook
+                0x80001d8c       0x14 Release/os_cpu_c.o
+                0x80001d8c                OSTaskIdleHook
  .text.OSTaskStkInit
-                0x800010fc       0xe8 Release/os_cpu_c.o
-                0x800010fc                OSTaskStkInit
+                0x80001da0      0x214 Release/os_cpu_c.o
+                0x80001da0                OSTaskStkInit
  .text.OSTaskSwHook
-                0x800011e4        0x4 Release/os_cpu_c.o
-                0x800011e4                OSTaskSwHook
+                0x80001fb4       0x14 Release/os_cpu_c.o
+                0x80001fb4                OSTaskSwHook
  .text.OSTCBInitHook
-                0x800011e8        0x4 Release/os_cpu_c.o
-                0x800011e8                OSTCBInitHook
+                0x80001fc8       0x1c Release/os_cpu_c.o
+                0x80001fc8                OSTCBInitHook
  .text.OSTimeTickHook
-                0x800011ec       0x3c Release/os_cpu_c.o
-                0x800011ec                OSTimeTickHook
+                0x80001fe4       0x5c Release/os_cpu_c.o
+                0x80001fe4                OSTimeTickHook
  .text.OSDebugInit
-                0x80001228        0x4 Release/os_dbg.o
-                0x80001228                OSDebugInit
+                0x80002040      0x234 Release/os_dbg.o
+                0x80002040                OSDebugInit
  .text.OS_FlagInit
-                0x8000122c       0x98 Release/os_flag.o
-                0x8000122c                OS_FlagInit
+                0x80002274       0xf4 Release/os_flag.o
+                0x80002274                OS_FlagInit
  .text.OS_MemInit
-                0x800012c4       0x84 Release/os_mem.o
-                0x800012c4                OS_MemInit
+                0x80002368       0xe4 Release/os_mem.o
+                0x80002368                OS_MemInit
  .text.OS_QInit
-                0x80001348       0x50 Release/os_q.o
-                0x80001348                OS_QInit
+                0x8000244c       0xac Release/os_q.o
+                0x8000244c                OS_QInit
  .text.OSSemCreate
-                0x80001398       0x98 Release/os_sem.o
-                0x80001398                OSSemCreate
+                0x800024f8      0x100 Release/os_sem.o
+                0x800024f8                OSSemCreate
  .text.OSSemPend
-                0x80001430      0x154 Release/os_sem.o
-                0x80001430                OSSemPend
+                0x800025f8      0x254 Release/os_sem.o
+                0x800025f8                OSSemPend
  .text.OSSemPost
-                0x80001584       0xbc Release/os_sem.o
-                0x80001584                OSSemPost
+                0x8000284c      0x108 Release/os_sem.o
+                0x8000284c                OSSemPost
  .text.OSTaskCreate
-                0x80001640      0x128 Release/os_task.o
-                0x80001640                OSTaskCreate
+                0x80002954      0x19c Release/os_task.o
+                0x80002954                OSTaskCreate
  .text.OSTaskCreateExt
-                0x80001768      0x15c Release/os_task.o
-                0x80001768                OSTaskCreateExt
+                0x80002af0      0x1b8 Release/os_task.o
+                0x80002af0                OSTaskCreateExt
  .text.OSTaskNameSet
-                0x800018c4      0x114 Release/os_task.o
-                0x800018c4                OSTaskNameSet
+                0x80002ca8      0x1c0 Release/os_task.o
+                0x80002ca8                OSTaskNameSet
+ .text.OS_TaskStkClr
+                0x80002e68       0x7c Release/os_task.o
+                0x80002e68                OS_TaskStkClr
  .text.OSTimeDly
-                0x800019d8       0x94 Release/os_time.o
-                0x800019d8                OSTimeDly
- .text.OSTmr_Link
-                0x80001a6c       0x98 Release/os_tmr.o
- .text.OSTmr_Unlink
-                0x80001b04       0x70 Release/os_tmr.o
- .text.OSTmr_Lock
-                0x80001b74       0x30 Release/os_tmr.o
- .text.OSTmr_Unlock
-                0x80001ba4       0x20 Release/os_tmr.o
- .text.OSTmr_Task
-                0x80001bc4       0xf0 Release/os_tmr.o
+                0x80002ee4      0x148 Release/os_time.o
+                0x80002ee4                OSTimeDly
  .text.OSTmrSignal
-                0x80001cb4       0x20 Release/os_tmr.o
-                0x80001cb4                OSTmrSignal
+                0x8000302c       0x40 Release/os_tmr.o
+                0x8000302c                OSTmrSignal
  .text.OSTmr_Init
-                0x80001cd4      0x188 Release/os_tmr.o
-                0x80001cd4                OSTmr_Init
+                0x8000306c      0x1f8 Release/os_tmr.o
+                0x8000306c                OSTmr_Init
+ .text.OSTmr_InitTask
+                0x80003264       0x84 Release/os_tmr.o
+ .text.OSTmr_Link
+                0x800032e8      0x16c Release/os_tmr.o
+ .text.OSTmr_Unlink
+                0x80003454      0x108 Release/os_tmr.o
+ .text.OSTmr_Lock
+                0x8000355c       0x3c Release/os_tmr.o
+ .text.OSTmr_Unlock
+                0x80003598       0x28 Release/os_tmr.o
+ .text.OSTmr_Task
+                0x800035c0      0x160 Release/os_tmr.o
  .text.DMTimerEnable
-                0x80001e5c       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
-                0x80001e5c                DMTimerEnable
+                0x80003720       0x2c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x80003720                DMTimerEnable
  .text.DMTimerModeConfigure
-                0x80001e88       0x58 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
-                0x80001e88                DMTimerModeConfigure
+                0x8000374c       0x58 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x8000374c                DMTimerModeConfigure
  .text.DMTimerCounterSet
-                0x80001ee0       0x24 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
-                0x80001ee0                DMTimerCounterSet
+                0x800037a4       0x24 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x800037a4                DMTimerCounterSet
  .text.DMTimerReloadSet
-                0x80001f04       0x24 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
-                0x80001f04                DMTimerReloadSet
+                0x800037c8       0x24 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x800037c8                DMTimerReloadSet
  .text.DMTimerIntStatusClear
-                0x80001f28        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
-                0x80001f28                DMTimerIntStatusClear
+                0x800037ec        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x800037ec                DMTimerIntStatusClear
  .text.DMTimerIntEnable
-                0x80001f34        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
-                0x80001f34                DMTimerIntEnable
+                0x800037f8        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x800037f8                DMTimerIntEnable
  .text.DMTimerIntDisable
-                0x80001f40        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
-                0x80001f40                DMTimerIntDisable
+                0x80003804        0xc ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x80003804                DMTimerIntDisable
  .text.ConsoleUtilsPrintf
-                0x80001f4c       0x64 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
-                0x80001f4c                ConsoleUtilsPrintf
+                0x80003810       0x64 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+                0x80003810                ConsoleUtilsPrintf
  .text.UARTPuts
-                0x80001fb0       0x78 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
-                0x80001fb0                UARTPuts
+                0x80003874       0x78 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                0x80003874                UARTPuts
  .text.UARTwrite
-                0x80002028       0x58 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
-                0x80002028                UARTwrite
+                0x800038ec       0x58 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                0x800038ec                UARTwrite
  .text.UARTPrintf
-                0x80002080      0x4bc ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
-                0x80002080                UARTPrintf
+                0x80003944      0x4bc ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                0x80003944                UARTPrintf
  .text.DMTimer2ModuleClkConfig
-                0x8000253c      0x1a8 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
-                0x8000253c                DMTimer2ModuleClkConfig
+                0x80003e00      0x1a8 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+                0x80003e00                DMTimer2ModuleClkConfig
  .text.UARTConsolePutc
-                0x800026e4       0x20 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
-                0x800026e4                UARTConsolePutc
+                0x80003fa8       0x20 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+                0x80003fa8                UARTConsolePutc
  .text.IntDefaultHandler
-                0x80002704        0x4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x80003fc8        0x4 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
  .text.IntRegister
-                0x80002708       0x10 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
-                0x80002708                IntRegister
+                0x80003fcc       0x10 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x80003fcc                IntRegister
  .text.IntAINTCInit
-                0x80002718       0x54 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
-                0x80002718                IntAINTCInit
+                0x80003fdc       0x54 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x80003fdc                IntAINTCInit
  .text.IntPrioritySet
-                0x8000276c       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
-                0x8000276c                IntPrioritySet
+                0x80004030       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x80004030                IntPrioritySet
  .text.IntSystemEnable
-                0x80002790       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
-                0x80002790                IntSystemEnable
+                0x80004054       0x24 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x80004054                IntSystemEnable
  .text.IntMasterIRQEnable
-                0x800027b4       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
-                0x800027b4                IntMasterIRQEnable
+                0x80004078       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x80004078                IntMasterIRQEnable
  .text.start_boot
-                0x800027c8       0x60 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
-                0x800027c8                start_boot
- .text          0x80002828      0x488 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
-                0x80002828                CP15ICacheDisable
-                0x80002844                CP15DCacheDisable
-                0x80002860                CP15ICacheEnable
-                0x80002870                CP15DCacheEnable
-                0x80002880                CP15DCacheFlush
-                0x80002914                CP15DCacheClean
-                0x800029a8                CP15DCacheCleanFlush
-                0x80002a3c                CP15ICacheFlush
-                0x80002a4c                CP15DCacheCleanBuff
-                0x80002aa0                CP15DCacheCleanFlushBuff
-                0x80002af4                CP15DCacheFlushBuff
-                0x80002b58                CP15ICacheFlushBuff
-                0x80002bac                CP15Ttb0Set
-                0x80002bb8                CP15TlbInvalidate
-                0x80002bc4                CP15MMUDisable
-                0x80002bdc                CP15MMUEnable
-                0x80002bf0                CP15VectorBaseAddrSet
-                0x80002bfc                CP15BranchPredictorInvalidate
-                0x80002c08                CP15BranchPredictionEnable
-                0x80002c18                CP15BranchPredictionDisable
-                0x80002c28                CP15DomainAccessClientSet
-                0x80002c38                CP15ControlFeatureDisable
-                0x80002c4c                CP15ControlFeatureEnable
-                0x80002c60                CP15TtbCtlTtb0Config
-                0x80002c70                CP15AuxControlFeatureEnable
-                0x80002c84                CP15AuxControlFeatureDisable
-                0x80002c98                CP15MainIdPrimPartNumGet
- .text.CPUirqe  0x80002cb0       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
-                0x80002cb0                CPUirqe
- .text          0x80002cc4       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
-                0x80002cc4                SVC_Handler
-                0x80002cec                IRQHandler
-                0x80002d98                FIQHandler
-                0x80002d9c                UndefInstHandler
-                0x80002d9c                AbortHandler
- .text          0x80002db4      0x114 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
-                0x80002db4                __udivsi3
-                0x80002db4                __aeabi_uidiv
-                0x80002ea8                __aeabi_uidivmod
- .text          0x80002ec8      0x148 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
-                0x80002ec8                __aeabi_idiv
-                0x80002ec8                __divsi3
-                0x80002ff0                __aeabi_idivmod
- .text          0x80003010        0x4 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
-                0x80003010                __aeabi_ldiv0
-                0x80003010                __aeabi_idiv0
+                0x8000408c       0x60 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+                0x8000408c                start_boot
+ .text          0x800040ec      0x488 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+                0x800040ec                CP15ICacheDisable
+                0x80004108                CP15DCacheDisable
+                0x80004124                CP15ICacheEnable
+                0x80004134                CP15DCacheEnable
+                0x80004144                CP15DCacheFlush
+                0x800041d8                CP15DCacheClean
+                0x8000426c                CP15DCacheCleanFlush
+                0x80004300                CP15ICacheFlush
+                0x80004310                CP15DCacheCleanBuff
+                0x80004364                CP15DCacheCleanFlushBuff
+                0x800043b8                CP15DCacheFlushBuff
+                0x8000441c                CP15ICacheFlushBuff
+                0x80004470                CP15Ttb0Set
+                0x8000447c                CP15TlbInvalidate
+                0x80004488                CP15MMUDisable
+                0x800044a0                CP15MMUEnable
+                0x800044b4                CP15VectorBaseAddrSet
+                0x800044c0                CP15BranchPredictorInvalidate
+                0x800044cc                CP15BranchPredictionEnable
+                0x800044dc                CP15BranchPredictionDisable
+                0x800044ec                CP15DomainAccessClientSet
+                0x800044fc                CP15ControlFeatureDisable
+                0x80004510                CP15ControlFeatureEnable
+                0x80004524                CP15TtbCtlTtb0Config
+                0x80004534                CP15AuxControlFeatureEnable
+                0x80004548                CP15AuxControlFeatureDisable
+                0x8000455c                CP15MainIdPrimPartNumGet
+ .text.CPUirqe  0x80004574       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+                0x80004574                CPUirqe
+ .text          0x80004588       0xf0 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+                0x80004588                SVC_Handler
+                0x800045b0                IRQHandler
+                0x8000465c                FIQHandler
+                0x80004660                UndefInstHandler
+                0x80004660                AbortHandler
+ .text          0x80004678      0x114 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+                0x80004678                __udivsi3
+                0x80004678                __aeabi_uidiv
+                0x8000476c                __aeabi_uidivmod
+ .text          0x8000478c      0x148 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+                0x8000478c                __aeabi_idiv
+                0x8000478c                __divsi3
+                0x800048b4                __aeabi_idivmod
+ .text          0x800048d4        0x4 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_dvmd_tls.o)
+                0x800048d4                __aeabi_ldiv0
+                0x800048d4                __aeabi_idiv0
  .text.UARTCharPut
-                0x80003014       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
-                0x80003014                UARTCharPut
+                0x800048d8       0x30 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x800048d8                UARTCharPut
  *(.rodata*)
- .rodata.str1.4
-                0x80003044      0x114 Release/app.o
+ .rodata        0x80004908      0x190 Release/app.o
  .rodata.OSUnMapTbl
-                0x80003158      0x100 Release/os_core.o
-                0x80003158                OSUnMapTbl
+                0x80004a98      0x100 Release/os_core.o
+                0x80004a98                OSUnMapTbl
+ .rodata        0x80004b98       0x10 Release/os_core.o
+ .rodata.OSDebugEn
+                0x80004ba8        0x2 Release/os_dbg.o
+                0x80004ba8                OSDebugEn
+ *fill*         0x80004baa        0x2 00
+ .rodata.OSEndiannessTest
+                0x80004bac        0x4 Release/os_dbg.o
+                0x80004bac                OSEndiannessTest
+ .rodata.OSEventMax
+                0x80004bb0        0x2 Release/os_dbg.o
+                0x80004bb0                OSEventMax
+ .rodata.OSEventNameSize
+                0x80004bb2        0x2 Release/os_dbg.o
+                0x80004bb2                OSEventNameSize
+ .rodata.OSEventEn
+                0x80004bb4        0x2 Release/os_dbg.o
+                0x80004bb4                OSEventEn
+ .rodata.OSEventSize
+                0x80004bb6        0x2 Release/os_dbg.o
+                0x80004bb6                OSEventSize
+ .rodata.OSEventTblSize
+                0x80004bb8        0x2 Release/os_dbg.o
+                0x80004bb8                OSEventTblSize
+ .rodata.OSFlagEn
+                0x80004bba        0x2 Release/os_dbg.o
+                0x80004bba                OSFlagEn
+ .rodata.OSFlagGrpSize
+                0x80004bbc        0x2 Release/os_dbg.o
+                0x80004bbc                OSFlagGrpSize
+ .rodata.OSFlagNodeSize
+                0x80004bbe        0x2 Release/os_dbg.o
+                0x80004bbe                OSFlagNodeSize
+ .rodata.OSFlagWidth
+                0x80004bc0        0x2 Release/os_dbg.o
+                0x80004bc0                OSFlagWidth
+ .rodata.OSFlagMax
+                0x80004bc2        0x2 Release/os_dbg.o
+                0x80004bc2                OSFlagMax
+ .rodata.OSFlagNameSize
+                0x80004bc4        0x2 Release/os_dbg.o
+                0x80004bc4                OSFlagNameSize
+ .rodata.OSLowestPrio
+                0x80004bc6        0x2 Release/os_dbg.o
+                0x80004bc6                OSLowestPrio
+ .rodata.OSMboxEn
+                0x80004bc8        0x2 Release/os_dbg.o
+                0x80004bc8                OSMboxEn
+ .rodata.OSMemEn
+                0x80004bca        0x2 Release/os_dbg.o
+                0x80004bca                OSMemEn
+ .rodata.OSMemMax
+                0x80004bcc        0x2 Release/os_dbg.o
+                0x80004bcc                OSMemMax
+ .rodata.OSMemNameSize
+                0x80004bce        0x2 Release/os_dbg.o
+                0x80004bce                OSMemNameSize
+ .rodata.OSMemSize
+                0x80004bd0        0x2 Release/os_dbg.o
+                0x80004bd0                OSMemSize
+ .rodata.OSMemTblSize
+                0x80004bd2        0x2 Release/os_dbg.o
+                0x80004bd2                OSMemTblSize
+ .rodata.OSMutexEn
+                0x80004bd4        0x2 Release/os_dbg.o
+                0x80004bd4                OSMutexEn
+ .rodata.OSPtrSize
+                0x80004bd6        0x2 Release/os_dbg.o
+                0x80004bd6                OSPtrSize
+ .rodata.OSQEn  0x80004bd8        0x2 Release/os_dbg.o
+                0x80004bd8                OSQEn
+ .rodata.OSQMax
+                0x80004bda        0x2 Release/os_dbg.o
+                0x80004bda                OSQMax
+ .rodata.OSQSize
+                0x80004bdc        0x2 Release/os_dbg.o
+                0x80004bdc                OSQSize
+ .rodata.OSRdyTblSize
+                0x80004bde        0x2 Release/os_dbg.o
+                0x80004bde                OSRdyTblSize
+ .rodata.OSSemEn
+                0x80004be0        0x2 Release/os_dbg.o
+                0x80004be0                OSSemEn
+ .rodata.OSStkWidth
+                0x80004be2        0x2 Release/os_dbg.o
+                0x80004be2                OSStkWidth
+ .rodata.OSTaskCreateEn
+                0x80004be4        0x2 Release/os_dbg.o
+                0x80004be4                OSTaskCreateEn
+ .rodata.OSTaskCreateExtEn
+                0x80004be6        0x2 Release/os_dbg.o
+                0x80004be6                OSTaskCreateExtEn
+ .rodata.OSTaskDelEn
+                0x80004be8        0x2 Release/os_dbg.o
+                0x80004be8                OSTaskDelEn
+ .rodata.OSTaskIdleStkSize
+                0x80004bea        0x2 Release/os_dbg.o
+                0x80004bea                OSTaskIdleStkSize
+ .rodata.OSTaskProfileEn
+                0x80004bec        0x2 Release/os_dbg.o
+                0x80004bec                OSTaskProfileEn
+ .rodata.OSTaskMax
+                0x80004bee        0x2 Release/os_dbg.o
+                0x80004bee                OSTaskMax
+ .rodata.OSTaskNameSize
+                0x80004bf0        0x2 Release/os_dbg.o
+                0x80004bf0                OSTaskNameSize
+ .rodata.OSTaskStatEn
+                0x80004bf2        0x2 Release/os_dbg.o
+                0x80004bf2                OSTaskStatEn
+ .rodata.OSTaskStatStkSize
+                0x80004bf4        0x2 Release/os_dbg.o
+                0x80004bf4                OSTaskStatStkSize
+ .rodata.OSTaskStatStkChkEn
+                0x80004bf6        0x2 Release/os_dbg.o
+                0x80004bf6                OSTaskStatStkChkEn
+ .rodata.OSTaskSwHookEn
+                0x80004bf8        0x2 Release/os_dbg.o
+                0x80004bf8                OSTaskSwHookEn
+ .rodata.OSTCBPrioTblMax
+                0x80004bfa        0x2 Release/os_dbg.o
+                0x80004bfa                OSTCBPrioTblMax
+ .rodata.OSTCBSize
+                0x80004bfc        0x2 Release/os_dbg.o
+                0x80004bfc                OSTCBSize
+ .rodata.OSTicksPerSec
+                0x80004bfe        0x2 Release/os_dbg.o
+                0x80004bfe                OSTicksPerSec
+ .rodata.OSTimeTickHookEn
+                0x80004c00        0x2 Release/os_dbg.o
+                0x80004c00                OSTimeTickHookEn
+ .rodata.OSVersionNbr
+                0x80004c02        0x2 Release/os_dbg.o
+                0x80004c02                OSVersionNbr
+ .rodata.OSDataSize
+                0x80004c04        0x2 Release/os_dbg.o
+                0x80004c04                OSDataSize
+ *fill*         0x80004c06        0x2 00
+ .rodata        0x80004c08       0x28 Release/os_tmr.o
  .rodata.str1.4
-                0x80003258        0xe Release/os_core.o
-                                 0x10 (size before relaxing)
- *fill*         0x80003266        0x2 00
+                0x80004c30       0x50 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
  .rodata.str1.4
-                0x80003268       0x25 Release/os_tmr.o
-                                 0x28 (size before relaxing)
- *fill*         0x8000328d        0x3 00
- .rodata.str1.4
-                0x80003290       0x50 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
- .rodata.str1.4
-                0x800032e0       0x60 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                0x80004c80       0x60 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
  .rodata.vecTbl
-                0x80003340       0x38 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+                0x80004ce0       0x38 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
 
-.glue_7         0x80003378        0x0
+.glue_7         0x80004d18        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x80003378        0x0
+.glue_7t        0x80004d18        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x80003378        0x0
+.vfp11_veneer   0x80004d18        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x80003378        0x0
+.v4_bx          0x80004d18        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x80003378        0x0
+.iplt           0x80004d18        0x0
  .iplt          0x00000000        0x0 Release/app.o
 
-.rel.dyn        0x80003378        0x0
+.rel.dyn        0x80004d18        0x0
  .rel.iplt      0x00000000        0x0 Release/app.o
 
-.data           0x80003378        0x0
-                0x80003378                . = ALIGN (0x4)
+.data           0x80004d18        0x0
+                0x80004d18                . = ALIGN (0x4)
  *(.data*)
 
-.igot.plt       0x80003378        0x0
+.igot.plt       0x80004d18        0x0
  .igot.plt      0x00000000        0x0 Release/app.o
 
-.bss            0x80003378     0x1fa8
-                0x80003378                . = ALIGN (0x4)
-                0x80003378                _bss_start = .
+.bss            0x80004d18     0x1fa4
+                0x80004d18                . = ALIGN (0x4)
+                0x80004d18                _bss_start = .
  *(.bss*)
- .bss.flagIsr   0x80003378        0x4 Release/app.o
- .bss.OSTmrCtr  0x8000337c        0x2 Release/os_cpu_c.o
+ .bss.OSTmrCtr  0x80004d18        0x2 Release/os_cpu_c.o
  .bss.ConsoleType
-                0x8000337e        0x1 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+                0x80004d1a        0x1 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
  *(COMMON)
- *fill*         0x8000337f        0x1 00
- COMMON         0x80003380      0xc84 Release/app.o
-                0x80003380                cnt
-                0x80003384                TaskStack
-                0x80003ce4                MyTaskStack
- COMMON         0x80004004     0x111c Release/os_core.o
-                0x80004004                OSTmrFreeList
-                0x80004008                OSTmrWheelTbl
-                0x80004048                OSLockNesting
-                0x8000404c                OSTmrSemSignal
-                0x80004050                OSRunning
-                0x80004054                OSIdleCtr
-                0x80004058                OSTmrUsed
-                0x8000405a                OSPrioHighRdy
-                0x8000405c                OSFlagTbl
-                0x800040e8                OSTmrTbl
-                0x80004428                OSPrioCur
-                0x8000442c                OSTCBList
-                0x80004430                OSMemTbl
-                0x800044e4                OSTickStepState
-                0x800044e8                OSCtxSwCtr
-                0x800044ec                OSTmrFree
-                0x800044f0                OSTCBFreeList
-                0x800044f4                OSTaskCtr
-                0x800044f8                OSMemFreeList
-                0x800044fc                OSQTbl
-                0x8000455c                OSTCBHighRdy
-                0x80004560                OSQFreeList
-                0x80004564                OSRdyGrp
-                0x80004568                OSRdyTbl
-                0x8000456c                OSTmrTaskStk
-                0x8000476c                OSEventFreeList
-                0x80004770                OSIntNesting
-                0x80004774                OSTCBCur
-                0x80004778                OSTmrTime
-                0x8000477c                OSTime
-                0x80004780                OSTmrSem
-                0x80004784                OSTaskIdleStk
-                0x80004984                OSEventTbl
-                0x80004ac4                OSTCBTbl
-                0x8000509c                OSFlagFreeList
-                0x800050a0                OSTCBPrioTbl
- COMMON         0x80005120      0x200 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
-                0x80005120                fnRAMVectors
-                0x80005320                _bss_end = .
+ *fill*         0x80004d1b        0x1 00
+ COMMON         0x80004d1c      0xc84 Release/app.o
+                0x80004d1c                cnt
+                0x80004d20                TaskStack
+                0x80005680                MyTaskStack
+ COMMON         0x800059a0     0x111c Release/os_core.o
+                0x800059a0                OSTmrFreeList
+                0x800059a4                OSTmrWheelTbl
+                0x800059e4                OSLockNesting
+                0x800059e8                OSTmrSemSignal
+                0x800059ec                OSRunning
+                0x800059f0                OSIdleCtr
+                0x800059f4                OSTmrUsed
+                0x800059f6                OSPrioHighRdy
+                0x800059f8                OSFlagTbl
+                0x80005a84                OSTmrTbl
+                0x80005dc4                OSPrioCur
+                0x80005dc8                OSTCBList
+                0x80005dcc                OSMemTbl
+                0x80005e80                OSTickStepState
+                0x80005e84                OSCtxSwCtr
+                0x80005e88                OSTmrFree
+                0x80005e8c                OSTCBFreeList
+                0x80005e90                OSTaskCtr
+                0x80005e94                OSMemFreeList
+                0x80005e98                OSQTbl
+                0x80005ef8                OSTCBHighRdy
+                0x80005efc                OSQFreeList
+                0x80005f00                OSRdyGrp
+                0x80005f04                OSRdyTbl
+                0x80005f08                OSTmrTaskStk
+                0x80006108                OSEventFreeList
+                0x8000610c                OSIntNesting
+                0x80006110                OSTCBCur
+                0x80006114                OSTmrTime
+                0x80006118                OSTime
+                0x8000611c                OSTmrSem
+                0x80006120                OSTaskIdleStk
+                0x80006320                OSEventTbl
+                0x80006460                OSTCBTbl
+                0x80006a38                OSFlagFreeList
+                0x80006a3c                OSTCBPrioTbl
+ COMMON         0x80006abc      0x200 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x80006abc                fnRAMVectors
+                0x80006cbc                _bss_end = .
 
-.heap           0x80005320      0x800
-                0x80005320                . = ALIGN (0x4)
-                0x80005320                __end__ = .
-                0x80005320                end = __end__
-                0x80005320                __HeapBase = __end__
+.heap           0x80006cbc      0x800
+                0x80006cbc                . = ALIGN (0x4)
+                0x80006cbc                __end__ = .
+                0x80006cbc                end = __end__
+                0x80006cbc                __HeapBase = __end__
  *(.heap*)
-                0x80005b20                . = (. + 0x800)
- *fill*         0x80005320      0x800 00
-                0x80005b20                __HeapLimit = .
+                0x800074bc                . = (. + 0x800)
+ *fill*         0x80006cbc      0x800 00
+                0x800074bc                __HeapLimit = .
 
-.stack          0x80005b20  0x7fffff8
-                0x80005b20                . = ALIGN (0x4)
-                0x80005b20                __StackLimit = .
+.stack          0x800074bc  0x7fffff8
+                0x800074bc                . = ALIGN (0x4)
+                0x800074bc                __StackLimit = .
  *(.stack*)
-                0x88005b18                . = (. + 0x7fffff8)
- *fill*         0x80005b20  0x7fffff8 00
-                0x88005b18                __StackTop = .
-                0x88005b18                _stack = __StackTop
+                0x880074b4                . = (. + 0x7fffff8)
+ *fill*         0x800074bc  0x7fffff8 00
+                0x880074b4                __StackTop = .
+                0x880074b4                _stack = __StackTop
 OUTPUT(Release/uc.out elf32-littlearm)
 
-.debug_info     0x00000000     0xbb2e
- .debug_info    0x00000000      0x5b2 Release/app.o
- .debug_info    0x000005b2     0x143d Release/os_core.o
- .debug_info    0x000019ef       0xab Release/os_cpu_a.o
- .debug_info    0x00001a9a      0x519 Release/os_cpu_c.o
- .debug_info    0x00001fb3      0xc88 Release/os_dbg.o
- .debug_info    0x00002c3b      0xcdb Release/os_flag.o
- .debug_info    0x00003916      0x53d Release/os_mem.o
- .debug_info    0x00003e53      0xc02 Release/os_q.o
- .debug_info    0x00004a55      0x8bc Release/os_sem.o
- .debug_info    0x00005311      0xd36 Release/os_task.o
- .debug_info    0x00006047      0x61c Release/os_time.o
- .debug_info    0x00006663      0xe1c Release/os_tmr.o
- .debug_info    0x0000747f      0x76e ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
- .debug_info    0x00007bed      0x384 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
- .debug_info    0x00007f71      0xfce ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
- .debug_info    0x00008f3f       0xcc ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
- .debug_info    0x0000900b      0x270 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
- .debug_info    0x0000927b       0xa3 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
- .debug_info    0x0000931e      0x4e5 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
- .debug_info    0x00009803      0x116 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_info    0x00009919       0xa3 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
- .debug_info    0x000099bc       0xef ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
- .debug_info    0x00009aab       0xb6 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
- .debug_info    0x00009b61     0x1fcd ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+.debug_info     0x00000000     0xa9db
+ .debug_info    0x00000000      0x2af Release/app.o
+ .debug_info    0x000002af     0x1139 Release/os_core.o
+ .debug_info    0x000013e8       0xab Release/os_cpu_a.o
+ .debug_info    0x00001493      0x588 Release/os_cpu_c.o
+ .debug_info    0x00001a1b      0xcfb Release/os_dbg.o
+ .debug_info    0x00002716      0xab2 Release/os_flag.o
+ .debug_info    0x000031c8      0x4da Release/os_mem.o
+ .debug_info    0x000036a2      0x9db Release/os_q.o
+ .debug_info    0x0000407d      0x76d Release/os_sem.o
+ .debug_info    0x000047ea      0xa92 Release/os_task.o
+ .debug_info    0x0000527c      0x5ce Release/os_time.o
+ .debug_info    0x0000584a      0xae2 Release/os_tmr.o
+ .debug_info    0x0000632c      0x76e ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+ .debug_info    0x00006a9a      0x384 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+ .debug_info    0x00006e1e      0xfce ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_info    0x00007dec       0xcc ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+ .debug_info    0x00007eb8      0x270 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_info    0x00008128       0xa3 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+ .debug_info    0x000081cb      0x4e5 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_info    0x000086b0      0x116 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_info    0x000087c6       0xa3 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+ .debug_info    0x00008869       0xef ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+ .debug_info    0x00008958       0xb6 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .debug_info    0x00008a0e     0x1fcd ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
 
-.debug_abbrev   0x00000000     0x24a5
- .debug_abbrev  0x00000000      0x14f Release/app.o
- .debug_abbrev  0x0000014f      0x3a6 Release/os_core.o
- .debug_abbrev  0x000004f5       0x14 Release/os_cpu_a.o
- .debug_abbrev  0x00000509      0x1a2 Release/os_cpu_c.o
- .debug_abbrev  0x000006ab       0xed Release/os_dbg.o
- .debug_abbrev  0x00000798      0x28b Release/os_flag.o
- .debug_abbrev  0x00000a23      0x193 Release/os_mem.o
- .debug_abbrev  0x00000bb6      0x1f5 Release/os_q.o
- .debug_abbrev  0x00000dab      0x1b5 Release/os_sem.o
- .debug_abbrev  0x00000f60      0x245 Release/os_task.o
- .debug_abbrev  0x000011a5      0x1e9 Release/os_time.o
- .debug_abbrev  0x0000138e      0x2ed Release/os_tmr.o
- .debug_abbrev  0x0000167b      0x18e ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
- .debug_abbrev  0x00001809      0x1ab ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
- .debug_abbrev  0x000019b4      0x309 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
- .debug_abbrev  0x00001cbd       0x7a ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
- .debug_abbrev  0x00001d37      0x10e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
- .debug_abbrev  0x00001e45       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
- .debug_abbrev  0x00001e59      0x20b ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
- .debug_abbrev  0x00002064       0xe8 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_abbrev  0x0000214c       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
- .debug_abbrev  0x00002160       0x64 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
- .debug_abbrev  0x000021c4       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
- .debug_abbrev  0x000021d8      0x2cd ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+.debug_abbrev   0x00000000     0x221d
+ .debug_abbrev  0x00000000      0x15a Release/app.o
+ .debug_abbrev  0x0000015a      0x2ce Release/os_core.o
+ .debug_abbrev  0x00000428       0x14 Release/os_cpu_a.o
+ .debug_abbrev  0x0000043c      0x1ec Release/os_cpu_c.o
+ .debug_abbrev  0x00000628      0x162 Release/os_dbg.o
+ .debug_abbrev  0x0000078a      0x1f3 Release/os_flag.o
+ .debug_abbrev  0x0000097d      0x1b2 Release/os_mem.o
+ .debug_abbrev  0x00000b2f      0x1a7 Release/os_q.o
+ .debug_abbrev  0x00000cd6      0x1a7 Release/os_sem.o
+ .debug_abbrev  0x00000e7d      0x1d1 Release/os_task.o
+ .debug_abbrev  0x0000104e      0x18e Release/os_time.o
+ .debug_abbrev  0x000011dc      0x217 Release/os_tmr.o
+ .debug_abbrev  0x000013f3      0x18e ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+ .debug_abbrev  0x00001581      0x1ab ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+ .debug_abbrev  0x0000172c      0x309 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_abbrev  0x00001a35       0x7a ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+ .debug_abbrev  0x00001aaf      0x10e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_abbrev  0x00001bbd       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+ .debug_abbrev  0x00001bd1      0x20b ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_abbrev  0x00001ddc       0xe8 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_abbrev  0x00001ec4       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+ .debug_abbrev  0x00001ed8       0x64 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+ .debug_abbrev  0x00001f3c       0x14 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .debug_abbrev  0x00001f50      0x2cd ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
 
-.debug_loc      0x00000000     0x99c8
- .debug_loc     0x00000000      0x144 Release/app.o
- .debug_loc     0x00000144      0xb55 Release/os_core.o
- .debug_loc     0x00000c99      0x112 Release/os_cpu_c.o
- .debug_loc     0x00000dab     0x12d4 Release/os_flag.o
- .debug_loc     0x0000207f      0x638 Release/os_mem.o
- .debug_loc     0x000026b7      0xcb9 Release/os_q.o
- .debug_loc     0x00003370      0x8c0 Release/os_sem.o
- .debug_loc     0x00003c30     0x10d3 Release/os_task.o
- .debug_loc     0x00004d03      0x385 Release/os_time.o
- .debug_loc     0x00005088      0x9f4 Release/os_tmr.o
- .debug_loc     0x00005a7c      0x210 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
- .debug_loc     0x00005c8c      0x31b ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
- .debug_loc     0x00005fa7     0x18d9 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
- .debug_loc     0x00007880       0xab ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
- .debug_loc     0x0000792b      0x248 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
- .debug_loc     0x00007b73       0x34 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_loc     0x00007ba7     0x1e21 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+.debug_loc      0x00000000     0x59c4
+ .debug_loc     0x00000000      0x1e4 Release/app.o
+ .debug_loc     0x000001e4      0x580 Release/os_core.o
+ .debug_loc     0x00000764      0x23c Release/os_cpu_c.o
+ .debug_loc     0x000009a0       0xb0 Release/os_dbg.o
+ .debug_loc     0x00000a50      0x2c0 Release/os_flag.o
+ .debug_loc     0x00000d10      0x1b8 Release/os_mem.o
+ .debug_loc     0x00000ec8      0x268 Release/os_q.o
+ .debug_loc     0x00001130      0x1e4 Release/os_sem.o
+ .debug_loc     0x00001314      0x294 Release/os_task.o
+ .debug_loc     0x000015a8      0x160 Release/os_time.o
+ .debug_loc     0x00001708      0x370 Release/os_tmr.o
+ .debug_loc     0x00001a78      0x210 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+ .debug_loc     0x00001c88      0x31b ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+ .debug_loc     0x00001fa3     0x18d9 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_loc     0x0000387c       0xab ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_loc     0x00003927      0x248 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_loc     0x00003b6f       0x34 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_loc     0x00003ba3     0x1e21 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
 
-.debug_aranges  0x00000000      0xb20
+.debug_aranges  0x00000000      0xc80
  .debug_aranges
-                0x00000000       0x48 Release/app.o
+                0x00000000       0x70 Release/app.o
  .debug_aranges
-                0x00000048       0xd0 Release/os_core.o
+                0x00000070      0x118 Release/os_core.o
  .debug_aranges
-                0x00000118       0x20 Release/os_cpu_a.o
+                0x00000188       0x20 Release/os_cpu_a.o
  .debug_aranges
-                0x00000138       0x68 Release/os_cpu_c.o
+                0x000001a8       0x80 Release/os_cpu_c.o
  .debug_aranges
-                0x000001a0       0x20 Release/os_dbg.o
+                0x00000228       0x38 Release/os_dbg.o
  .debug_aranges
-                0x000001c0       0x80 Release/os_flag.o
+                0x00000260       0x98 Release/os_flag.o
  .debug_aranges
-                0x00000240       0x50 Release/os_mem.o
+                0x000002f8       0x68 Release/os_mem.o
  .debug_aranges
-                0x00000290       0x70 Release/os_q.o
+                0x00000360       0x88 Release/os_q.o
  .debug_aranges
-                0x00000300       0x58 Release/os_sem.o
+                0x000003e8       0x70 Release/os_sem.o
  .debug_aranges
-                0x00000358       0x78 Release/os_task.o
+                0x00000458       0x90 Release/os_task.o
  .debug_aranges
-                0x000003d0       0x40 Release/os_time.o
+                0x000004e8       0x58 Release/os_time.o
  .debug_aranges
-                0x00000410       0x88 Release/os_tmr.o
+                0x00000540       0xb8 Release/os_tmr.o
  .debug_aranges
-                0x00000498       0xe8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+                0x000005f8       0xe8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
  .debug_aranges
-                0x00000580       0x58 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+                0x000006e0       0x58 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
  .debug_aranges
-                0x000005d8       0x80 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+                0x00000738       0x80 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
  .debug_aranges
-                0x00000658       0x48 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+                0x000007b8       0x48 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
  .debug_aranges
-                0x000006a0       0x30 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+                0x00000800       0x30 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
  .debug_aranges
-                0x000006d0       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+                0x00000830       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
  .debug_aranges
-                0x000006f0      0x110 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+                0x00000850      0x110 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
  .debug_aranges
-                0x00000800       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+                0x00000960       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
  .debug_aranges
-                0x00000820       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+                0x00000980       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
  .debug_aranges
-                0x00000840       0x58 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+                0x000009a0       0x58 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
  .debug_aranges
-                0x00000898       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+                0x000009f8       0x20 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
  .debug_aranges
-                0x000008b8      0x268 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+                0x00000a18      0x268 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
 
-.debug_ranges   0x00000000     0x13e0
- .debug_ranges  0x00000000       0x50 Release/app.o
- .debug_ranges  0x00000050      0x398 Release/os_core.o
- .debug_ranges  0x000003e8       0x58 Release/os_cpu_c.o
- .debug_ranges  0x00000440       0x10 Release/os_dbg.o
- .debug_ranges  0x00000450      0x100 Release/os_flag.o
- .debug_ranges  0x00000550       0x40 Release/os_mem.o
- .debug_ranges  0x00000590       0x60 Release/os_q.o
- .debug_ranges  0x000005f0       0x48 Release/os_sem.o
- .debug_ranges  0x00000638       0x68 Release/os_task.o
- .debug_ranges  0x000006a0       0x30 Release/os_time.o
- .debug_ranges  0x000006d0       0xd8 Release/os_tmr.o
- .debug_ranges  0x000007a8       0xd8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
- .debug_ranges  0x00000880       0x48 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
- .debug_ranges  0x000008c8      0x330 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
- .debug_ranges  0x00000bf8       0x38 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
- .debug_ranges  0x00000c30       0x60 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
- .debug_ranges  0x00000c90      0x130 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
- .debug_ranges  0x00000dc0       0x10 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_ranges  0x00000dd0       0x48 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
- .debug_ranges  0x00000e18      0x5c8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+.debug_ranges   0x00000000     0x1160
+ .debug_ranges  0x00000000       0x60 Release/app.o
+ .debug_ranges  0x00000060      0x108 Release/os_core.o
+ .debug_ranges  0x00000168       0x70 Release/os_cpu_c.o
+ .debug_ranges  0x000001d8       0x28 Release/os_dbg.o
+ .debug_ranges  0x00000200       0x88 Release/os_flag.o
+ .debug_ranges  0x00000288       0x58 Release/os_mem.o
+ .debug_ranges  0x000002e0       0x78 Release/os_q.o
+ .debug_ranges  0x00000358       0x60 Release/os_sem.o
+ .debug_ranges  0x000003b8       0x80 Release/os_task.o
+ .debug_ranges  0x00000438       0x48 Release/os_time.o
+ .debug_ranges  0x00000480       0xa8 Release/os_tmr.o
+ .debug_ranges  0x00000528       0xd8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+ .debug_ranges  0x00000600       0x48 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+ .debug_ranges  0x00000648      0x330 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_ranges  0x00000978       0x38 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+ .debug_ranges  0x000009b0       0x60 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_ranges  0x00000a10      0x130 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_ranges  0x00000b40       0x10 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_ranges  0x00000b50       0x48 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+ .debug_ranges  0x00000b98      0x5c8 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
 
-.debug_line     0x00000000     0x4037
- .debug_line    0x00000000      0x182 Release/app.o
- .debug_line    0x00000182      0x523 Release/os_core.o
- .debug_line    0x000006a5       0xc6 Release/os_cpu_a.o
- .debug_line    0x0000076b      0x19a Release/os_cpu_c.o
- .debug_line    0x00000905       0xb1 Release/os_dbg.o
- .debug_line    0x000009b6      0x430 Release/os_flag.o
- .debug_line    0x00000de6      0x236 Release/os_mem.o
- .debug_line    0x0000101c      0x390 Release/os_q.o
- .debug_line    0x000013ac      0x278 Release/os_sem.o
- .debug_line    0x00001624      0x3dd Release/os_task.o
- .debug_line    0x00001a01      0x16e Release/os_time.o
- .debug_line    0x00001b6f      0x416 Release/os_tmr.o
- .debug_line    0x00001f85      0x37a ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
- .debug_line    0x000022ff      0x1a9 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
- .debug_line    0x000024a8      0x856 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
- .debug_line    0x00002cfe      0x21e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
- .debug_line    0x00002f1c       0xb2 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
- .debug_line    0x00002fce       0x93 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
- .debug_line    0x00003061      0x2ae ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
- .debug_line    0x0000330f       0x76 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_line    0x00003385      0x18a ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
- .debug_line    0x0000350f       0xd6 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
- .debug_line    0x000035e5       0xb9 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
- .debug_line    0x0000369e      0x999 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+.debug_line     0x00000000     0x414c
+ .debug_line    0x00000000      0x247 Release/app.o
+ .debug_line    0x00000247      0x543 Release/os_core.o
+ .debug_line    0x0000078a       0xd5 Release/os_cpu_a.o
+ .debug_line    0x0000085f      0x1e6 Release/os_cpu_c.o
+ .debug_line    0x00000a45      0x146 Release/os_dbg.o
+ .debug_line    0x00000b8b      0x3f3 Release/os_flag.o
+ .debug_line    0x00000f7e      0x24b Release/os_mem.o
+ .debug_line    0x000011c9      0x344 Release/os_q.o
+ .debug_line    0x0000150d      0x28b Release/os_sem.o
+ .debug_line    0x00001798      0x36a Release/os_task.o
+ .debug_line    0x00001b02      0x1bc Release/os_time.o
+ .debug_line    0x00001cbe      0x3dc Release/os_tmr.o
+ .debug_line    0x0000209a      0x37a ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+ .debug_line    0x00002414      0x1a9 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+ .debug_line    0x000025bd      0x856 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_line    0x00002e13      0x21e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+ .debug_line    0x00003031       0xb2 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_line    0x000030e3       0x93 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(init.o)
+ .debug_line    0x00003176      0x2ae ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_line    0x00003424       0x76 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_line    0x0000349a      0x18a ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cp15.o)
+ .debug_line    0x00003624       0xd6 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+ .debug_line    0x000036fa       0xb9 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(exceptionhandler.o)
+ .debug_line    0x000037b3      0x999 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
 
-.debug_str      0x00000000     0x2932
- .debug_str     0x00000000      0x1a2 Release/app.o
-                                0x1ea (size before relaxing)
- .debug_str     0x000001a2      0x7e3 Release/os_core.o
-                                0x8eb (size before relaxing)
- .debug_str     0x00000985       0xe3 Release/os_cpu_c.o
-                                0x41f (size before relaxing)
- .debug_str     0x00000a68      0x2f8 Release/os_dbg.o
-                                0x94b (size before relaxing)
- .debug_str     0x00000d60      0x172 Release/os_flag.o
-                                0x56e (size before relaxing)
- .debug_str     0x00000ed2       0xfe Release/os_mem.o
-                                0x28a (size before relaxing)
- .debug_str     0x00000fd0       0xed Release/os_q.o
-                                0x4fb (size before relaxing)
- .debug_str     0x000010bd       0xbc Release/os_sem.o
-                                0x484 (size before relaxing)
- .debug_str     0x00001179      0x11b Release/os_task.o
-                                0x54e (size before relaxing)
- .debug_str     0x00001294       0x9a Release/os_time.o
-                                0x41d (size before relaxing)
- .debug_str     0x0000132e      0x159 Release/os_tmr.o
-                                0x5ef (size before relaxing)
- .debug_str     0x00001487      0x306 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+.debug_str      0x00000000     0x2976
+ .debug_str     0x00000000      0x1ec Release/app.o
+                                0x234 (size before relaxing)
+ .debug_str     0x000001ec      0x7e3 Release/os_core.o
+                                0x914 (size before relaxing)
+ .debug_str     0x000009cf       0xe3 Release/os_cpu_c.o
+                                0x448 (size before relaxing)
+ .debug_str     0x00000ab2      0x2f8 Release/os_dbg.o
+                                0x974 (size before relaxing)
+ .debug_str     0x00000daa      0x172 Release/os_flag.o
+                                0x597 (size before relaxing)
+ .debug_str     0x00000f1c       0xfe Release/os_mem.o
+                                0x2b3 (size before relaxing)
+ .debug_str     0x0000101a       0xed Release/os_q.o
+                                0x524 (size before relaxing)
+ .debug_str     0x00001107       0xbc Release/os_sem.o
+                                0x4ad (size before relaxing)
+ .debug_str     0x000011c3      0x11b Release/os_task.o
+                                0x577 (size before relaxing)
+ .debug_str     0x000012de       0x9a Release/os_time.o
+                                0x446 (size before relaxing)
+ .debug_str     0x00001378      0x159 Release/os_tmr.o
+                                0x618 (size before relaxing)
+ .debug_str     0x000014d1      0x306 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
                                 0x36a (size before relaxing)
- .debug_str     0x0000178d      0x19b ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+ .debug_str     0x000017d7      0x19b ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
                                 0x283 (size before relaxing)
- .debug_str     0x00001928      0x1ae ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_str     0x00001972      0x1a8 ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
                                 0x2a0 (size before relaxing)
- .debug_str     0x00001ad6      0x11e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+ .debug_str     0x00001b1a      0x11e ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
                                 0x182 (size before relaxing)
- .debug_str     0x00001bf4       0xd4 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_str     0x00001c38       0xd4 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
                                 0x197 (size before relaxing)
- .debug_str     0x00001cc8      0x2e7 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_str     0x00001d0c      0x2e7 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
                                 0x379 (size before relaxing)
- .debug_str     0x00001faf       0x6b ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_str     0x00001ff3       0x6b ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
                                 0x12e (size before relaxing)
- .debug_str     0x0000201a       0x9a ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+ .debug_str     0x0000205e       0x9a ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
                                 0x140 (size before relaxing)
- .debug_str     0x000020b4      0x87e ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+ .debug_str     0x000020f8      0x87e ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
                                 0x963 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -1488,26 +1721,26 @@ OUTPUT(Release/uc.out elf32-littlearm)
  .ARM.attributes
                 0x000004f7       0x37 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
 
-.debug_frame    0x00000000     0x1a1c
- .debug_frame   0x00000000       0xb0 Release/app.o
- .debug_frame   0x000000b0      0x238 Release/os_core.o
- .debug_frame   0x000002e8       0xd0 Release/os_cpu_c.o
- .debug_frame   0x000003b8       0x20 Release/os_dbg.o
- .debug_frame   0x000003d8      0x19c Release/os_flag.o
- .debug_frame   0x00000574       0xe8 Release/os_mem.o
- .debug_frame   0x0000065c      0x168 Release/os_q.o
- .debug_frame   0x000007c4      0x108 Release/os_sem.o
- .debug_frame   0x000008cc      0x180 Release/os_task.o
- .debug_frame   0x00000a4c       0x90 Release/os_time.o
- .debug_frame   0x00000adc      0x1a4 Release/os_tmr.o
- .debug_frame   0x00000c80      0x1b0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
- .debug_frame   0x00000e30       0xec ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
- .debug_frame   0x00000f1c      0x1cc ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
- .debug_frame   0x000010e8       0x70 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
- .debug_frame   0x00001158       0x58 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
- .debug_frame   0x000011b0      0x238 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
- .debug_frame   0x000013e8       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
- .debug_frame   0x00001410       0x90 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
- .debug_frame   0x000014a0       0x20 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
- .debug_frame   0x000014c0       0x20 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
- .debug_frame   0x000014e0      0x53c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)
+.debug_frame    0x00000000     0x1e7c
+ .debug_frame   0x00000000      0x140 Release/app.o
+ .debug_frame   0x00000140      0x354 Release/os_core.o
+ .debug_frame   0x00000494      0x154 Release/os_cpu_c.o
+ .debug_frame   0x000005e8       0x78 Release/os_dbg.o
+ .debug_frame   0x00000660      0x1c4 Release/os_flag.o
+ .debug_frame   0x00000824      0x124 Release/os_mem.o
+ .debug_frame   0x00000948      0x194 Release/os_q.o
+ .debug_frame   0x00000adc      0x140 Release/os_sem.o
+ .debug_frame   0x00000c1c      0x1ac Release/os_task.o
+ .debug_frame   0x00000dc8       0xec Release/os_time.o
+ .debug_frame   0x00000eb4      0x22c Release/os_tmr.o
+ .debug_frame   0x000010e0      0x1b0 ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(dmtimer.o)
+ .debug_frame   0x00001290       0xec ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(consoleUtils.o)
+ .debug_frame   0x0000137c      0x1cc ../../../../../..//binary/armv7a/gcc/utils/Release/libutils.a(uartStdio.o)
+ .debug_frame   0x00001548       0x70 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(dmtimer.o)
+ .debug_frame   0x000015b8       0x58 ../../../../../..//binary/armv7a/gcc/am335x/beaglebone/platform/Release/libplatform.a(uartConsole.o)
+ .debug_frame   0x00001610      0x238 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(interrupt.o)
+ .debug_frame   0x00001848       0x28 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(startup.o)
+ .debug_frame   0x00001870       0x90 ../../../../../..//binary/armv7a/gcc/am335x/system_config/Release/libsystem_config.a(cpu.o)
+ .debug_frame   0x00001900       0x20 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001920       0x20 /home/sungjae/gcc-arm-none-eabi-4_7-2012q4//lib/gcc/arm-none-eabi/4.7.3//libgcc.a(_divsi3.o)
+ .debug_frame   0x00001940      0x53c ../../../../../..//binary/armv7a/gcc/am335x/drivers/Release/libdrivers.a(uart_irda_cir.o)

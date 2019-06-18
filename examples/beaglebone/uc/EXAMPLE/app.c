@@ -96,7 +96,7 @@ void Task1(void *pdata)
     for(;;) {
         ConsoleUtilsPrintf("Task 1 Loop Start\n");
         cnt++;
-        OSTimeDly(3);
+        OSTimeDly(10);
     }
 }
 
@@ -106,7 +106,7 @@ void Task2(void *pdata)
     for(;;) {
         ConsoleUtilsPrintf("Task 2 Loop Start\n");
         cnt++;
-        OSTimeDly(3);
+        OSTimeDly(10);
     }
 }
 
@@ -116,7 +116,7 @@ void Task3(void *pdata)
     for(;;) {
         ConsoleUtilsPrintf("Task 3 Loop Start\n");
         cnt++;
-        OSTimeDly(3);
+        OSTimeDly(10);
     }
 }
 
@@ -149,14 +149,20 @@ static void DMTimerSetUp(void)
 */    
 static void DMTimerIsr(void)
 {
-    /* Disable the DMTimer interrupts */
+    ConsoleUtilsPrintf("SaveContextIRQ\n");
+    SaveContextIRQ();
+    ConsoleUtilsPrintf("DMTimerDisable\n");
     DMTimerIntDisable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
-    /* Clear the status of the interrupt flags */
+    ConsoleUtilsPrintf("OSIntEnter\n");
+    OSIntEnter();
+    ConsoleUtilsPrintf("OSTimeTick\n");
+    OSTimeTick();
+    ConsoleUtilsPrintf("DMTimerIntStatusClear\n");
     DMTimerIntStatusClear(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_IT_FLAG);
-
-    flagIsr = 1;
-
-    /* Enable the DMTimer interrupts */
+    ConsoleUtilsPrintf("DMTimerIntEnable\n");
     DMTimerIntEnable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
-    ConsoleUtilsPrintf("!!!!\n");
+    ConsoleUtilsPrintf("OSIntExit\n");
+    OSIntExit();
+    ConsoleUtilsPrintf("RestoreContextIRQ\n");
+    RestoreContextIRQ();
 }
