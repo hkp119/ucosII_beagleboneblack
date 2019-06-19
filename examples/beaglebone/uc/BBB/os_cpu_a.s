@@ -45,6 +45,7 @@
     .global  OSIntCtxSw
     .global  SaveContextIRQ
     .global  RestoreContextIRQ
+    .global  SwitchStackPointer
 
 /*
                                                                 @ Functions related to exception handling.
@@ -164,7 +165,7 @@ OSStartHighRdy:
 
     LDR     R0, =OSRunning                                      @ OSRunning = TRUE;
     MOV     R1, #1
-    STR    R1, [R0]
+    STR     R1, [R0]
 
                                                                 @ SWITCH TO HIGHEST PRIORITY TASK:
     LDR     R0, =OSTCBHighRdy                                   @    Get highest priority task TCB address,
@@ -213,14 +214,19 @@ OSTickISR:
 SaveContextIRQ:
    STMFD   SP!, {LR}                                            @     Push return address,
    STMFD   SP!, {LR, R12, R11, R10, R9, R8, R7, R6, R5, R4, R3, R2, R1, R0}
-   MRS     R0,  CPSR                                            @     Push Previous User mode's CPSR
-   @??? --> CPSR이다
-   STMFD   SP!, {R0}                                            @     Store previous User mode's CPSR,
+   MRS     R0,  CPSR                                            
+   STMFD   SP!, {R0}                                            
 
 RestoreContextIRQ:
-   LDMFD SP!, {R0}
-   MSR SPSR, R0
-   LDMFD SP!, {R0-R12, LR, PC}
+   LDMFD   SP!, {R0}
+   MSR     CPSR, R0
+   LDMFD   SP!, {R0-R12, LR, PC}
+   @ 얘도 CPSR이다.
+
+SwitchStackPointer:
+    LDR     R0, =OSTCBCur                                       @ OSTCBCur->OSTCBStkPtr = SP;
+    LDR     R1, [R0]
+    STR     SP, [R1]
 
 
 
@@ -313,12 +319,13 @@ OSIntCtxSw:
     STR     R2, [R0]
 
     LDR     SP, [R2]                                            @ SP = OSTCBHighRdy->OSTCBStkPtr;
-                                                                @ RESTORE NEW TASK'S CONTEXT:
+
     LDMFD   SP!, {R0}                                           @    Pop new task's CPSR,
     MSR     SPSR, R0
+                                                                @ RESTORE NEW TASK'S CONTEXT:
     @??? -> SPSR이다!
 
-    LDMFD   SP!, {R0-R12, LR, PC}                              @    Pop new task's context.
+    LDMFD   SP!, {R0-R12, LR, PC}^                              @    Pop new task's context.
 
 
 @********************************************************************************************************

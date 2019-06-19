@@ -86,7 +86,7 @@ void MyTask(void *pdata)
 
     for(;;) {
         ConsoleUtilsPrintf("into loop.\n");
-        OSTimeDly(1000);
+        OSTimeDly(2);
     }
 }
 
@@ -96,7 +96,7 @@ void Task1(void *pdata)
     for(;;) {
         ConsoleUtilsPrintf("Task 1 Loop Start\n");
         cnt++;
-        OSTimeDly(10);
+        OSTimeDly(1);
     }
 }
 
@@ -106,7 +106,7 @@ void Task2(void *pdata)
     for(;;) {
         ConsoleUtilsPrintf("Task 2 Loop Start\n");
         cnt++;
-        OSTimeDly(10);
+        OSTimeDly(1);
     }
 }
 
@@ -116,7 +116,7 @@ void Task3(void *pdata)
     for(;;) {
         ConsoleUtilsPrintf("Task 3 Loop Start\n");
         cnt++;
-        OSTimeDly(10);
+        OSTimeDly(1);
     }
 }
 
@@ -147,22 +147,27 @@ static void DMTimerSetUp(void)
 ** DMTimer interrupt service routine. This will send a character to serial 
 ** console.
 */    
-static void DMTimerIsr(void)
+void DMTimerIsr(void)
 {
-    ConsoleUtilsPrintf("SaveContextIRQ\n");
-    SaveContextIRQ();
-    ConsoleUtilsPrintf("DMTimerDisable\n");
-    DMTimerIntDisable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
+    //ConsoleUtilsPrintf("DMTimerDisable\n");
+    //DMTimerIntDisable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
+    //ConsoleUtilsPrintf("SaveContextIRQ\n");
+    //SaveContextIRQ();
     ConsoleUtilsPrintf("OSIntEnter\n");
-    OSIntEnter();
+    OSIntNesting++;
+    //if(OSIntNesting == 1) {
+        //SwitchStackPointer();
+    //}
+
+    //ConsoleUtilsPrintf("DMTimerIntStatusClear\n");
+    //DMTimerIntStatusClear(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_IT_FLAG);
     ConsoleUtilsPrintf("OSTimeTick\n");
     OSTimeTick();
-    ConsoleUtilsPrintf("DMTimerIntStatusClear\n");
-    DMTimerIntStatusClear(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_IT_FLAG);
-    ConsoleUtilsPrintf("DMTimerIntEnable\n");
-    DMTimerIntEnable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
     ConsoleUtilsPrintf("OSIntExit\n");
     OSIntExit();
-    ConsoleUtilsPrintf("RestoreContextIRQ\n");
-    RestoreContextIRQ();
+    //ConsoleUtilsPrintf("DMTimerIntEnable\n");
+    //DMTimerIntEnable(SOC_DMTIMER_2_REGS, DMTIMER_INT_OVF_EN_FLAG);
+    //ConsoleUtilsPrintf("RestoreContextIRQ\n");
+    //RestoreContextIRQ();
+    ConsoleUtilsPrintf("Real End\n");
 }
