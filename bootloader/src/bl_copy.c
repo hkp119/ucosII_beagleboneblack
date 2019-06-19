@@ -92,8 +92,10 @@
  *
  * \return none 
 */
+
 void ImageCopy(void)
 {
+
 #if defined(SPI)
     if (SPIBootCopy( ) != true)
         BootAbort();

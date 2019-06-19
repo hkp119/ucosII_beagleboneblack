@@ -63,8 +63,8 @@ DIRS=platform \
      usb_dev_serial \
      usb_device_host_msc \
      usb_host_msc \
-     watchdogTimer
-
+     watchdogTimer\
+	 uc 
 #
 # Building each application
 #

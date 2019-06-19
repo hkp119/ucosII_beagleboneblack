@@ -71,9 +71,12 @@ START_ADDR=0x402F0400
 # Application Location
 #
 APP=${ROOT}bootloader/
+APP_UCOS=/home/abby/NEW/bootloader/ucos/
 APP_BIN=${ROOT}/binary/${TARGET}/${COMPILER}/${DEVICE}/${EVM}/$(APPDIR)
 
 CFLAGS+=-D $(BOOT) -D $(DEVICE)  -I$(APP)include -I$(APP)/include/${TARGET}/${DEVICE}
+CFLAGS += -I $(APP)uc/AM3359/ -I $(APP)uc/EXAMPLES/ -I $(APP)uc/SOFTWARE
+
 
 #
 # Application source files
@@ -100,7 +103,8 @@ SOURCE=$(APP)/src/bl_uart.c \
        ${ROOT}/third_party/xmodem/crc16.c
 endif
 
-APP_SRC=$(SOURCE) $(COMMON)
+
+APP_SRC = $(SOURCE) $(COMMON) 
 
 #
 # Required library files

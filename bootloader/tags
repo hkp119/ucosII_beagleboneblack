@@ -1,0 +1,1288 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABT_STACK_SIZE	src/armv7a/cgt/bl_init.asm	/^ABT_STACK_SIZE .set 0x8$/;"	l
+APP_CFG_MODULE_PRESENT	uc/EXAMPLES/app_cfg.h	34;"	d
+APP_CFG_TASK_START_PRIO	uc/EXAMPLES/app_cfg.h	56;"	d
+APP_CFG_TASK_START_STK_SIZE	uc/EXAMPLES/app_cfg.h	68;"	d
+APP_TRACE	uc/EXAMPLES/app_cfg.h	80;"	d
+APP_TRACE_DBG	uc/EXAMPLES/app_cfg.h	83;"	d
+APP_TRACE_INFO	uc/EXAMPLES/app_cfg.h	82;"	d
+APP_TRACE_LEVEL	uc/EXAMPLES/app_cfg.h	79;"	d
+ARM_MODE_ARM	uc/AM3359/os_cpu_c.c	60;"	d	file:
+ARM_MODE_ARM	uc/AM3359/os_cpu_c.c	63;"	d	file:
+ARM_MODE_THUMB	uc/AM3359/os_cpu_c.c	61;"	d	file:
+ARM_MODE_THUMB	uc/AM3359/os_cpu_c.c	64;"	d	file:
+ARM_SVC_MODE_ARM	uc/AM3359/os_cpu_c.c	68;"	d	file:
+ARM_SVC_MODE_THUMB	uc/AM3359/os_cpu_c.c	67;"	d	file:
+App_TCBInitHook	uc/EXAMPLES/app_hooks.c	/^void  App_TCBInitHook (OS_TCB *ptcb)$/;"	f
+App_TaskCreateHook	uc/EXAMPLES/app_hooks.c	/^void  App_TaskCreateHook (OS_TCB *ptcb)$/;"	f
+App_TaskDelHook	uc/EXAMPLES/app_hooks.c	/^void  App_TaskDelHook (OS_TCB *ptcb)$/;"	f
+App_TaskIdleHook	uc/EXAMPLES/app_hooks.c	/^void  App_TaskIdleHook (void)$/;"	f
+App_TaskReturnHook	uc/EXAMPLES/app_hooks.c	/^void  App_TaskReturnHook (OS_TCB  *p_tcb)$/;"	f
+App_TaskStatHook	uc/EXAMPLES/app_hooks.c	/^void  App_TaskStatHook (void)$/;"	f
+App_TaskSwHook	uc/EXAMPLES/app_hooks.c	/^void  App_TaskSwHook (void)$/;"	f
+App_TimeTickHook	uc/EXAMPLES/app_hooks.c	/^void  App_TimeTickHook (void)$/;"	f
+BIT	src/armv7a/am335x/bl_platform.c	86;"	d	file:
+BL_NAND_Header	include/bl_nand.h	/^BL_NAND_Header;$/;"	t	typeref:struct:_nandbootheader_
+BL_SPI_Header	include/bl_spi.h	/^BL_SPI_Header;$/;"	t	typeref:struct:_spibootheader_
+BL_UART_MAX_IMAGE_SIZE	include/bl.h	45;"	d
+BOOLEAN	uc/AM3359/os_cpu.h	/^typedef unsigned char  BOOLEAN;$/;"	t
+BlNANDConfigure	src/bl_nand.c	/^NandInfo_t *BlNANDConfigure(void)$/;"	f
+BlNANDReadFlash	src/bl_nand.c	/^void BlNANDReadFlash (NandInfo_t *hNandInfo, unsigned int flashAddr, unsigned int size, unsigned char *destAddr)$/;"	f
+BlPlatformConfig	src/armv7a/am335x/bl_platform.c	/^void BlPlatformConfig(void)$/;"	f
+BlPlatformConfigPostBoot	src/armv7a/am335x/bl_platform.c	/^void BlPlatformConfigPostBoot( void )$/;"	f
+BlPlatformMMCSDImageCopy	src/armv7a/am335x/bl_platform.c	/^unsigned int BlPlatformMMCSDImageCopy()$/;"	f
+BlPlatformMMCSDSetup	src/armv7a/am335x/bl_platform.c	/^void BlPlatformMMCSDSetup(void)$/;"	f
+BlPlatformNANDImageCopy	src/armv7a/am335x/bl_platform.c	/^unsigned int BlPlatformNANDImageCopy(NandInfo_t *nandInfo)$/;"	f
+BlPlatformNANDInfoInit	src/armv7a/am335x/bl_platform.c	/^void BlPlatformNANDInfoInit(NandInfo_t *nandInfo)$/;"	f
+BlPlatformNANDSetup	src/armv7a/am335x/bl_platform.c	/^void BlPlatformNANDSetup(void)$/;"	f
+BlPlatformSPIImageCopy	src/armv7a/am335x/bl_platform.c	/^unsigned int BlPlatformSPIImageCopy()$/;"	f
+BlPlatformSPISetup	src/armv7a/am335x/bl_platform.c	/^void BlPlatformSPISetup(void)$/;"	f
+BlSPIReadFlash	src/bl_mcspi.c	/^void BlSPIReadFlash (unsigned int offset,$/;"	f
+BootAbort	src/bl_main.c	/^void BootAbort(void)$/;"	f
+BootMaxOppGet	src/armv7a/am335x/bl_platform.c	/^unsigned int BootMaxOppGet(void)$/;"	f
+CHAR_LENGTH	src/bl_mcspi.c	52;"	d	file:
+CMD0_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	113;"	d	file:
+CMD0_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	112;"	d	file:
+CMD0_SLAVE_DELAY_0	src/armv7a/am335x/bl_platform.c	111;"	d	file:
+CMD0_SLAVE_FORCE_0	src/armv7a/am335x/bl_platform.c	110;"	d	file:
+CMD0_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	109;"	d	file:
+CMD1_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	118;"	d	file:
+CMD1_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	117;"	d	file:
+CMD1_SLAVE_DELAY_0	src/armv7a/am335x/bl_platform.c	116;"	d	file:
+CMD1_SLAVE_FORCE_0	src/armv7a/am335x/bl_platform.c	115;"	d	file:
+CMD1_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	114;"	d	file:
+CMD2_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	123;"	d	file:
+CMD2_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	122;"	d	file:
+CMD2_SLAVE_DELAY_0	src/armv7a/am335x/bl_platform.c	121;"	d	file:
+CMD2_SLAVE_FORCE_0	src/armv7a/am335x/bl_platform.c	120;"	d	file:
+CMD2_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	119;"	d	file:
+CMD_BUF_SIZE	src/bl_hsmmcsd.c	59;"	d	file:
+COREPLL_HSD_M4	include/armv7a/am335x/bl_platform.h	152;"	d
+COREPLL_HSD_M5	include/armv7a/am335x/bl_platform.h	153;"	d
+COREPLL_HSD_M6	include/armv7a/am335x/bl_platform.h	154;"	d
+COREPLL_M	include/armv7a/am335x/bl_platform.h	150;"	d
+COREPLL_N	include/armv7a/am335x/bl_platform.h	151;"	d
+CleanupInterrupts	src/armv7a/am335x/bl_platform.c	/^void CleanupInterrupts(void)$/;"	f
+Clear_Bss_Section	src/armv7a/cgt/bl_init.asm	/^Clear_Bss_Section:$/;"	l
+Clear_Bss_Section	src/armv7a/gcc/bl_init.S	/^Clear_Bss_Section:$/;"	l
+ConfigVddOpVoltage	src/armv7a/am335x/bl_platform.c	/^void ConfigVddOpVoltage(void)$/;"	f
+ConfigureVdd1	src/armv7a/am335x/bl_platform.c	/^void ConfigureVdd1(unsigned int opVolMultiplier, unsigned maxLoadCurrent,$/;"	f
+ConfigureVdd2	src/armv7a/am335x/bl_platform.c	/^void ConfigureVdd2(unsigned int opVolMultiplier, unsigned maxLoadCurrent,$/;"	f
+CorePLLInit	src/armv7a/am335x/bl_platform.c	/^void CorePLLInit(void)$/;"	f
+DATA0_FIFO_WE_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	132;"	d	file:
+DATA0_FIFO_WE_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	133;"	d	file:
+DATA0_GATELVL_INIT_RATIO_0	src/armv7a/am335x/bl_platform.c	130;"	d	file:
+DATA0_GATELVL_INIT_RATIO_1	src/armv7a/am335x/bl_platform.c	131;"	d	file:
+DATA0_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	137;"	d	file:
+DATA0_RD_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	124;"	d	file:
+DATA0_RD_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	125;"	d	file:
+DATA0_USE_RANK0_DELAYS_0	src/armv7a/am335x/bl_platform.c	136;"	d	file:
+DATA0_WRLVL_INIT_RATIO_0	src/armv7a/am335x/bl_platform.c	128;"	d	file:
+DATA0_WRLVL_INIT_RATIO_1	src/armv7a/am335x/bl_platform.c	129;"	d	file:
+DATA0_WR_DATA_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	134;"	d	file:
+DATA0_WR_DATA_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	135;"	d	file:
+DATA0_WR_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	126;"	d	file:
+DATA0_WR_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	127;"	d	file:
+DATA1_FIFO_WE_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	146;"	d	file:
+DATA1_FIFO_WE_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	147;"	d	file:
+DATA1_GATELVL_INIT_RATIO_0	src/armv7a/am335x/bl_platform.c	144;"	d	file:
+DATA1_GATELVL_INIT_RATIO_1	src/armv7a/am335x/bl_platform.c	145;"	d	file:
+DATA1_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	151;"	d	file:
+DATA1_RD_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	138;"	d	file:
+DATA1_RD_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	139;"	d	file:
+DATA1_USE_RANK0_DELAYS_0	src/armv7a/am335x/bl_platform.c	150;"	d	file:
+DATA1_WRLVL_INIT_RATIO_0	src/armv7a/am335x/bl_platform.c	142;"	d	file:
+DATA1_WRLVL_INIT_RATIO_1	src/armv7a/am335x/bl_platform.c	143;"	d	file:
+DATA1_WR_DATA_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	148;"	d	file:
+DATA1_WR_DATA_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	149;"	d	file:
+DATA1_WR_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	140;"	d	file:
+DATA1_WR_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	141;"	d	file:
+DATA_BUF_SIZE	src/bl_hsmmcsd.c	81;"	d	file:
+DCDC_VOLT_SEL_1500MV	include/armv7a/am335x/bl_platform.h	196;"	d
+DDR2Init	src/armv7a/am335x/bl_platform.c	/^void DDR2Init(void)$/;"	f
+DDR2PhyInit	src/armv7a/am335x/bl_platform.c	/^static void DDR2PhyInit(void)$/;"	f	file:
+DDR2_CMD0_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	337;"	d	file:
+DDR2_CMD0_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	336;"	d	file:
+DDR2_CMD0_SLAVE_DELAY_0	src/armv7a/am335x/bl_platform.c	335;"	d	file:
+DDR2_CMD0_SLAVE_FORCE_0	src/armv7a/am335x/bl_platform.c	334;"	d	file:
+DDR2_CMD0_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	333;"	d	file:
+DDR2_CMD1_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	343;"	d	file:
+DDR2_CMD1_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	342;"	d	file:
+DDR2_CMD1_SLAVE_DELAY_0	src/armv7a/am335x/bl_platform.c	341;"	d	file:
+DDR2_CMD1_SLAVE_FORCE_0	src/armv7a/am335x/bl_platform.c	340;"	d	file:
+DDR2_CMD1_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	339;"	d	file:
+DDR2_CMD2_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	349;"	d	file:
+DDR2_CMD2_LOCK_DIFF_0	src/armv7a/am335x/bl_platform.c	348;"	d	file:
+DDR2_CMD2_SLAVE_DELAY_0	src/armv7a/am335x/bl_platform.c	347;"	d	file:
+DDR2_CMD2_SLAVE_FORCE_0	src/armv7a/am335x/bl_platform.c	346;"	d	file:
+DDR2_CMD2_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	345;"	d	file:
+DDR2_CONTROL_DDR_CMD_IOCTRL_0	src/armv7a/am335x/bl_platform.c	361;"	d	file:
+DDR2_CONTROL_DDR_CMD_IOCTRL_1	src/armv7a/am335x/bl_platform.c	362;"	d	file:
+DDR2_CONTROL_DDR_CMD_IOCTRL_2	src/armv7a/am335x/bl_platform.c	363;"	d	file:
+DDR2_CONTROL_DDR_DATA_IOCTRL_0	src/armv7a/am335x/bl_platform.c	364;"	d	file:
+DDR2_CONTROL_DDR_DATA_IOCTRL_1	src/armv7a/am335x/bl_platform.c	365;"	d	file:
+DDR2_CONTROL_DDR_IO_CTRL	src/armv7a/am335x/bl_platform.c	367;"	d	file:
+DDR2_DATA0_FIFO_WE_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	353;"	d	file:
+DDR2_DATA0_RD_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	351;"	d	file:
+DDR2_DATA0_WR_DATA_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	354;"	d	file:
+DDR2_DATA0_WR_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	352;"	d	file:
+DDR2_DATA1_FIFO_WE_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	358;"	d	file:
+DDR2_DATA1_RD_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	356;"	d	file:
+DDR2_DATA1_WR_DATA_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	359;"	d	file:
+DDR2_DATA1_WR_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	357;"	d	file:
+DDR2_EMIF_DDR_PHY_CTRL_1	src/armv7a/am335x/bl_platform.c	368;"	d	file:
+DDR2_EMIF_DDR_PHY_CTRL_1_DY_PWRDN	src/armv7a/am335x/bl_platform.c	369;"	d	file:
+DDR2_EMIF_DDR_PHY_CTRL_1_SHDW	src/armv7a/am335x/bl_platform.c	370;"	d	file:
+DDR2_EMIF_DDR_PHY_CTRL_1_SHDW_DY_PWRDN	src/armv7a/am335x/bl_platform.c	371;"	d	file:
+DDR2_EMIF_DDR_PHY_CTRL_2	src/armv7a/am335x/bl_platform.c	372;"	d	file:
+DDR2_EMIF_SDRAM_CONFIG	src/armv7a/am335x/bl_platform.c	380;"	d	file:
+DDR2_EMIF_SDRAM_REF_CTRL_SHDW_VAL1	src/armv7a/am335x/bl_platform.c	382;"	d	file:
+DDR2_EMIF_SDRAM_REF_CTRL_SHDW_VAL2	src/armv7a/am335x/bl_platform.c	385;"	d	file:
+DDR2_EMIF_SDRAM_REF_CTRL_VAL1	src/armv7a/am335x/bl_platform.c	381;"	d	file:
+DDR2_EMIF_SDRAM_REF_CTRL_VAL2	src/armv7a/am335x/bl_platform.c	384;"	d	file:
+DDR2_EMIF_SDRAM_TIM_1	src/armv7a/am335x/bl_platform.c	374;"	d	file:
+DDR2_EMIF_SDRAM_TIM_1_SHDW	src/armv7a/am335x/bl_platform.c	375;"	d	file:
+DDR2_EMIF_SDRAM_TIM_2	src/armv7a/am335x/bl_platform.c	376;"	d	file:
+DDR2_EMIF_SDRAM_TIM_2_SHDW	src/armv7a/am335x/bl_platform.c	377;"	d	file:
+DDR2_EMIF_SDRAM_TIM_3	src/armv7a/am335x/bl_platform.c	378;"	d	file:
+DDR2_EMIF_SDRAM_TIM_3_SHDM	src/armv7a/am335x/bl_platform.c	379;"	d	file:
+DDR3Init	src/armv7a/am335x/bl_platform.c	/^void DDR3Init(void)$/;"	f
+DDR3PhyInit	src/armv7a/am335x/bl_platform.c	/^static void DDR3PhyInit(void)$/;"	f	file:
+DDR3_CMD0_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	158;"	d	file:
+DDR3_CMD0_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	217;"	d	file:
+DDR3_CMD0_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	276;"	d	file:
+DDR3_CMD0_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	157;"	d	file:
+DDR3_CMD0_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	216;"	d	file:
+DDR3_CMD0_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	275;"	d	file:
+DDR3_CMD1_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	160;"	d	file:
+DDR3_CMD1_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	219;"	d	file:
+DDR3_CMD1_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	278;"	d	file:
+DDR3_CMD1_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	159;"	d	file:
+DDR3_CMD1_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	218;"	d	file:
+DDR3_CMD1_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	277;"	d	file:
+DDR3_CMD2_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	162;"	d	file:
+DDR3_CMD2_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	221;"	d	file:
+DDR3_CMD2_INVERT_CLKOUT_0	src/armv7a/am335x/bl_platform.c	280;"	d	file:
+DDR3_CMD2_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	161;"	d	file:
+DDR3_CMD2_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	220;"	d	file:
+DDR3_CMD2_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	279;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_0	src/armv7a/am335x/bl_platform.c	174;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_0	src/armv7a/am335x/bl_platform.c	233;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_0	src/armv7a/am335x/bl_platform.c	292;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_1	src/armv7a/am335x/bl_platform.c	175;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_1	src/armv7a/am335x/bl_platform.c	234;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_1	src/armv7a/am335x/bl_platform.c	293;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_2	src/armv7a/am335x/bl_platform.c	176;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_2	src/armv7a/am335x/bl_platform.c	235;"	d	file:
+DDR3_CONTROL_DDR_CMD_IOCTRL_2	src/armv7a/am335x/bl_platform.c	294;"	d	file:
+DDR3_CONTROL_DDR_DATA_IOCTRL_0	src/armv7a/am335x/bl_platform.c	178;"	d	file:
+DDR3_CONTROL_DDR_DATA_IOCTRL_0	src/armv7a/am335x/bl_platform.c	237;"	d	file:
+DDR3_CONTROL_DDR_DATA_IOCTRL_0	src/armv7a/am335x/bl_platform.c	296;"	d	file:
+DDR3_CONTROL_DDR_DATA_IOCTRL_1	src/armv7a/am335x/bl_platform.c	179;"	d	file:
+DDR3_CONTROL_DDR_DATA_IOCTRL_1	src/armv7a/am335x/bl_platform.c	238;"	d	file:
+DDR3_CONTROL_DDR_DATA_IOCTRL_1	src/armv7a/am335x/bl_platform.c	297;"	d	file:
+DDR3_CONTROL_DDR_IO_CTRL	src/armv7a/am335x/bl_platform.c	181;"	d	file:
+DDR3_CONTROL_DDR_IO_CTRL	src/armv7a/am335x/bl_platform.c	240;"	d	file:
+DDR3_CONTROL_DDR_IO_CTRL	src/armv7a/am335x/bl_platform.c	300;"	d	file:
+DDR3_DATA0_FIFO_WE_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	166;"	d	file:
+DDR3_DATA0_FIFO_WE_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	225;"	d	file:
+DDR3_DATA0_FIFO_WE_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	284;"	d	file:
+DDR3_DATA0_FIFO_WE_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	171;"	d	file:
+DDR3_DATA0_FIFO_WE_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	230;"	d	file:
+DDR3_DATA0_FIFO_WE_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	289;"	d	file:
+DDR3_DATA0_RD_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	164;"	d	file:
+DDR3_DATA0_RD_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	223;"	d	file:
+DDR3_DATA0_RD_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	282;"	d	file:
+DDR3_DATA0_RD_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	169;"	d	file:
+DDR3_DATA0_RD_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	228;"	d	file:
+DDR3_DATA0_RD_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	287;"	d	file:
+DDR3_DATA0_WR_DATA_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	167;"	d	file:
+DDR3_DATA0_WR_DATA_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	226;"	d	file:
+DDR3_DATA0_WR_DATA_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	285;"	d	file:
+DDR3_DATA0_WR_DATA_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	172;"	d	file:
+DDR3_DATA0_WR_DATA_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	231;"	d	file:
+DDR3_DATA0_WR_DATA_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	290;"	d	file:
+DDR3_DATA0_WR_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	165;"	d	file:
+DDR3_DATA0_WR_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	224;"	d	file:
+DDR3_DATA0_WR_DQS_SLAVE_RATIO_0	src/armv7a/am335x/bl_platform.c	283;"	d	file:
+DDR3_DATA0_WR_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	170;"	d	file:
+DDR3_DATA0_WR_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	229;"	d	file:
+DDR3_DATA0_WR_DQS_SLAVE_RATIO_1	src/armv7a/am335x/bl_platform.c	288;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1	src/armv7a/am335x/bl_platform.c	183;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1	src/armv7a/am335x/bl_platform.c	242;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1	src/armv7a/am335x/bl_platform.c	302;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_DY_PWRDN	src/armv7a/am335x/bl_platform.c	184;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_DY_PWRDN	src/armv7a/am335x/bl_platform.c	243;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_DY_PWRDN	src/armv7a/am335x/bl_platform.c	303;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_SHDW	src/armv7a/am335x/bl_platform.c	185;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_SHDW	src/armv7a/am335x/bl_platform.c	244;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_SHDW	src/armv7a/am335x/bl_platform.c	304;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_SHDW_DY_PWRDN	src/armv7a/am335x/bl_platform.c	186;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_SHDW_DY_PWRDN	src/armv7a/am335x/bl_platform.c	245;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_1_SHDW_DY_PWRDN	src/armv7a/am335x/bl_platform.c	305;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_2	src/armv7a/am335x/bl_platform.c	187;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_2	src/armv7a/am335x/bl_platform.c	246;"	d	file:
+DDR3_EMIF_DDR_PHY_CTRL_2	src/armv7a/am335x/bl_platform.c	306;"	d	file:
+DDR3_EMIF_SDRAM_CONFIG	src/armv7a/am335x/bl_platform.c	212;"	d	file:
+DDR3_EMIF_SDRAM_CONFIG	src/armv7a/am335x/bl_platform.c	271;"	d	file:
+DDR3_EMIF_SDRAM_CONFIG	src/armv7a/am335x/bl_platform.c	321;"	d	file:
+DDR3_EMIF_SDRAM_REF_CTRL_SHDW_VAL1	src/armv7a/am335x/bl_platform.c	199;"	d	file:
+DDR3_EMIF_SDRAM_REF_CTRL_SHDW_VAL1	src/armv7a/am335x/bl_platform.c	258;"	d	file:
+DDR3_EMIF_SDRAM_REF_CTRL_SHDW_VAL1	src/armv7a/am335x/bl_platform.c	318;"	d	file:
+DDR3_EMIF_SDRAM_REF_CTRL_VAL1	src/armv7a/am335x/bl_platform.c	198;"	d	file:
+DDR3_EMIF_SDRAM_REF_CTRL_VAL1	src/armv7a/am335x/bl_platform.c	257;"	d	file:
+DDR3_EMIF_SDRAM_REF_CTRL_VAL1	src/armv7a/am335x/bl_platform.c	317;"	d	file:
+DDR3_EMIF_SDRAM_TIM_1	src/armv7a/am335x/bl_platform.c	189;"	d	file:
+DDR3_EMIF_SDRAM_TIM_1	src/armv7a/am335x/bl_platform.c	248;"	d	file:
+DDR3_EMIF_SDRAM_TIM_1	src/armv7a/am335x/bl_platform.c	308;"	d	file:
+DDR3_EMIF_SDRAM_TIM_1_SHDW	src/armv7a/am335x/bl_platform.c	190;"	d	file:
+DDR3_EMIF_SDRAM_TIM_1_SHDW	src/armv7a/am335x/bl_platform.c	249;"	d	file:
+DDR3_EMIF_SDRAM_TIM_1_SHDW	src/armv7a/am335x/bl_platform.c	309;"	d	file:
+DDR3_EMIF_SDRAM_TIM_2	src/armv7a/am335x/bl_platform.c	192;"	d	file:
+DDR3_EMIF_SDRAM_TIM_2	src/armv7a/am335x/bl_platform.c	251;"	d	file:
+DDR3_EMIF_SDRAM_TIM_2	src/armv7a/am335x/bl_platform.c	311;"	d	file:
+DDR3_EMIF_SDRAM_TIM_2_SHDW	src/armv7a/am335x/bl_platform.c	193;"	d	file:
+DDR3_EMIF_SDRAM_TIM_2_SHDW	src/armv7a/am335x/bl_platform.c	252;"	d	file:
+DDR3_EMIF_SDRAM_TIM_2_SHDW	src/armv7a/am335x/bl_platform.c	312;"	d	file:
+DDR3_EMIF_SDRAM_TIM_3	src/armv7a/am335x/bl_platform.c	195;"	d	file:
+DDR3_EMIF_SDRAM_TIM_3	src/armv7a/am335x/bl_platform.c	254;"	d	file:
+DDR3_EMIF_SDRAM_TIM_3	src/armv7a/am335x/bl_platform.c	314;"	d	file:
+DDR3_EMIF_SDRAM_TIM_3_SHDM	src/armv7a/am335x/bl_platform.c	196;"	d	file:
+DDR3_EMIF_SDRAM_TIM_3_SHDM	src/armv7a/am335x/bl_platform.c	255;"	d	file:
+DDR3_EMIF_SDRAM_TIM_3_SHDM	src/armv7a/am335x/bl_platform.c	315;"	d	file:
+DDR3_EMIF_ZQ_CONFIG_VAL	src/armv7a/am335x/bl_platform.c	201;"	d	file:
+DDR3_EMIF_ZQ_CONFIG_VAL	src/armv7a/am335x/bl_platform.c	260;"	d	file:
+DDR3_EMIF_ZQ_CONFIG_VAL	src/armv7a/am335x/bl_platform.c	320;"	d	file:
+DDRPLLInit	src/armv7a/am335x/bl_platform.c	/^void DDRPLLInit(unsigned int freqMult)$/;"	f
+DDRPLL_M2	include/armv7a/am335x/bl_platform.h	183;"	d
+DDRPLL_M_DDR2	include/armv7a/am335x/bl_platform.h	176;"	d
+DDRPLL_M_DDR3	include/armv7a/am335x/bl_platform.h	178;"	d
+DDRPLL_M_DDR3	include/armv7a/am335x/bl_platform.h	180;"	d
+DDRPLL_N	include/armv7a/am335x/bl_platform.h	182;"	d
+DDRVTTEnable	src/armv7a/am335x/bl_platform.c	/^static void DDRVTTEnable(void)$/;"	f	file:
+DDR_PHY_CTRL_REGS	src/armv7a/am335x/bl_platform.c	108;"	d	file:
+DDR_START_ADDR	include/armv7a/am335x/bl_platform.h	139;"	d
+DEBUG_LED	src/bl_copy.c	/^static void DEBUG_LED(int x)$/;"	f	file:
+DEBUG_LED	src/bl_main.c	/^static void DEBUG_LED(int x)$/;"	f	file:
+DEBUG_LED	uc/SOFTWARE/os_core.c	/^static void DEBUG_LED(int x)$/;"	f	file:
+DISPLL_M	include/armv7a/am335x/bl_platform.h	169;"	d
+DISPLL_M2	include/armv7a/am335x/bl_platform.h	171;"	d
+DISPLL_N	include/armv7a/am335x/bl_platform.h	170;"	d
+Delay	src/bl_copy.c	/^static void Delay(volatile unsigned int count)$/;"	f	file:
+Delay	src/bl_main.c	/^static void Delay(volatile unsigned int count)$/;"	f	file:
+Delay	uc/SOFTWARE/os_core.c	/^static void Delay(volatile unsigned int count)$/;"	f	file:
+DisplayPLLInit	src/armv7a/am335x/bl_platform.c	/^void DisplayPLLInit(void)$/;"	f
+DspEntryPoint	src/bl_main.c	/^unsigned int DspEntryPoint = 0;$/;"	v
+EMIFInit	src/armv7a/am335x/bl_platform.c	/^void EMIFInit(void)$/;"	f
+Enter_BootLoader	src/armv7a/gcc/bl_init.S	/^Enter_BootLoader:$/;"	l
+Entry	src/armv7a/cgt/bl_init.asm	/^Entry:$/;"	l
+Entry	src/armv7a/ewarm/bl_init.S	/^Entry:$/;"	l
+Entry	src/armv7a/gcc/bl_init.S	/^Entry:$/;"	l
+FIQ_STACK_SIZE	src/armv7a/cgt/bl_init.asm	/^FIQ_STACK_SIZE .set 0x8$/;"	l
+FP32	uc/AM3359/os_cpu.h	/^typedef float          FP32;                     \/* Single precision floating point                    *\/$/;"	t
+FP64	uc/AM3359/os_cpu.h	/^typedef double         FP64;                     \/* Double precision floating point                    *\/$/;"	t
+FRESULT_ENTRY	src/bl_hsmmcsd.c	65;"	d	file:
+GPIO_INSTANCE_ADDRESS	src/bl_main.c	58;"	d	file:
+GPIO_INSTANCE_ADDRESS	uc/SOFTWARE/ucos_ii.h	52;"	d
+GPIO_INSTANCE_PIN_NUMBER	src/armv7a/am335x/bl_platform.c	387;"	d	file:
+GPIO_INSTANCE_PIN_NUMBER	src/bl_main.c	59;"	d	file:
+GPIO_INSTANCE_PIN_NUMBER	uc/SOFTWARE/ucos_ii.h	53;"	d
+GPIO_configuration	src/bl_copy.c	/^static void GPIO_configuration(void)$/;"	f	file:
+GPIO_configuration	src/bl_main.c	/^static void GPIO_configuration(void)$/;"	f	file:
+GPIO_configuration	uc/SOFTWARE/os_core.c	/^static void GPIO_configuration(void)$/;"	f	file:
+HSMMCSDCmdStatusGet	src/bl_hsmmcsd.c	/^static unsigned int HSMMCSDCmdStatusGet(mmcsdCtrlInfo *ctrl)$/;"	f	file:
+HSMMCSDControllerSetup	src/bl_hsmmcsd.c	/^static void HSMMCSDControllerSetup(void)$/;"	f	file:
+HSMMCSDFsMount	src/bl_hsmmcsd.c	/^void HSMMCSDFsMount(unsigned int driveNum, void *ptr)$/;"	f
+HSMMCSDImageCopy	src/bl_hsmmcsd.c	/^unsigned int HSMMCSDImageCopy(void)$/;"	f
+HSMMCSDInit	src/bl_hsmmcsd.c	/^void HSMMCSDInit(void)$/;"	f
+HSMMCSDStatusGet	src/bl_hsmmcsd.c	/^static unsigned int HSMMCSDStatusGet(void)$/;"	f	file:
+HSMMCSDXferSetup	src/bl_hsmmcsd.c	/^static void HSMMCSDXferSetup(mmcsdCtrlInfo *ctrl, unsigned char rwFlag, void *ptr,$/;"	f	file:
+HSMMCSDXferStatusGet	src/bl_hsmmcsd.c	/^static unsigned int HSMMCSDXferStatusGet(mmcsdCtrlInfo *ctrl)$/;"	f	file:
+HSMMCSD_INT_STATUS_FLAG	src/bl_hsmmcsd.c	72;"	d	file:
+I2C_0	src/armv7a/am335x/bl_platform.c	94;"	d	file:
+I2C_INTERNAL_CLOCK	src/armv7a/am335x/bl_platform.c	98;"	d	file:
+I2C_INTERRUPT_FLAG_TO_CLR	src/armv7a/am335x/bl_platform.c	102;"	d	file:
+I2C_OUTPUT_CLOCK	src/armv7a/am335x/bl_platform.c	100;"	d	file:
+I2C_SYSTEM_CLOCK	src/armv7a/am335x/bl_platform.c	96;"	d	file:
+IMAGE_OFFSET	include/armv7a/am335x/bl_platform.h	72;"	d
+IMAGE_OFFSET	include/armv7a/am335x/bl_platform.h	78;"	d
+IMAGE_SIZE	include/armv7a/am335x/bl_platform.h	138;"	d
+INT16S	uc/AM3359/os_cpu.h	/^typedef signed   short INT16S;                   \/* Signed   16 bit quantity                           *\/$/;"	t
+INT16U	uc/AM3359/os_cpu.h	/^typedef unsigned short INT16U;                   \/* Unsigned 16 bit quantity                           *\/$/;"	t
+INT32S	uc/AM3359/os_cpu.h	/^typedef signed   int   INT32S;                   \/* Signed   32 bit quantity                           *\/$/;"	t
+INT32U	uc/AM3359/os_cpu.h	/^typedef unsigned int   INT32U;                   \/* Unsigned 32 bit quantity                           *\/$/;"	t
+INT8S	uc/AM3359/os_cpu.h	/^typedef signed   char  INT8S;                    \/* Signed    8 bit quantity                           *\/$/;"	t
+INT8U	uc/AM3359/os_cpu.h	/^typedef unsigned char  INT8U;                    \/* Unsigned  8 bit quantity                           *\/$/;"	t
+INTVECMAX	src/armv7a/am335x/bl_platform.c	85;"	d	file:
+IRQ_STACK_SIZE	src/armv7a/cgt/bl_init.asm	/^IRQ_STACK_SIZE .set 0x100$/;"	l
+I_F_BIT	src/armv7a/cgt/bl_init.asm	/^I_F_BIT .set 0xC0$/;"	l
+I_F_BIT	src/armv7a/ewarm/bl_init.S	/^I_F_BIT DEFINE 0xC0               $/;"	l
+ImageCopy	src/bl_copy.c	/^void ImageCopy(void)$/;"	f
+ImageCopy	src/bl_copy_rprc.c	/^void ImageCopy(void)$/;"	f
+InterfaceClkInit	src/armv7a/am335x/bl_platform.c	/^void InterfaceClkInit(void)$/;"	f
+Loop	src/armv7a/cgt/bl_init.asm	/^Loop:$/;"	l
+Loop	src/armv7a/gcc/bl_init.S	/^Loop: $/;"	l
+MAGIC_NUM_GF	include/bl_copy.h	45;"	d
+MAGIC_NUM_SF	include/bl_copy.h	46;"	d
+MCSPI_IN_CLK	src/bl_mcspi.c	53;"	d	file:
+MCSPI_OUT_CLK	src/bl_mcspi.c	54;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_core.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_dbg_r.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_flag.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_mbox.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_mem.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_mutex.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_q.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_sem.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_task.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_time.c	24;"	d	file:
+MICRIUM_SOURCE	uc/SOFTWARE/os_tmr.c	25;"	d	file:
+MMCSDBootCopy	src/bl_copy.c	/^static unsigned int MMCSDBootCopy(void)$/;"	f	file:
+MMCSDBootCopy	src/bl_copy_rprc.c	/^static unsigned int MMCSDBootCopy(void)$/;"	f	file:
+MMCSD_BASE	include/armv7a/am335x/bl_platform.h	123;"	d
+MMCSD_BLK_SIZE	include/armv7a/am335x/bl_platform.h	133;"	d
+MMCSD_DMA_BASE	include/armv7a/am335x/bl_platform.h	124;"	d
+MMCSD_DMA_CHA_RX	include/armv7a/am335x/bl_platform.h	130;"	d
+MMCSD_DMA_CHA_TX	include/armv7a/am335x/bl_platform.h	129;"	d
+MMCSD_DMA_QUE_NUM	include/armv7a/am335x/bl_platform.h	131;"	d
+MMCSD_DMA_REGION_NUM	include/armv7a/am335x/bl_platform.h	132;"	d
+MMCSD_INIT_FREQ	include/armv7a/am335x/bl_platform.h	127;"	d
+MMCSD_IN_FREQ	include/armv7a/am335x/bl_platform.h	126;"	d
+MMCSD_OCR	include/armv7a/am335x/bl_platform.h	134;"	d
+MODE_ABT	src/armv7a/cgt/bl_init.asm	/^MODE_ABT .set 0x17$/;"	l
+MODE_ABT	src/armv7a/ewarm/bl_init.S	/^MODE_ABT DEFINE 0x17$/;"	l
+MODE_FIQ	src/armv7a/cgt/bl_init.asm	/^MODE_FIQ .set 0x11$/;"	l
+MODE_FIQ	src/armv7a/ewarm/bl_init.S	/^MODE_FIQ DEFINE 0x11$/;"	l
+MODE_IRQ	src/armv7a/cgt/bl_init.asm	/^MODE_IRQ .set 0x12$/;"	l
+MODE_IRQ	src/armv7a/ewarm/bl_init.S	/^MODE_IRQ DEFINE 0x12$/;"	l
+MODE_MSK	src/armv7a/ewarm/bl_init.S	/^MODE_MSK DEFINE 0x1F            ; Bit mask for mode bits in CPSR$/;"	l
+MODE_SVC	src/armv7a/cgt/bl_init.asm	/^MODE_SVC .set 0x13$/;"	l
+MODE_SVC	src/armv7a/ewarm/bl_init.S	/^MODE_SVC DEFINE 0x13$/;"	l
+MODE_SYS	src/armv7a/cgt/bl_init.asm	/^MODE_SYS .set 0x1F$/;"	l
+MODE_SYS	src/armv7a/ewarm/bl_init.S	/^MODE_SYS DEFINE 0x1F            $/;"	l
+MODE_UND	src/armv7a/cgt/bl_init.asm	/^MODE_UND .set 0x1B$/;"	l
+MODE_UND	src/armv7a/ewarm/bl_init.S	/^MODE_UND DEFINE 0x1B$/;"	l
+MODE_USR	src/armv7a/cgt/bl_init.asm	/^MODE_USR .set 0x10$/;"	l
+MODE_USR	src/armv7a/ewarm/bl_init.S	/^MODE_USR DEFINE 0x10            $/;"	l
+MPUPLLInit	src/armv7a/am335x/bl_platform.c	/^void MPUPLLInit(unsigned int freqMult)$/;"	f
+McSPITransfer	src/bl_mcspi.c	/^static void McSPITransfer(unsigned char *p_tx, unsigned char *p_rx,$/;"	f	file:
+NANDBootCopy	src/bl_copy.c	/^static unsigned int NANDBootCopy(void)$/;"	f	file:
+NANDBootCopy	src/bl_copy_rprc.c	/^static unsigned int NANDBootCopy(void)$/;"	f	file:
+NANDTimingInfoInit	src/armv7a/am335x/bl_platform.c	/^static void NANDTimingInfoInit(void *TimingInfo)$/;"	f	file:
+NAND_ADVAADMUXONTIME	include/armv7a/am335x/bl_platform.h	96;"	d
+NAND_ADVAADMUXRDOFFTIME	include/armv7a/am335x/bl_platform.h	99;"	d
+NAND_ADVAADMUXWROFFTIME	include/armv7a/am335x/bl_platform.h	100;"	d
+NAND_ADVONTIME	include/armv7a/am335x/bl_platform.h	95;"	d
+NAND_ADVRDOFFTIME	include/armv7a/am335x/bl_platform.h	97;"	d
+NAND_ADVWROFFTIME	include/armv7a/am335x/bl_platform.h	98;"	d
+NAND_BLOCK_SIZE_IN_BYTES	include/armv7a/am335x/bl_platform.h	86;"	d
+NAND_BUSTURNAROUND	include/armv7a/am335x/bl_platform.h	114;"	d
+NAND_BUSWIDTH	include/armv7a/am335x/bl_platform.h	83;"	d
+NAND_CHIP_SELECT	include/armv7a/am335x/bl_platform.h	84;"	d
+NAND_CS0_BASEADDR	include/armv7a/am335x/bl_platform.h	80;"	d
+NAND_CS0_REGIONSIZE	include/armv7a/am335x/bl_platform.h	81;"	d
+NAND_CSONTIME	include/armv7a/am335x/bl_platform.h	93;"	d
+NAND_CSRDOFFTIME	include/armv7a/am335x/bl_platform.h	92;"	d
+NAND_CSWROFFTIME	include/armv7a/am335x/bl_platform.h	91;"	d
+NAND_CYCLE2CYCLEDELAY	include/armv7a/am335x/bl_platform.h	117;"	d
+NAND_CYCLE2CYCLEDIFFCSEN	include/armv7a/am335x/bl_platform.h	115;"	d
+NAND_CYCLE2CYCLESAMECSEN	include/armv7a/am335x/bl_platform.h	116;"	d
+NAND_DATA_BUFF_SIZE	src/bl_nand.c	61;"	d	file:
+NAND_DATA_XFER_MODE	include/armv7a/am335x/bl_platform.h	82;"	d
+NAND_DEVICE_ID	include/armv7a/am335x/bl_platform.h	89;"	d
+NAND_ECC_BUFF_SIZE	src/bl_nand.c	62;"	d	file:
+NAND_MANUFATURER_MICRON_ID	include/armv7a/am335x/bl_platform.h	88;"	d
+NAND_NUMOF_BLK	include/armv7a/am335x/bl_platform.h	87;"	d
+NAND_OEAADMUXOFFTIME	include/armv7a/am335x/bl_platform.h	104;"	d
+NAND_OEAADMUXONTIME	include/armv7a/am335x/bl_platform.h	106;"	d
+NAND_OEOFFTIME	include/armv7a/am335x/bl_platform.h	105;"	d
+NAND_OEONTIME	include/armv7a/am335x/bl_platform.h	107;"	d
+NAND_PAGEBURSTACCESSTIME	include/armv7a/am335x/bl_platform.h	112;"	d
+NAND_PAGE_SIZE_IN_BYTES	include/armv7a/am335x/bl_platform.h	85;"	d
+NAND_RDACCESSTIME	include/armv7a/am335x/bl_platform.h	111;"	d
+NAND_RDCYCLETIME	include/armv7a/am335x/bl_platform.h	109;"	d
+NAND_WEOFFTIME	include/armv7a/am335x/bl_platform.h	102;"	d
+NAND_WEONTIME	include/armv7a/am335x/bl_platform.h	103;"	d
+NAND_WRACCESSTIME	include/armv7a/am335x/bl_platform.h	119;"	d
+NAND_WRCYCLETIME	include/armv7a/am335x/bl_platform.h	110;"	d
+NAND_WRDATAONADMUXBUS	include/armv7a/am335x/bl_platform.h	118;"	d
+NAND_readBytes	src/bl_copy_rprc.c	/^static void NAND_readBytes(NandInfo_t *hNandInfo, void *value, int *cursor, int size)$/;"	f	file:
+NUM	src/bl_main.c	82;"	d	file:
+NUM_FRESULT_CODES	src/bl_hsmmcsd.c	70;"	d	file:
+OSAddr	uc/SOFTWARE/ucos_ii.h	/^    void   *OSAddr;                         \/* Ptr to the beginning address of the memory partition    *\/$/;"	m	struct:os_mem_data
+OSBlkSize	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSBlkSize;                      \/* Size (in bytes) of each memory block                    *\/$/;"	m	struct:os_mem_data
+OSCPUUsage	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSCPUUsage;               \/* Percentage of CPU used                          *\/$/;"	v
+OSCnt	uc/SOFTWARE/ucos_ii.h	/^    INT16U  OSCnt;                          \/* Semaphore count                                         *\/$/;"	m	struct:os_sem_data
+OSCtxSw	uc/AM3359/os_cpu_a_vfp_none.S	/^OSCtxSw:$/;"	l
+OSCtxSwCtr	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT32U            OSCtxSwCtr;               \/* Counter of number of context switches           *\/$/;"	v
+OSDataSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSDataSize = sizeof(OSCtxSwCtr)$/;"	v
+OSDebugEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSDebugEn             = OS_DEBUG_EN;             \/* Debug constants are defined below   *\/$/;"	v
+OSDebugInit	uc/SOFTWARE/os_dbg_r.c	/^void  OSDebugInit (void)$/;"	f
+OSEndiannessTest	uc/SOFTWARE/os_dbg_r.c	/^INT32U  const  OSEndiannessTest      = 0x12345678uL;            \/* Variable to test CPU endianness     *\/$/;"	v
+OSEventCnt	uc/SOFTWARE/ucos_ii.h	/^    INT16U   OSEventCnt;                    \/* Semaphore Count (not used if other EVENT type)          *\/$/;"	m	struct:os_event
+OSEventEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventEn             = OS_EVENT_EN;$/;"	v
+OSEventFreeList	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_EVENT         *OSEventFreeList;          \/* Pointer to list of free EVENT control blocks    *\/$/;"	v
+OSEventGrp	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO        OSEventGrp;              \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_q_data
+OSEventGrp	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO  OSEventGrp;                    \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_event
+OSEventGrp	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO OSEventGrp;                     \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_mbox_data
+OSEventGrp	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO OSEventGrp;                     \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_mutex_data
+OSEventGrp	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO OSEventGrp;                     \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_sem_data
+OSEventMax	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventMax            = OS_MAX_EVENTS;           \/* Number of event control blocks      *\/$/;"	v
+OSEventMultiEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventMultiEn        = OS_EVENT_MULTI_EN;$/;"	v
+OSEventName	uc/SOFTWARE/ucos_ii.h	/^    INT8U   *OSEventName;$/;"	m	struct:os_event
+OSEventNameEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventNameEn         = OS_EVENT_NAME_EN;$/;"	v
+OSEventNameGet	uc/SOFTWARE/os_core.c	/^INT8U  OSEventNameGet (OS_EVENT   *pevent,$/;"	f
+OSEventNameSet	uc/SOFTWARE/os_core.c	/^void  OSEventNameSet (OS_EVENT  *pevent,$/;"	f
+OSEventPendMulti	uc/SOFTWARE/os_core.c	/^INT16U  OSEventPendMulti (OS_EVENT  **pevents_pend,$/;"	f
+OSEventPtr	uc/SOFTWARE/ucos_ii.h	/^    void    *OSEventPtr;                    \/* Pointer to message or queue structure                   *\/$/;"	m	struct:os_event
+OSEventSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventSize           = 0u;$/;"	v
+OSEventSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventSize           = sizeof(OS_EVENT);        \/* Size in Bytes of OS_EVENT           *\/$/;"	v
+OSEventTbl	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO        OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur         *\/$/;"	m	struct:os_q_data
+OSEventTbl	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO  OSEventTbl[OS_EVENT_TBL_SIZE]; \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_event
+OSEventTbl	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_mbox_data
+OSEventTbl	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_mutex_data
+OSEventTbl	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_sem_data
+OSEventTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_EVENT          OSEventTbl[OS_MAX_EVENTS];\/* Table of EVENT control blocks                   *\/$/;"	v
+OSEventTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventTblSize        = 0u;$/;"	v
+OSEventTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSEventTblSize        = sizeof(OSEventTbl);      \/* Size of OSEventTbl[] in bytes       *\/$/;"	v
+OSEventType	uc/SOFTWARE/ucos_ii.h	/^    INT8U    OSEventType;                   \/* Type of event control block (see OS_EVENT_TYPE_xxxx)    *\/$/;"	m	struct:os_event
+OSFlagAccept	uc/SOFTWARE/os_flag.c	/^OS_FLAGS  OSFlagAccept (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagCreate	uc/SOFTWARE/os_flag.c	/^OS_FLAG_GRP  *OSFlagCreate (OS_FLAGS  flags,$/;"	f
+OSFlagDel	uc/SOFTWARE/os_flag.c	/^OS_FLAG_GRP  *OSFlagDel (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagEn              = OS_FLAG_EN;$/;"	v
+OSFlagFlags	uc/SOFTWARE/ucos_ii.h	/^    OS_FLAGS      OSFlagFlags;              \/* 8, 16 or 32 bit flags                                   *\/$/;"	m	struct:os_flag_grp
+OSFlagFreeList	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_FLAG_GRP      *OSFlagFreeList;           \/* Pointer to free list of event flag groups       *\/$/;"	v
+OSFlagGrpSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagGrpSize         = 0u;$/;"	v
+OSFlagGrpSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagGrpSize         = sizeof(OS_FLAG_GRP);     \/* Size in Bytes of OS_FLAG_GRP        *\/$/;"	v
+OSFlagMax	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagMax             = OS_MAX_FLAGS;$/;"	v
+OSFlagName	uc/SOFTWARE/ucos_ii.h	/^    INT8U        *OSFlagName;$/;"	m	struct:os_flag_grp
+OSFlagNameEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagNameEn          = OS_FLAG_NAME_EN;$/;"	v
+OSFlagNameGet	uc/SOFTWARE/os_flag.c	/^INT8U  OSFlagNameGet (OS_FLAG_GRP   *pgrp,$/;"	f
+OSFlagNameSet	uc/SOFTWARE/os_flag.c	/^void  OSFlagNameSet (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagNodeFlagGrp	uc/SOFTWARE/ucos_ii.h	/^    void         *OSFlagNodeFlagGrp;        \/* Pointer to Event Flag Group                             *\/$/;"	m	struct:os_flag_node
+OSFlagNodeFlags	uc/SOFTWARE/ucos_ii.h	/^    OS_FLAGS      OSFlagNodeFlags;          \/* Event flag to wait on                                   *\/$/;"	m	struct:os_flag_node
+OSFlagNodeNext	uc/SOFTWARE/ucos_ii.h	/^    void         *OSFlagNodeNext;           \/* Pointer to next     NODE in wait list                   *\/$/;"	m	struct:os_flag_node
+OSFlagNodePrev	uc/SOFTWARE/ucos_ii.h	/^    void         *OSFlagNodePrev;           \/* Pointer to previous NODE in wait list                   *\/$/;"	m	struct:os_flag_node
+OSFlagNodeSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagNodeSize        = 0u;$/;"	v
+OSFlagNodeSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagNodeSize        = sizeof(OS_FLAG_NODE);    \/* Size in Bytes of OS_FLAG_NODE       *\/$/;"	v
+OSFlagNodeTCB	uc/SOFTWARE/ucos_ii.h	/^    void         *OSFlagNodeTCB;            \/* Pointer to TCB of waiting task                          *\/$/;"	m	struct:os_flag_node
+OSFlagNodeWaitType	uc/SOFTWARE/ucos_ii.h	/^    INT8U         OSFlagNodeWaitType;       \/* Type of wait:                                           *\/$/;"	m	struct:os_flag_node
+OSFlagPend	uc/SOFTWARE/os_flag.c	/^OS_FLAGS  OSFlagPend (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagPendGetFlagsRdy	uc/SOFTWARE/os_flag.c	/^OS_FLAGS  OSFlagPendGetFlagsRdy (void)$/;"	f
+OSFlagPost	uc/SOFTWARE/os_flag.c	/^OS_FLAGS  OSFlagPost (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagQuery	uc/SOFTWARE/os_flag.c	/^OS_FLAGS  OSFlagQuery (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_FLAG_GRP       OSFlagTbl[OS_MAX_FLAGS];  \/* Table containing event flag groups              *\/$/;"	v
+OSFlagType	uc/SOFTWARE/ucos_ii.h	/^    INT8U         OSFlagType;               \/* Should be set to OS_EVENT_TYPE_FLAG                     *\/$/;"	m	struct:os_flag_grp
+OSFlagWaitList	uc/SOFTWARE/ucos_ii.h	/^    void         *OSFlagWaitList;           \/* Pointer to first NODE of task waiting on event flag     *\/$/;"	m	struct:os_flag_grp
+OSFlagWidth	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagWidth           = 0u;$/;"	v
+OSFlagWidth	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSFlagWidth           = sizeof(OS_FLAGS);        \/* Width (in bytes) of OS_FLAGS        *\/$/;"	v
+OSFree	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSFree;                         \/* Number of free entries on the stack                     *\/$/;"	m	struct:os_stk_data
+OSFreeList	uc/SOFTWARE/ucos_ii.h	/^    void   *OSFreeList;                     \/* Ptr to the beginning of the free list of memory blocks  *\/$/;"	m	struct:os_mem_data
+OSIdleCtr	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  volatile  INT32U  OSIdleCtr;                                 \/* Idle counter                   *\/$/;"	v
+OSIdleCtrMax	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT32U            OSIdleCtrMax;             \/* Max. value that idle ctr can take in 1 sec.     *\/$/;"	v
+OSIdleCtrRun	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT32U            OSIdleCtrRun;             \/* Val. reached by idle ctr at run time in 1 sec.  *\/$/;"	v
+OSInit	uc/SOFTWARE/os_core.c	/^void  OSInit (void)$/;"	f
+OSInitHookBegin	uc/AM3359/os_cpu_c.c	/^void  OSInitHookBegin (void)$/;"	f
+OSInitHookEnd	uc/AM3359/os_cpu_c.c	/^void  OSInitHookEnd (void)$/;"	f
+OSIntCtxSw	uc/AM3359/os_cpu_a_vfp_none.S	/^OSIntCtxSw:$/;"	l
+OSIntEnter	uc/SOFTWARE/os_core.c	/^void  OSIntEnter (void)$/;"	f
+OSIntExit	uc/SOFTWARE/os_core.c	/^void  OSIntExit (void)$/;"	f
+OSIntNesting	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSIntNesting;             \/* Interrupt nesting level                         *\/$/;"	v
+OSLockNesting	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSLockNesting;            \/* Multitasking lock nesting level                 *\/$/;"	v
+OSLowestPrio	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSLowestPrio          = OS_LOWEST_PRIO;$/;"	v
+OSMboxAccept	uc/SOFTWARE/os_mbox.c	/^void  *OSMboxAccept (OS_EVENT *pevent)$/;"	f
+OSMboxCreate	uc/SOFTWARE/os_mbox.c	/^OS_EVENT  *OSMboxCreate (void *pmsg)$/;"	f
+OSMboxDel	uc/SOFTWARE/os_mbox.c	/^OS_EVENT  *OSMboxDel (OS_EVENT  *pevent,$/;"	f
+OSMboxEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMboxEn              = OS_MBOX_EN;$/;"	v
+OSMboxPend	uc/SOFTWARE/os_mbox.c	/^void  *OSMboxPend (OS_EVENT  *pevent,$/;"	f
+OSMboxPendAbort	uc/SOFTWARE/os_mbox.c	/^INT8U  OSMboxPendAbort (OS_EVENT  *pevent,$/;"	f
+OSMboxPost	uc/SOFTWARE/os_mbox.c	/^INT8U  OSMboxPost (OS_EVENT  *pevent,$/;"	f
+OSMboxPostOpt	uc/SOFTWARE/os_mbox.c	/^INT8U  OSMboxPostOpt (OS_EVENT  *pevent,$/;"	f
+OSMboxQuery	uc/SOFTWARE/os_mbox.c	/^INT8U  OSMboxQuery (OS_EVENT      *pevent,$/;"	f
+OSMemAddr	uc/SOFTWARE/ucos_ii.h	/^    void   *OSMemAddr;                      \/* Pointer to beginning of memory partition                *\/$/;"	m	struct:os_mem
+OSMemBlkSize	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSMemBlkSize;                   \/* Size (in bytes) of each block of memory                 *\/$/;"	m	struct:os_mem
+OSMemCreate	uc/SOFTWARE/os_mem.c	/^OS_MEM  *OSMemCreate (void   *addr,$/;"	f
+OSMemEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMemEn               = OS_MEM_EN;$/;"	v
+OSMemFreeList	uc/SOFTWARE/ucos_ii.h	/^    void   *OSMemFreeList;                  \/* Pointer to list of free memory blocks                   *\/$/;"	m	struct:os_mem
+OSMemFreeList	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_MEM           *OSMemFreeList;            \/* Pointer to free list of memory partitions       *\/$/;"	v
+OSMemGet	uc/SOFTWARE/os_mem.c	/^void  *OSMemGet (OS_MEM  *pmem,$/;"	f
+OSMemMax	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMemMax              = OS_MAX_MEM_PART;         \/* Number of memory partitions         *\/$/;"	v
+OSMemNBlks	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSMemNBlks;                     \/* Total number of blocks in this partition                *\/$/;"	m	struct:os_mem
+OSMemNFree	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSMemNFree;                     \/* Number of memory blocks remaining in this partition     *\/$/;"	m	struct:os_mem
+OSMemName	uc/SOFTWARE/ucos_ii.h	/^    INT8U  *OSMemName;                      \/* Memory partition name                                   *\/$/;"	m	struct:os_mem
+OSMemNameEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMemNameEn           = OS_MEM_NAME_EN;$/;"	v
+OSMemNameGet	uc/SOFTWARE/os_mem.c	/^INT8U  OSMemNameGet (OS_MEM   *pmem,$/;"	f
+OSMemNameSet	uc/SOFTWARE/os_mem.c	/^void  OSMemNameSet (OS_MEM  *pmem,$/;"	f
+OSMemPut	uc/SOFTWARE/os_mem.c	/^INT8U  OSMemPut (OS_MEM  *pmem,$/;"	f
+OSMemQuery	uc/SOFTWARE/os_mem.c	/^INT8U  OSMemQuery (OS_MEM       *pmem,$/;"	f
+OSMemSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMemSize             = 0u;$/;"	v
+OSMemSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMemSize             = sizeof(OS_MEM);          \/* Mem. Partition header sine (bytes)  *\/$/;"	v
+OSMemTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_MEM            OSMemTbl[OS_MAX_MEM_PART];\/* Storage for memory partition manager            *\/$/;"	v
+OSMemTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMemTblSize          = 0u;$/;"	v
+OSMemTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMemTblSize          = sizeof(OSMemTbl);$/;"	v
+OSMsg	uc/SOFTWARE/ucos_ii.h	/^    void          *OSMsg;                   \/* Pointer to next message to be extracted from queue      *\/$/;"	m	struct:os_q_data
+OSMsg	uc/SOFTWARE/ucos_ii.h	/^    void   *OSMsg;                          \/* Pointer to message in mailbox                           *\/$/;"	m	struct:os_mbox_data
+OSMutexAccept	uc/SOFTWARE/os_mutex.c	/^BOOLEAN  OSMutexAccept (OS_EVENT  *pevent,$/;"	f
+OSMutexCreate	uc/SOFTWARE/os_mutex.c	/^OS_EVENT  *OSMutexCreate (INT8U   prio,$/;"	f
+OSMutexDel	uc/SOFTWARE/os_mutex.c	/^OS_EVENT  *OSMutexDel (OS_EVENT  *pevent,$/;"	f
+OSMutexEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSMutexEn             = OS_MUTEX_EN;$/;"	v
+OSMutexPCP	uc/SOFTWARE/ucos_ii.h	/^    INT8U   OSMutexPCP;                     \/* Priority Ceiling Priority or 0xFF if PCP disabled       *\/$/;"	m	struct:os_mutex_data
+OSMutexPend	uc/SOFTWARE/os_mutex.c	/^void  OSMutexPend (OS_EVENT  *pevent,$/;"	f
+OSMutexPost	uc/SOFTWARE/os_mutex.c	/^INT8U  OSMutexPost (OS_EVENT *pevent)$/;"	f
+OSMutexQuery	uc/SOFTWARE/os_mutex.c	/^INT8U  OSMutexQuery (OS_EVENT       *pevent,$/;"	f
+OSMutex_RdyAtPrio	uc/SOFTWARE/os_mutex.c	/^static  void  OSMutex_RdyAtPrio (OS_TCB  *ptcb,$/;"	f	file:
+OSNBlks	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSNBlks;                        \/* Total number of blocks in the partition                 *\/$/;"	m	struct:os_mem_data
+OSNFree	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSNFree;                        \/* Number of memory blocks free                            *\/$/;"	m	struct:os_mem_data
+OSNMsgs	uc/SOFTWARE/ucos_ii.h	/^    INT16U         OSNMsgs;                 \/* Number of messages in message queue                     *\/$/;"	m	struct:os_q_data
+OSNUsed	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSNUsed;                        \/* Number of memory blocks used                            *\/$/;"	m	struct:os_mem_data
+OSOwnerPrio	uc/SOFTWARE/ucos_ii.h	/^    INT8U   OSOwnerPrio;                    \/* Mutex owner's task priority or 0xFF if no owner         *\/$/;"	m	struct:os_mutex_data
+OSPrioCur	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSPrioCur;                \/* Priority of current task                        *\/$/;"	v
+OSPrioHighRdy	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSPrioHighRdy;            \/* Priority of highest priority task               *\/$/;"	v
+OSPtrSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSPtrSize             = sizeof(void *);          \/* Size in Bytes of a pointer          *\/$/;"	v
+OSQAccept	uc/SOFTWARE/os_q.c	/^void  *OSQAccept (OS_EVENT  *pevent,$/;"	f
+OSQCreate	uc/SOFTWARE/os_q.c	/^OS_EVENT  *OSQCreate (void    **start,$/;"	f
+OSQDel	uc/SOFTWARE/os_q.c	/^OS_EVENT  *OSQDel (OS_EVENT  *pevent,$/;"	f
+OSQEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSQEn                 = OS_Q_EN;$/;"	v
+OSQEnd	uc/SOFTWARE/ucos_ii.h	/^    void         **OSQEnd;                  \/* Ptr to end   of queue data                              *\/$/;"	m	struct:os_q
+OSQEntries	uc/SOFTWARE/ucos_ii.h	/^    INT16U         OSQEntries;              \/* Current number of entries in the queue                  *\/$/;"	m	struct:os_q
+OSQFlush	uc/SOFTWARE/os_q.c	/^INT8U  OSQFlush (OS_EVENT *pevent)$/;"	f
+OSQFreeList	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_Q             *OSQFreeList;              \/* Pointer to list of free QUEUE control blocks    *\/$/;"	v
+OSQIn	uc/SOFTWARE/ucos_ii.h	/^    void         **OSQIn;                   \/* Ptr to where next message will be inserted  in   the Q  *\/$/;"	m	struct:os_q
+OSQMax	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSQMax                = OS_MAX_QS;               \/* Number of queues                    *\/$/;"	v
+OSQOut	uc/SOFTWARE/ucos_ii.h	/^    void         **OSQOut;                  \/* Ptr to where next message will be extracted from the Q  *\/$/;"	m	struct:os_q
+OSQPend	uc/SOFTWARE/os_q.c	/^void  *OSQPend (OS_EVENT  *pevent,$/;"	f
+OSQPendAbort	uc/SOFTWARE/os_q.c	/^INT8U  OSQPendAbort (OS_EVENT  *pevent,$/;"	f
+OSQPost	uc/SOFTWARE/os_q.c	/^INT8U  OSQPost (OS_EVENT  *pevent,$/;"	f
+OSQPostFront	uc/SOFTWARE/os_q.c	/^INT8U  OSQPostFront (OS_EVENT  *pevent,$/;"	f
+OSQPostOpt	uc/SOFTWARE/os_q.c	/^INT8U  OSQPostOpt (OS_EVENT  *pevent,$/;"	f
+OSQPtr	uc/SOFTWARE/ucos_ii.h	/^    struct os_q   *OSQPtr;                  \/* Link to next queue control block in list of free blocks *\/$/;"	m	struct:os_q	typeref:struct:os_q::os_q
+OSQQuery	uc/SOFTWARE/os_q.c	/^INT8U  OSQQuery (OS_EVENT  *pevent,$/;"	f
+OSQSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSQSize               = 0u;$/;"	v
+OSQSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSQSize               = sizeof(OS_Q);            \/* Size in bytes of OS_Q structure     *\/$/;"	v
+OSQSize	uc/SOFTWARE/ucos_ii.h	/^    INT16U         OSQSize;                 \/* Size of message queue                                   *\/$/;"	m	struct:os_q_data
+OSQSize	uc/SOFTWARE/ucos_ii.h	/^    INT16U         OSQSize;                 \/* Size of queue (maximum number of entries)               *\/$/;"	m	struct:os_q
+OSQStart	uc/SOFTWARE/ucos_ii.h	/^    void         **OSQStart;                \/* Ptr to start of queue data                              *\/$/;"	m	struct:os_q
+OSQTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_Q              OSQTbl[OS_MAX_QS];        \/* Table of QUEUE control blocks                   *\/$/;"	v
+OSRdyGrp	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_PRIO           OSRdyGrp;                        \/* Ready list group                         *\/$/;"	v
+OSRdyTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_PRIO           OSRdyTbl[OS_RDY_TBL_SIZE];       \/* Table of tasks which are ready to run    *\/$/;"	v
+OSRdyTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSRdyTblSize          = OS_RDY_TBL_SIZE;         \/* Number of bytes in the ready table  *\/$/;"	v
+OSRunning	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  BOOLEAN           OSRunning;                       \/* Flag indicating that kernel is running   *\/$/;"	v
+OSSafetyCriticalStart	uc/SOFTWARE/os_core.c	/^void  OSSafetyCriticalStart (void)$/;"	f
+OSSafetyCriticalStartFlag	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  BOOLEAN           OSSafetyCriticalStartFlag;$/;"	v
+OSSchedLock	uc/SOFTWARE/os_core.c	/^void  OSSchedLock (void)$/;"	f
+OSSchedUnlock	uc/SOFTWARE/os_core.c	/^void  OSSchedUnlock (void)$/;"	f
+OSSemAccept	uc/SOFTWARE/os_sem.c	/^INT16U  OSSemAccept (OS_EVENT *pevent)$/;"	f
+OSSemCreate	uc/SOFTWARE/os_sem.c	/^OS_EVENT  *OSSemCreate (INT16U cnt)$/;"	f
+OSSemDel	uc/SOFTWARE/os_sem.c	/^OS_EVENT  *OSSemDel (OS_EVENT  *pevent,$/;"	f
+OSSemEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSSemEn               = OS_SEM_EN;$/;"	v
+OSSemPend	uc/SOFTWARE/os_sem.c	/^void  OSSemPend (OS_EVENT  *pevent,$/;"	f
+OSSemPendAbort	uc/SOFTWARE/os_sem.c	/^INT8U  OSSemPendAbort (OS_EVENT  *pevent,$/;"	f
+OSSemPost	uc/SOFTWARE/os_sem.c	/^INT8U  OSSemPost (OS_EVENT *pevent)$/;"	f
+OSSemQuery	uc/SOFTWARE/os_sem.c	/^INT8U  OSSemQuery (OS_EVENT     *pevent,$/;"	f
+OSSemSet	uc/SOFTWARE/os_sem.c	/^void  OSSemSet (OS_EVENT  *pevent,$/;"	f
+OSStart	uc/SOFTWARE/os_core.c	/^void  OSStart (void)$/;"	f
+OSStartHighRdy	uc/AM3359/os_cpu_a_vfp_none.S	/^OSStartHighRdy:$/;"	l
+OSStatInit	uc/SOFTWARE/os_core.c	/^void  OSStatInit (void)$/;"	f
+OSStatRdy	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  BOOLEAN           OSStatRdy;                \/* Flag indicating that the statistic task is rdy  *\/$/;"	v
+OSStkWidth	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSStkWidth            = sizeof(OS_STK);          \/* Size in Bytes of a stack entry      *\/$/;"	v
+OSTCBBitX	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO          OSTCBBitX;             \/* Bit mask to access bit position in ready table          *\/$/;"	m	struct:os_tcb
+OSTCBBitY	uc/SOFTWARE/ucos_ii.h	/^    OS_PRIO          OSTCBBitY;             \/* Bit mask to access bit position in ready group          *\/$/;"	m	struct:os_tcb
+OSTCBCtxSwCtr	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTCBCtxSwCtr;         \/* Number of time the task was switched in                 *\/$/;"	m	struct:os_tcb
+OSTCBCur	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBCur;                        \/* Pointer to currently running TCB         *\/$/;"	v
+OSTCBCyclesStart	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTCBCyclesStart;      \/* Snapshot of cycle counter at start of task resumption   *\/$/;"	m	struct:os_tcb
+OSTCBCyclesTot	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTCBCyclesTot;        \/* Total number of clock cycles the task has been running  *\/$/;"	m	struct:os_tcb
+OSTCBDelReq	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTCBDelReq;           \/* Indicates whether a task needs to delete itself         *\/$/;"	m	struct:os_tcb
+OSTCBDly	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTCBDly;              \/* Nbr ticks to delay task or, timeout waiting for event   *\/$/;"	m	struct:os_tcb
+OSTCBEventMultiPtr	uc/SOFTWARE/ucos_ii.h	/^    OS_EVENT       **OSTCBEventMultiPtr;    \/* Pointer to multiple event control blocks                *\/$/;"	m	struct:os_tcb
+OSTCBEventPtr	uc/SOFTWARE/ucos_ii.h	/^    OS_EVENT        *OSTCBEventPtr;         \/* Pointer to          event control block                 *\/$/;"	m	struct:os_tcb
+OSTCBExtPtr	uc/SOFTWARE/ucos_ii.h	/^    void            *OSTCBExtPtr;           \/* Pointer to user definable data for TCB extension        *\/$/;"	m	struct:os_tcb
+OSTCBFlagNode	uc/SOFTWARE/ucos_ii.h	/^    OS_FLAG_NODE    *OSTCBFlagNode;         \/* Pointer to event flag node                              *\/$/;"	m	struct:os_tcb
+OSTCBFlagsRdy	uc/SOFTWARE/ucos_ii.h	/^    OS_FLAGS         OSTCBFlagsRdy;         \/* Event flags that made task ready to run                 *\/$/;"	m	struct:os_tcb
+OSTCBFreeList	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBFreeList;                   \/* Pointer to list of free TCBs             *\/$/;"	v
+OSTCBHighRdy	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBHighRdy;                    \/* Pointer to highest priority TCB R-to-R   *\/$/;"	v
+OSTCBId	uc/SOFTWARE/ucos_ii.h	/^    INT16U           OSTCBId;               \/* Task ID (0..65535)                                      *\/$/;"	m	struct:os_tcb
+OSTCBInitHook	uc/AM3359/os_cpu_c.c	/^void  OSTCBInitHook (OS_TCB *ptcb)$/;"	f
+OSTCBList	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBList;                       \/* Pointer to doubly linked list of TCBs    *\/$/;"	v
+OSTCBMsg	uc/SOFTWARE/ucos_ii.h	/^    void            *OSTCBMsg;              \/* Message received from OSMboxPost() or OSQPost()         *\/$/;"	m	struct:os_tcb
+OSTCBNext	uc/SOFTWARE/ucos_ii.h	/^    struct os_tcb   *OSTCBNext;             \/* Pointer to next     TCB in the TCB list                 *\/$/;"	m	struct:os_tcb	typeref:struct:os_tcb::os_tcb
+OSTCBOpt	uc/SOFTWARE/ucos_ii.h	/^    INT16U           OSTCBOpt;              \/* Task options as passed by OSTaskCreateExt()             *\/$/;"	m	struct:os_tcb
+OSTCBPrev	uc/SOFTWARE/ucos_ii.h	/^    struct os_tcb   *OSTCBPrev;             \/* Pointer to previous TCB in the TCB list                 *\/$/;"	m	struct:os_tcb	typeref:struct:os_tcb::os_tcb
+OSTCBPrio	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTCBPrio;             \/* Task priority (0 == highest)                            *\/$/;"	m	struct:os_tcb
+OSTCBPrioTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBPrioTbl[OS_LOWEST_PRIO + 1u];    \/* Table of pointers to created TCBs   *\/$/;"	v
+OSTCBPrioTblMax	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTCBPrioTblMax       = OS_LOWEST_PRIO + 1u;     \/* Number of entries in OSTCBPrioTbl[] *\/$/;"	v
+OSTCBRegTbl	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTCBRegTbl[OS_TASK_REG_TBL_SIZE];$/;"	m	struct:os_tcb
+OSTCBSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTCBSize             = sizeof(OS_TCB);          \/* Size in Bytes of OS_TCB             *\/$/;"	v
+OSTCBStat	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTCBStat;             \/* Task      status                                        *\/$/;"	m	struct:os_tcb
+OSTCBStatPend	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTCBStatPend;         \/* Task PEND status                                        *\/$/;"	m	struct:os_tcb
+OSTCBStkBase	uc/SOFTWARE/ucos_ii.h	/^    OS_STK          *OSTCBStkBase;          \/* Pointer to the beginning of the task stack              *\/$/;"	m	struct:os_tcb
+OSTCBStkBottom	uc/SOFTWARE/ucos_ii.h	/^    OS_STK          *OSTCBStkBottom;        \/* Pointer to bottom of stack                              *\/$/;"	m	struct:os_tcb
+OSTCBStkPtr	uc/SOFTWARE/ucos_ii.h	/^    OS_STK          *OSTCBStkPtr;           \/* Pointer to current top of stack                         *\/$/;"	m	struct:os_tcb
+OSTCBStkSize	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTCBStkSize;          \/* Size of task stack (in number of stack elements)        *\/$/;"	m	struct:os_tcb
+OSTCBStkUsed	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTCBStkUsed;          \/* Number of bytes used from the stack                     *\/$/;"	m	struct:os_tcb
+OSTCBTLSTbl	uc/SOFTWARE/ucos_ii.h	/^    OS_TLS           OSTCBTLSTbl[OS_TLS_TBL_SIZE];$/;"	m	struct:os_tcb
+OSTCBTaskName	uc/SOFTWARE/ucos_ii.h	/^    INT8U           *OSTCBTaskName;$/;"	m	struct:os_tcb
+OSTCBTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TCB            OSTCBTbl[OS_MAX_TASKS + OS_N_SYS_TASKS];   \/* Table of TCBs                  *\/$/;"	v
+OSTCBX	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTCBX;                \/* Bit position in group  corresponding to task priority   *\/$/;"	m	struct:os_tcb
+OSTCBY	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTCBY;                \/* Index into ready table corresponding to task priority   *\/$/;"	m	struct:os_tcb
+OSTaskChangePrio	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskChangePrio (INT8U  oldprio,$/;"	f
+OSTaskCreate	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskCreate (void   (*task)(void *p_arg),$/;"	f
+OSTaskCreateEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskCreateEn        = OS_TASK_CREATE_EN;$/;"	v
+OSTaskCreateExt	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskCreateExt (void   (*task)(void *p_arg),$/;"	f
+OSTaskCreateExtEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskCreateExtEn     = OS_TASK_CREATE_EXT_EN;$/;"	v
+OSTaskCreateHook	uc/AM3359/os_cpu_c.c	/^void  OSTaskCreateHook (OS_TCB *ptcb)$/;"	f
+OSTaskCtr	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSTaskCtr;                       \/* Number of tasks created                  *\/$/;"	v
+OSTaskDel	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskDel (INT8U prio)$/;"	f
+OSTaskDelEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskDelEn           = OS_TASK_DEL_EN;$/;"	v
+OSTaskDelHook	uc/AM3359/os_cpu_c.c	/^void  OSTaskDelHook (OS_TCB *ptcb)$/;"	f
+OSTaskDelReq	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskDelReq (INT8U prio)$/;"	f
+OSTaskIdleHook	uc/AM3359/os_cpu_c.c	/^void  OSTaskIdleHook (void)$/;"	f
+OSTaskIdleStk	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_STK            OSTaskIdleStk[OS_TASK_IDLE_STK_SIZE];      \/* Idle task stack                *\/$/;"	v
+OSTaskIdleStkSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskIdleStkSize     = OS_TASK_IDLE_STK_SIZE;$/;"	v
+OSTaskMax	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskMax             = OS_MAX_TASKS + OS_N_SYS_TASKS; \/* Total max. number of tasks    *\/$/;"	v
+OSTaskNameEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskNameEn          = OS_TASK_NAME_EN;$/;"	v
+OSTaskNameGet	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskNameGet (INT8U    prio,$/;"	f
+OSTaskNameSet	uc/SOFTWARE/os_task.c	/^void  OSTaskNameSet (INT8U   prio,$/;"	f
+OSTaskProfileEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskProfileEn       = OS_TASK_PROFILE_EN;$/;"	v
+OSTaskQuery	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskQuery (INT8U    prio,$/;"	f
+OSTaskRegGet	uc/SOFTWARE/os_task.c	/^INT32U  OSTaskRegGet (INT8U   prio,$/;"	f
+OSTaskRegGetID	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskRegGetID (INT8U  *perr)$/;"	f
+OSTaskRegNextAvailID	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSTaskRegNextAvailID;     \/* Next available Task register ID                 *\/$/;"	v
+OSTaskRegSet	uc/SOFTWARE/os_task.c	/^void  OSTaskRegSet (INT8U    prio,$/;"	f
+OSTaskRegTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskRegTblSize      = OS_TASK_REG_TBL_SIZE;$/;"	v
+OSTaskResume	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskResume (INT8U prio)$/;"	f
+OSTaskReturnHook	uc/AM3359/os_cpu_c.c	/^void  OSTaskReturnHook (OS_TCB  *ptcb)$/;"	f
+OSTaskStatEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskStatEn          = OS_TASK_STAT_EN;$/;"	v
+OSTaskStatHook	uc/AM3359/os_cpu_c.c	/^void  OSTaskStatHook (void)$/;"	f
+OSTaskStatStk	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_STK            OSTaskStatStk[OS_TASK_STAT_STK_SIZE];      \/* Statistics task stack          *\/$/;"	v
+OSTaskStatStkChkEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskStatStkChkEn    = OS_TASK_STAT_STK_CHK_EN;$/;"	v
+OSTaskStatStkSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskStatStkSize     = OS_TASK_STAT_STK_SIZE;$/;"	v
+OSTaskStkChk	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskStkChk (INT8U         prio,$/;"	f
+OSTaskStkInit	uc/AM3359/os_cpu_c.c	/^OS_STK  *OSTaskStkInit (void (*task)(void  *p_arg),$/;"	f
+OSTaskSuspend	uc/SOFTWARE/os_task.c	/^INT8U  OSTaskSuspend (INT8U prio)$/;"	f
+OSTaskSwHook	uc/AM3359/os_cpu_c.c	/^void  OSTaskSwHook (void)$/;"	f
+OSTaskSwHookEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTaskSwHookEn        = OS_TASK_SW_HOOK_EN;$/;"	v
+OSTickStepState	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT8U             OSTickStepState;          \/* Indicates the state of the tick step feature    *\/$/;"	v
+OSTicksPerSec	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTicksPerSec         = OS_TICKS_PER_SEC;$/;"	v
+OSTime	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  volatile  INT32U  OSTime;                   \/* Current value of system time (in ticks)         *\/$/;"	v
+OSTimeDly	uc/SOFTWARE/os_time.c	/^void  OSTimeDly (INT32U ticks)$/;"	f
+OSTimeDlyHMSM	uc/SOFTWARE/os_time.c	/^INT8U  OSTimeDlyHMSM (INT8U   hours,$/;"	f
+OSTimeDlyResume	uc/SOFTWARE/os_time.c	/^INT8U  OSTimeDlyResume (INT8U prio)$/;"	f
+OSTimeGet	uc/SOFTWARE/os_time.c	/^INT32U  OSTimeGet (void)$/;"	f
+OSTimeSet	uc/SOFTWARE/os_time.c	/^void  OSTimeSet (INT32U ticks)$/;"	f
+OSTimeTick	uc/SOFTWARE/os_core.c	/^void  OSTimeTick (void)$/;"	f
+OSTimeTickHook	uc/AM3359/os_cpu_c.c	/^void  OSTimeTickHook (void)$/;"	f
+OSTimeTickHookEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTimeTickHookEn      = OS_TIME_TICK_HOOK_EN;$/;"	v
+OSTmrCallback	uc/SOFTWARE/ucos_ii.h	/^    OS_TMR_CALLBACK  OSTmrCallback;         \/* Function to call when timer expires                     *\/$/;"	m	struct:os_tmr
+OSTmrCallbackArg	uc/SOFTWARE/ucos_ii.h	/^    void            *OSTmrCallbackArg;      \/* Argument to pass to function when timer expires         *\/$/;"	m	struct:os_tmr
+OSTmrCfgMax	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrCfgMax           = OS_TMR_CFG_MAX;$/;"	v
+OSTmrCfgNameEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrCfgNameEn        = OS_TMR_CFG_NAME_EN;$/;"	v
+OSTmrCfgTicksPerSec	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrCfgTicksPerSec   = OS_TMR_CFG_TICKS_PER_SEC;$/;"	v
+OSTmrCfgWheelSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrCfgWheelSize     = OS_TMR_CFG_WHEEL_SIZE;$/;"	v
+OSTmrCreate	uc/SOFTWARE/os_tmr.c	/^OS_TMR  *OSTmrCreate (INT32U           dly,$/;"	f
+OSTmrCtr	uc/AM3359/os_cpu_c.c	/^static  INT16U  OSTmrCtr;$/;"	v	file:
+OSTmrDel	uc/SOFTWARE/os_tmr.c	/^BOOLEAN  OSTmrDel (OS_TMR  *ptmr,$/;"	f
+OSTmrDly	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTmrDly;              \/* Delay time before periodic update starts                *\/$/;"	m	struct:os_tmr
+OSTmrEn	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrEn               = OS_TMR_EN;$/;"	v
+OSTmrEntries	uc/SOFTWARE/ucos_ii.h	/^    INT16U           OSTmrEntries;$/;"	m	struct:os_tmr_wheel
+OSTmrFirst	uc/SOFTWARE/ucos_ii.h	/^    OS_TMR          *OSTmrFirst;            \/* Pointer to first timer in linked list                   *\/$/;"	m	struct:os_tmr_wheel
+OSTmrFree	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT16U            OSTmrFree;                \/* Number of free entries in the timer pool        *\/$/;"	v
+OSTmrFreeList	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TMR           *OSTmrFreeList;            \/* Pointer to free list of timers                  *\/$/;"	v
+OSTmrMatch	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTmrMatch;            \/* Timer expires when OSTmrTime == OSTmrMatch              *\/$/;"	m	struct:os_tmr
+OSTmrName	uc/SOFTWARE/ucos_ii.h	/^    INT8U           *OSTmrName;             \/* Name to give the timer                                  *\/$/;"	m	struct:os_tmr
+OSTmrNameGet	uc/SOFTWARE/os_tmr.c	/^INT8U  OSTmrNameGet (OS_TMR   *ptmr,$/;"	f
+OSTmrNext	uc/SOFTWARE/ucos_ii.h	/^    void            *OSTmrNext;             \/* Double link list pointers                               *\/$/;"	m	struct:os_tmr
+OSTmrOpt	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTmrOpt;              \/* Options (see OS_TMR_OPT_xxx)                            *\/$/;"	m	struct:os_tmr
+OSTmrPeriod	uc/SOFTWARE/ucos_ii.h	/^    INT32U           OSTmrPeriod;           \/* Period to repeat timer                                  *\/$/;"	m	struct:os_tmr
+OSTmrPrev	uc/SOFTWARE/ucos_ii.h	/^    void            *OSTmrPrev;$/;"	m	struct:os_tmr
+OSTmrRemainGet	uc/SOFTWARE/os_tmr.c	/^INT32U  OSTmrRemainGet (OS_TMR  *ptmr,$/;"	f
+OSTmrSem	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_EVENT         *OSTmrSem;                 \/* Sem. used to gain exclusive access to timers    *\/$/;"	v
+OSTmrSemSignal	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_EVENT         *OSTmrSemSignal;           \/* Sem. used to signal the update of timers        *\/$/;"	v
+OSTmrSignal	uc/SOFTWARE/os_tmr.c	/^INT8U  OSTmrSignal (void)$/;"	f
+OSTmrSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrSize             = 0u;$/;"	v
+OSTmrSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrSize             = sizeof(OS_TMR);$/;"	v
+OSTmrStart	uc/SOFTWARE/os_tmr.c	/^BOOLEAN  OSTmrStart (OS_TMR   *ptmr,$/;"	f
+OSTmrState	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTmrState;            \/* Indicates the state of the timer:                       *\/$/;"	m	struct:os_tmr
+OSTmrStateGet	uc/SOFTWARE/os_tmr.c	/^INT8U  OSTmrStateGet (OS_TMR  *ptmr,$/;"	f
+OSTmrStop	uc/SOFTWARE/os_tmr.c	/^BOOLEAN  OSTmrStop (OS_TMR  *ptmr,$/;"	f
+OSTmrTaskStk	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_STK            OSTmrTaskStk[OS_TASK_TMR_STK_SIZE];$/;"	v
+OSTmrTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TMR            OSTmrTbl[OS_TMR_CFG_MAX]; \/* Table containing pool of timers                 *\/$/;"	v
+OSTmrTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrTblSize          = 0u;$/;"	v
+OSTmrTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrTblSize          = sizeof(OSTmrTbl);$/;"	v
+OSTmrTime	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT32U            OSTmrTime;                \/* Current timer time                              *\/$/;"	v
+OSTmrType	uc/SOFTWARE/ucos_ii.h	/^    INT8U            OSTmrType;             \/* Should be set to OS_TMR_TYPE                            *\/$/;"	m	struct:os_tmr
+OSTmrUsed	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  INT16U            OSTmrUsed;                \/* Number of timers used                           *\/$/;"	v
+OSTmrWheelSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrWheelSize        = 0u;$/;"	v
+OSTmrWheelSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrWheelSize        = sizeof(OS_TMR_WHEEL);$/;"	v
+OSTmrWheelTbl	uc/SOFTWARE/ucos_ii.h	/^OS_EXT  OS_TMR_WHEEL      OSTmrWheelTbl[OS_TMR_CFG_WHEEL_SIZE];$/;"	v
+OSTmrWheelTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrWheelTblSize     = 0u;$/;"	v
+OSTmrWheelTblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSTmrWheelTblSize     = sizeof(OSTmrWheelTbl);$/;"	v
+OSTmr_Alloc	uc/SOFTWARE/os_tmr.c	/^static  OS_TMR  *OSTmr_Alloc (void)$/;"	f	file:
+OSTmr_Free	uc/SOFTWARE/os_tmr.c	/^static  void  OSTmr_Free (OS_TMR *ptmr)$/;"	f	file:
+OSTmr_Init	uc/SOFTWARE/os_tmr.c	/^void  OSTmr_Init (void)$/;"	f
+OSTmr_InitTask	uc/SOFTWARE/os_tmr.c	/^static  void  OSTmr_InitTask (void)$/;"	f	file:
+OSTmr_Link	uc/SOFTWARE/os_tmr.c	/^static  void  OSTmr_Link (OS_TMR  *ptmr,$/;"	f	file:
+OSTmr_Task	uc/SOFTWARE/os_tmr.c	/^static  void  OSTmr_Task (void *p_arg)$/;"	f	file:
+OSTmr_Unlink	uc/SOFTWARE/os_tmr.c	/^static  void  OSTmr_Unlink (OS_TMR *ptmr)$/;"	f	file:
+OSUnMapTbl	uc/SOFTWARE/os_core.c	/^INT8U  const  OSUnMapTbl[256] = {$/;"	v
+OSUsed	uc/SOFTWARE/ucos_ii.h	/^    INT32U  OSUsed;                         \/* Number of entries used on the stack                     *\/$/;"	m	struct:os_stk_data
+OSValue	uc/SOFTWARE/ucos_ii.h	/^    BOOLEAN OSValue;                        \/* Mutex value (OS_FALSE = used, OS_TRUE = available)      *\/$/;"	m	struct:os_mutex_data
+OSVersion	uc/SOFTWARE/os_core.c	/^INT16U  OSVersion (void)$/;"	f
+OSVersionNbr	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OSVersionNbr          = OS_VERSION;$/;"	v
+OS_APP_HOOKS_EN	uc/EXAMPLES/os_cfg.h	30;"	d
+OS_ARG_CHK_EN	uc/EXAMPLES/os_cfg.h	31;"	d
+OS_ASCII_NUL	uc/SOFTWARE/ucos_ii.h	75;"	d
+OS_CFG_H	uc/EXAMPLES/os_cfg.h	26;"	d
+OS_CPU_ARM_BIT_CPSR_A	uc/AM3359/os_cpu.h	155;"	d
+OS_CPU_ARM_BIT_CPSR_C	uc/AM3359/os_cpu.h	148;"	d
+OS_CPU_ARM_BIT_CPSR_E	uc/AM3359/os_cpu.h	154;"	d
+OS_CPU_ARM_BIT_CPSR_F	uc/AM3359/os_cpu.h	157;"	d
+OS_CPU_ARM_BIT_CPSR_I	uc/AM3359/os_cpu.h	156;"	d
+OS_CPU_ARM_BIT_CPSR_J	uc/AM3359/os_cpu.h	151;"	d
+OS_CPU_ARM_BIT_CPSR_MODE_ABORT	uc/AM3359/os_cpu.h	164;"	d
+OS_CPU_ARM_BIT_CPSR_MODE_FIQ	uc/AM3359/os_cpu.h	161;"	d
+OS_CPU_ARM_BIT_CPSR_MODE_IRQ	uc/AM3359/os_cpu.h	162;"	d
+OS_CPU_ARM_BIT_CPSR_MODE_SUPERVISOR	uc/AM3359/os_cpu.h	163;"	d
+OS_CPU_ARM_BIT_CPSR_MODE_SYSTEM	uc/AM3359/os_cpu.h	166;"	d
+OS_CPU_ARM_BIT_CPSR_MODE_UNDEFINED	uc/AM3359/os_cpu.h	165;"	d
+OS_CPU_ARM_BIT_CPSR_MODE_USER	uc/AM3359/os_cpu.h	160;"	d
+OS_CPU_ARM_BIT_CPSR_N	uc/AM3359/os_cpu.h	146;"	d
+OS_CPU_ARM_BIT_CPSR_Q	uc/AM3359/os_cpu.h	150;"	d
+OS_CPU_ARM_BIT_CPSR_T	uc/AM3359/os_cpu.h	158;"	d
+OS_CPU_ARM_BIT_CPSR_V	uc/AM3359/os_cpu.h	149;"	d
+OS_CPU_ARM_BIT_CPSR_Z	uc/AM3359/os_cpu.h	147;"	d
+OS_CPU_ARM_BIT_FPEXC_EN	uc/AM3359/os_cpu.h	168;"	d
+OS_CPU_ARM_DCC_EN	uc/AM3359/os_cpu.h	101;"	d
+OS_CPU_ARM_DRegCnt	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  INT32U   OS_CPU_ARM_DRegCnt;                        \/* VFP\/NEON register count                              *\/$/;"	v
+OS_CPU_ARM_DRegCntGet	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_ARM_DRegCntGet:$/;"	l
+OS_CPU_ARM_ENDIAN_BIG	uc/AM3359/os_cpu.h	86;"	d
+OS_CPU_ARM_ENDIAN_LITTLE	uc/AM3359/os_cpu.h	85;"	d
+OS_CPU_ARM_ENDIAN_TYPE	uc/AM3359/os_cpu.h	91;"	d
+OS_CPU_ARM_ENDIAN_TYPE	uc/AM3359/os_cpu.h	93;"	d
+OS_CPU_ARM_EXCEPT_ADDR_ABORT	uc/AM3359/os_cpu.h	117;"	d
+OS_CPU_ARM_EXCEPT_DATA_ABORT	uc/AM3359/os_cpu.h	116;"	d
+OS_CPU_ARM_EXCEPT_FIQ	uc/AM3359/os_cpu.h	119;"	d
+OS_CPU_ARM_EXCEPT_HANDLER_ADDR_ABORT_DATA	uc/AM3359/os_cpu.h	137;"	d
+OS_CPU_ARM_EXCEPT_HANDLER_ADDR_ABORT_PREFETCH	uc/AM3359/os_cpu.h	136;"	d
+OS_CPU_ARM_EXCEPT_HANDLER_ADDR_FIQ	uc/AM3359/os_cpu.h	139;"	d
+OS_CPU_ARM_EXCEPT_HANDLER_ADDR_IRQ	uc/AM3359/os_cpu.h	138;"	d
+OS_CPU_ARM_EXCEPT_HANDLER_ADDR_RST	uc/AM3359/os_cpu.h	133;"	d
+OS_CPU_ARM_EXCEPT_HANDLER_ADDR_SWI	uc/AM3359/os_cpu.h	135;"	d
+OS_CPU_ARM_EXCEPT_HANDLER_ADDR_UND	uc/AM3359/os_cpu.h	134;"	d
+OS_CPU_ARM_EXCEPT_IRQ	uc/AM3359/os_cpu.h	118;"	d
+OS_CPU_ARM_EXCEPT_NBR	uc/AM3359/os_cpu.h	120;"	d
+OS_CPU_ARM_EXCEPT_PREFETCH_ABORT	uc/AM3359/os_cpu.h	115;"	d
+OS_CPU_ARM_EXCEPT_RESET	uc/AM3359/os_cpu.h	112;"	d
+OS_CPU_ARM_EXCEPT_SWI	uc/AM3359/os_cpu.h	114;"	d
+OS_CPU_ARM_EXCEPT_UNDEF_INSTR	uc/AM3359/os_cpu.h	113;"	d
+OS_CPU_ARM_EXCEPT_VECT_ADDR_ABORT_DATA	uc/AM3359/os_cpu.h	128;"	d
+OS_CPU_ARM_EXCEPT_VECT_ADDR_ABORT_PREFETCH	uc/AM3359/os_cpu.h	127;"	d
+OS_CPU_ARM_EXCEPT_VECT_ADDR_FIQ	uc/AM3359/os_cpu.h	130;"	d
+OS_CPU_ARM_EXCEPT_VECT_ADDR_IRQ	uc/AM3359/os_cpu.h	129;"	d
+OS_CPU_ARM_EXCEPT_VECT_ADDR_RST	uc/AM3359/os_cpu.h	124;"	d
+OS_CPU_ARM_EXCEPT_VECT_ADDR_SWI	uc/AM3359/os_cpu.h	126;"	d
+OS_CPU_ARM_EXCEPT_VECT_ADDR_UND	uc/AM3359/os_cpu.h	125;"	d
+OS_CPU_ARM_INSTR_JUMP_TO_HANDLER	uc/AM3359/os_cpu.h	144;"	d
+OS_CPU_ARM_INSTR_JUMP_TO_SELF	uc/AM3359/os_cpu.h	142;"	d
+OS_CPU_ARM_MSK_CPSR_GE	uc/AM3359/os_cpu.h	152;"	d
+OS_CPU_ARM_MSK_CPSR_MODE	uc/AM3359/os_cpu.h	159;"	d
+OS_CPU_EXCEPT_STK_SIZE	uc/AM3359/os_cpu.h	68;"	d
+OS_CPU_EXT	uc/AM3359/os_cpu.h	61;"	d
+OS_CPU_EXT	uc/AM3359/os_cpu.h	63;"	d
+OS_CPU_ExceptStk	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  OS_STK   OS_CPU_ExceptStk[OS_CPU_EXCEPT_STK_SIZE];$/;"	v
+OS_CPU_ExceptStkBase	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  OS_STK  *OS_CPU_ExceptStkBase;$/;"	v
+OS_CPU_ExceptStkChk	uc/AM3359/os_cpu_c.c	/^INT32U  OS_CPU_ExceptStkChk (void)$/;"	f
+OS_CPU_ExceptStkPtr	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  OS_STK  *OS_CPU_ExceptStkPtr;$/;"	v
+OS_CPU_GLOBALS	uc/AM3359/os_cpu_c.c	44;"	d	file:
+OS_CPU_H	uc/AM3359/os_cpu.h	58;"	d
+OS_CPU_HOOKS_EN	uc/EXAMPLES/os_cfg.h	32;"	d
+OS_CPU_INT_DIS_MEAS_EN	uc/AM3359/os_cpu.h	97;"	d
+OS_CPU_IntDisMeasCntsDelta	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  INT16U   OS_CPU_IntDisMeasCntsDelta;$/;"	v
+OS_CPU_IntDisMeasCntsEnter	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  INT16U   OS_CPU_IntDisMeasCntsEnter;$/;"	v
+OS_CPU_IntDisMeasCntsExit	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  INT16U   OS_CPU_IntDisMeasCntsExit;$/;"	v
+OS_CPU_IntDisMeasCntsMax	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  INT16U   OS_CPU_IntDisMeasCntsMax;$/;"	v
+OS_CPU_IntDisMeasCntsOvrhd	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  INT16U   OS_CPU_IntDisMeasCntsOvrhd;$/;"	v
+OS_CPU_IntDisMeasInit	uc/AM3359/os_cpu_c.c	/^void  OS_CPU_IntDisMeasInit (void)$/;"	f
+OS_CPU_IntDisMeasNestingCtr	uc/AM3359/os_cpu.h	/^OS_CPU_EXT  INT16U   OS_CPU_IntDisMeasNestingCtr;$/;"	v
+OS_CPU_IntDisMeasStart	uc/AM3359/os_cpu_c.c	/^void  OS_CPU_IntDisMeasStart (void)$/;"	f
+OS_CPU_IntDisMeasStop	uc/AM3359/os_cpu_c.c	/^void  OS_CPU_IntDisMeasStop (void)$/;"	f
+OS_CPU_SR	uc/AM3359/os_cpu.h	/^typedef unsigned int   OS_CPU_SR;                \/* Define size of CPU status register (PSR = 32 bits) *\/$/;"	t
+OS_CPU_SR_FIQ_Dis	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_FIQ_Dis:$/;"	l
+OS_CPU_SR_FIQ_En	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_FIQ_En:$/;"	l
+OS_CPU_SR_INT_Dis	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_INT_Dis:$/;"	l
+OS_CPU_SR_INT_En	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_INT_En:$/;"	l
+OS_CPU_SR_IRQ_Dis	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_IRQ_Dis:$/;"	l
+OS_CPU_SR_IRQ_En	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_IRQ_En:$/;"	l
+OS_CPU_SR_Restore	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_Restore:                                               @ See Note #2$/;"	l
+OS_CPU_SR_Save	uc/AM3359/os_cpu_a_vfp_none.S	/^OS_CPU_SR_Save:$/;"	l
+OS_CRITICAL_METHOD	uc/AM3359/os_cpu.h	221;"	d
+OS_DEBUG_EN	uc/EXAMPLES/os_cfg.h	34;"	d
+OS_DEL_ALWAYS	uc/SOFTWARE/ucos_ii.h	190;"	d
+OS_DEL_NO_PEND	uc/SOFTWARE/ucos_ii.h	189;"	d
+OS_Dummy	uc/SOFTWARE/os_core.c	/^void  OS_Dummy (void)$/;"	f
+OS_ENTER_CRITICAL	uc/AM3359/os_cpu.h	228;"	d
+OS_ENTER_CRITICAL	uc/AM3359/os_cpu.h	235;"	d
+OS_ERR	uc/SOFTWARE/os.h	/^typedef  INT8U  OS_ERR;$/;"	t
+OS_ERR_CREATE_ISR	uc/SOFTWARE/ucos_ii.h	269;"	d
+OS_ERR_DEL_ISR	uc/SOFTWARE/ucos_ii.h	268;"	d
+OS_ERR_EVENT_NAME_TOO_LONG	uc/SOFTWARE/ucos_ii.h	264;"	d
+OS_ERR_EVENT_TYPE	uc/SOFTWARE/ucos_ii.h	253;"	d
+OS_ERR_FLAG_GRP_DEPLETED	uc/SOFTWARE/ucos_ii.h	325;"	d
+OS_ERR_FLAG_INVALID_OPT	uc/SOFTWARE/ucos_ii.h	324;"	d
+OS_ERR_FLAG_INVALID_PGRP	uc/SOFTWARE/ucos_ii.h	321;"	d
+OS_ERR_FLAG_NAME_TOO_LONG	uc/SOFTWARE/ucos_ii.h	326;"	d
+OS_ERR_FLAG_NOT_RDY	uc/SOFTWARE/ucos_ii.h	323;"	d
+OS_ERR_FLAG_WAIT_TYPE	uc/SOFTWARE/ucos_ii.h	322;"	d
+OS_ERR_ID_INVALID	uc/SOFTWARE/ucos_ii.h	260;"	d
+OS_ERR_ILLEGAL_CREATE_RUN_TIME	uc/SOFTWARE/ucos_ii.h	272;"	d
+OS_ERR_INVALID_OPT	uc/SOFTWARE/ucos_ii.h	259;"	d
+OS_ERR_MBOX_FULL	uc/SOFTWARE/ucos_ii.h	274;"	d
+OS_ERR_MEM_FULL	uc/SOFTWARE/ucos_ii.h	312;"	d
+OS_ERR_MEM_INVALID_ADDR	uc/SOFTWARE/ucos_ii.h	316;"	d
+OS_ERR_MEM_INVALID_BLKS	uc/SOFTWARE/ucos_ii.h	309;"	d
+OS_ERR_MEM_INVALID_PART	uc/SOFTWARE/ucos_ii.h	308;"	d
+OS_ERR_MEM_INVALID_PBLK	uc/SOFTWARE/ucos_ii.h	313;"	d
+OS_ERR_MEM_INVALID_PDATA	uc/SOFTWARE/ucos_ii.h	315;"	d
+OS_ERR_MEM_INVALID_PMEM	uc/SOFTWARE/ucos_ii.h	314;"	d
+OS_ERR_MEM_INVALID_SIZE	uc/SOFTWARE/ucos_ii.h	310;"	d
+OS_ERR_MEM_NAME_TOO_LONG	uc/SOFTWARE/ucos_ii.h	317;"	d
+OS_ERR_MEM_NO_FREE_BLKS	uc/SOFTWARE/ucos_ii.h	311;"	d
+OS_ERR_NAME_GET_ISR	uc/SOFTWARE/ucos_ii.h	270;"	d
+OS_ERR_NAME_SET_ISR	uc/SOFTWARE/ucos_ii.h	271;"	d
+OS_ERR_NONE	uc/SOFTWARE/ucos_ii.h	251;"	d
+OS_ERR_NOT_MUTEX_OWNER	uc/SOFTWARE/ucos_ii.h	319;"	d
+OS_ERR_NO_MORE_ID_AVAIL	uc/SOFTWARE/ucos_ii.h	345;"	d
+OS_ERR_OS_NOT_RUNNING	uc/SOFTWARE/ucos_ii.h	351;"	d
+OS_ERR_PCP_LOWER	uc/SOFTWARE/ucos_ii.h	328;"	d
+OS_ERR_PDATA_NULL	uc/SOFTWARE/ucos_ii.h	261;"	d
+OS_ERR_PEND_ABORT	uc/SOFTWARE/ucos_ii.h	267;"	d
+OS_ERR_PEND_ISR	uc/SOFTWARE/ucos_ii.h	254;"	d
+OS_ERR_PEND_LOCKED	uc/SOFTWARE/ucos_ii.h	266;"	d
+OS_ERR_PEVENT_NULL	uc/SOFTWARE/ucos_ii.h	256;"	d
+OS_ERR_PNAME_NULL	uc/SOFTWARE/ucos_ii.h	265;"	d
+OS_ERR_POST_ISR	uc/SOFTWARE/ucos_ii.h	257;"	d
+OS_ERR_POST_NULL_PTR	uc/SOFTWARE/ucos_ii.h	255;"	d
+OS_ERR_PRIO	uc/SOFTWARE/ucos_ii.h	280;"	d
+OS_ERR_PRIO_EXIST	uc/SOFTWARE/ucos_ii.h	279;"	d
+OS_ERR_PRIO_INVALID	uc/SOFTWARE/ucos_ii.h	281;"	d
+OS_ERR_QUERY_ISR	uc/SOFTWARE/ucos_ii.h	258;"	d
+OS_ERR_Q_EMPTY	uc/SOFTWARE/ucos_ii.h	277;"	d
+OS_ERR_Q_FULL	uc/SOFTWARE/ucos_ii.h	276;"	d
+OS_ERR_SCHED_LOCKED	uc/SOFTWARE/ucos_ii.h	283;"	d
+OS_ERR_SEM_OVF	uc/SOFTWARE/ucos_ii.h	284;"	d
+OS_ERR_TASK_CREATE_ISR	uc/SOFTWARE/ucos_ii.h	286;"	d
+OS_ERR_TASK_DEL	uc/SOFTWARE/ucos_ii.h	287;"	d
+OS_ERR_TASK_DEL_IDLE	uc/SOFTWARE/ucos_ii.h	288;"	d
+OS_ERR_TASK_DEL_ISR	uc/SOFTWARE/ucos_ii.h	290;"	d
+OS_ERR_TASK_DEL_REQ	uc/SOFTWARE/ucos_ii.h	289;"	d
+OS_ERR_TASK_NAME_TOO_LONG	uc/SOFTWARE/ucos_ii.h	291;"	d
+OS_ERR_TASK_NOT_EXIST	uc/SOFTWARE/ucos_ii.h	293;"	d
+OS_ERR_TASK_NOT_SUSPENDED	uc/SOFTWARE/ucos_ii.h	294;"	d
+OS_ERR_TASK_NO_MORE_TCB	uc/SOFTWARE/ucos_ii.h	292;"	d
+OS_ERR_TASK_OPT	uc/SOFTWARE/ucos_ii.h	295;"	d
+OS_ERR_TASK_RESUME_PRIO	uc/SOFTWARE/ucos_ii.h	296;"	d
+OS_ERR_TASK_SUSPEND_IDLE	uc/SOFTWARE/ucos_ii.h	297;"	d
+OS_ERR_TASK_SUSPEND_PRIO	uc/SOFTWARE/ucos_ii.h	298;"	d
+OS_ERR_TASK_WAITING	uc/SOFTWARE/ucos_ii.h	299;"	d
+OS_ERR_TIMEOUT	uc/SOFTWARE/ucos_ii.h	263;"	d
+OS_ERR_TIME_DLY_ISR	uc/SOFTWARE/ucos_ii.h	306;"	d
+OS_ERR_TIME_INVALID_MINUTES	uc/SOFTWARE/ucos_ii.h	302;"	d
+OS_ERR_TIME_INVALID_MS	uc/SOFTWARE/ucos_ii.h	304;"	d
+OS_ERR_TIME_INVALID_SECONDS	uc/SOFTWARE/ucos_ii.h	303;"	d
+OS_ERR_TIME_NOT_DLY	uc/SOFTWARE/ucos_ii.h	301;"	d
+OS_ERR_TIME_ZERO_DLY	uc/SOFTWARE/ucos_ii.h	305;"	d
+OS_ERR_TLS_DESTRUCT_ASSIGNED	uc/SOFTWARE/ucos_ii.h	350;"	d
+OS_ERR_TLS_ID_INVALID	uc/SOFTWARE/ucos_ii.h	348;"	d
+OS_ERR_TLS_NOT_EN	uc/SOFTWARE/ucos_ii.h	349;"	d
+OS_ERR_TLS_NO_MORE_AVAIL	uc/SOFTWARE/ucos_ii.h	347;"	d
+OS_ERR_TMR_INACTIVE	uc/SOFTWARE/ucos_ii.h	335;"	d
+OS_ERR_TMR_INVALID	uc/SOFTWARE/ucos_ii.h	338;"	d
+OS_ERR_TMR_INVALID_DEST	uc/SOFTWARE/ucos_ii.h	336;"	d
+OS_ERR_TMR_INVALID_DLY	uc/SOFTWARE/ucos_ii.h	330;"	d
+OS_ERR_TMR_INVALID_NAME	uc/SOFTWARE/ucos_ii.h	333;"	d
+OS_ERR_TMR_INVALID_OPT	uc/SOFTWARE/ucos_ii.h	332;"	d
+OS_ERR_TMR_INVALID_PERIOD	uc/SOFTWARE/ucos_ii.h	331;"	d
+OS_ERR_TMR_INVALID_STATE	uc/SOFTWARE/ucos_ii.h	341;"	d
+OS_ERR_TMR_INVALID_TYPE	uc/SOFTWARE/ucos_ii.h	337;"	d
+OS_ERR_TMR_ISR	uc/SOFTWARE/ucos_ii.h	339;"	d
+OS_ERR_TMR_NAME_TOO_LONG	uc/SOFTWARE/ucos_ii.h	340;"	d
+OS_ERR_TMR_NON_AVAIL	uc/SOFTWARE/ucos_ii.h	334;"	d
+OS_ERR_TMR_NO_CALLBACK	uc/SOFTWARE/ucos_ii.h	343;"	d
+OS_ERR_TMR_STOPPED	uc/SOFTWARE/ucos_ii.h	342;"	d
+OS_EVENT	uc/SOFTWARE/ucos_ii.h	/^} OS_EVENT;$/;"	t	typeref:struct:os_event
+OS_EVENT_EN	uc/SOFTWARE/ucos_ii.h	101;"	d
+OS_EVENT_MULTI_EN	uc/EXAMPLES/os_cfg.h	36;"	d
+OS_EVENT_NAME_EN	uc/EXAMPLES/os_cfg.h	37;"	d
+OS_EVENT_TBL_SIZE	uc/SOFTWARE/ucos_ii.h	90;"	d
+OS_EVENT_TBL_SIZE	uc/SOFTWARE/ucos_ii.h	93;"	d
+OS_EVENT_TYPE_FLAG	uc/SOFTWARE/ucos_ii.h	141;"	d
+OS_EVENT_TYPE_MBOX	uc/SOFTWARE/ucos_ii.h	137;"	d
+OS_EVENT_TYPE_MUTEX	uc/SOFTWARE/ucos_ii.h	140;"	d
+OS_EVENT_TYPE_Q	uc/SOFTWARE/ucos_ii.h	138;"	d
+OS_EVENT_TYPE_SEM	uc/SOFTWARE/ucos_ii.h	139;"	d
+OS_EVENT_TYPE_UNUSED	uc/SOFTWARE/ucos_ii.h	136;"	d
+OS_EXIT_CRITICAL	uc/AM3359/os_cpu.h	230;"	d
+OS_EXIT_CRITICAL	uc/AM3359/os_cpu.h	236;"	d
+OS_EXT	uc/SOFTWARE/ucos_ii.h	62;"	d
+OS_EXT	uc/SOFTWARE/ucos_ii.h	64;"	d
+OS_EventTaskRdy	uc/SOFTWARE/os_core.c	/^INT8U  OS_EventTaskRdy (OS_EVENT  *pevent,$/;"	f
+OS_EventTaskRemove	uc/SOFTWARE/os_core.c	/^void  OS_EventTaskRemove (OS_TCB   *ptcb,$/;"	f
+OS_EventTaskRemoveMulti	uc/SOFTWARE/os_core.c	/^void  OS_EventTaskRemoveMulti (OS_TCB    *ptcb,$/;"	f
+OS_EventTaskWait	uc/SOFTWARE/os_core.c	/^void  OS_EventTaskWait (OS_EVENT *pevent)$/;"	f
+OS_EventTaskWaitMulti	uc/SOFTWARE/os_core.c	/^void  OS_EventTaskWaitMulti (OS_EVENT **pevents_wait)$/;"	f
+OS_EventWaitListInit	uc/SOFTWARE/os_core.c	/^void  OS_EventWaitListInit (OS_EVENT *pevent)$/;"	f
+OS_FALSE	uc/SOFTWARE/ucos_ii.h	68;"	d
+OS_FLAGS	uc/SOFTWARE/ucos_ii.h	/^typedef  INT16U   OS_FLAGS;$/;"	t
+OS_FLAGS	uc/SOFTWARE/ucos_ii.h	/^typedef  INT32U   OS_FLAGS;$/;"	t
+OS_FLAGS	uc/SOFTWARE/ucos_ii.h	/^typedef  INT8U    OS_FLAGS;$/;"	t
+OS_FLAGS_NBITS	uc/EXAMPLES/os_cfg.h	84;"	d
+OS_FLAG_ACCEPT_EN	uc/EXAMPLES/os_cfg.h	79;"	d
+OS_FLAG_CLR	uc/SOFTWARE/ucos_ii.h	167;"	d
+OS_FLAG_CONSUME	uc/SOFTWARE/ucos_ii.h	164;"	d
+OS_FLAG_DEL_EN	uc/EXAMPLES/os_cfg.h	80;"	d
+OS_FLAG_EN	uc/EXAMPLES/os_cfg.h	78;"	d
+OS_FLAG_GRP	uc/SOFTWARE/ucos_ii.h	/^} OS_FLAG_GRP;$/;"	t	typeref:struct:os_flag_grp
+OS_FLAG_NAME_EN	uc/EXAMPLES/os_cfg.h	81;"	d
+OS_FLAG_NODE	uc/SOFTWARE/ucos_ii.h	/^} OS_FLAG_NODE;$/;"	t	typeref:struct:os_flag_node
+OS_FLAG_QUERY_EN	uc/EXAMPLES/os_cfg.h	82;"	d
+OS_FLAG_SET	uc/SOFTWARE/ucos_ii.h	168;"	d
+OS_FLAG_WAIT_CLR_ALL	uc/SOFTWARE/ucos_ii.h	151;"	d
+OS_FLAG_WAIT_CLR_AND	uc/SOFTWARE/ucos_ii.h	152;"	d
+OS_FLAG_WAIT_CLR_ANY	uc/SOFTWARE/ucos_ii.h	154;"	d
+OS_FLAG_WAIT_CLR_EN	uc/EXAMPLES/os_cfg.h	83;"	d
+OS_FLAG_WAIT_CLR_OR	uc/SOFTWARE/ucos_ii.h	155;"	d
+OS_FLAG_WAIT_SET_ALL	uc/SOFTWARE/ucos_ii.h	157;"	d
+OS_FLAG_WAIT_SET_AND	uc/SOFTWARE/ucos_ii.h	158;"	d
+OS_FLAG_WAIT_SET_ANY	uc/SOFTWARE/ucos_ii.h	160;"	d
+OS_FLAG_WAIT_SET_OR	uc/SOFTWARE/ucos_ii.h	161;"	d
+OS_FlagBlock	uc/SOFTWARE/os_flag.c	/^static  void  OS_FlagBlock (OS_FLAG_GRP  *pgrp,$/;"	f	file:
+OS_FlagInit	uc/SOFTWARE/os_flag.c	/^void  OS_FlagInit (void)$/;"	f
+OS_FlagTaskRdy	uc/SOFTWARE/os_flag.c	/^static  BOOLEAN  OS_FlagTaskRdy (OS_FLAG_NODE *pnode,$/;"	f	file:
+OS_FlagUnlink	uc/SOFTWARE/os_flag.c	/^void  OS_FlagUnlink (OS_FLAG_NODE *pnode)$/;"	f
+OS_GLOBALS	uc/SOFTWARE/os_core.c	27;"	d	file:
+OS_InitEventList	uc/SOFTWARE/os_core.c	/^static  void  OS_InitEventList (void)$/;"	f	file:
+OS_InitMisc	uc/SOFTWARE/os_core.c	/^static  void  OS_InitMisc (void)$/;"	f	file:
+OS_InitRdyList	uc/SOFTWARE/os_core.c	/^static  void  OS_InitRdyList (void)$/;"	f	file:
+OS_InitTCBList	uc/SOFTWARE/os_core.c	/^static  void  OS_InitTCBList (void)$/;"	f	file:
+OS_InitTaskIdle	uc/SOFTWARE/os_core.c	/^static  void  OS_InitTaskIdle (void)$/;"	f	file:
+OS_InitTaskStat	uc/SOFTWARE/os_core.c	/^static  void  OS_InitTaskStat (void)$/;"	f	file:
+OS_LOWEST_PRIO	uc/EXAMPLES/os_cfg.h	39;"	d
+OS_MAX_EVENTS	uc/EXAMPLES/os_cfg.h	42;"	d
+OS_MAX_FLAGS	uc/EXAMPLES/os_cfg.h	43;"	d
+OS_MAX_MEM_PART	uc/EXAMPLES/os_cfg.h	44;"	d
+OS_MAX_QS	uc/EXAMPLES/os_cfg.h	45;"	d
+OS_MAX_TASKS	uc/EXAMPLES/os_cfg.h	46;"	d
+OS_MBOX_ACCEPT_EN	uc/EXAMPLES/os_cfg.h	89;"	d
+OS_MBOX_DATA	uc/SOFTWARE/ucos_ii.h	/^} OS_MBOX_DATA;$/;"	t	typeref:struct:os_mbox_data
+OS_MBOX_DEL_EN	uc/EXAMPLES/os_cfg.h	90;"	d
+OS_MBOX_EN	uc/EXAMPLES/os_cfg.h	88;"	d
+OS_MBOX_PEND_ABORT_EN	uc/EXAMPLES/os_cfg.h	91;"	d
+OS_MBOX_POST_EN	uc/EXAMPLES/os_cfg.h	92;"	d
+OS_MBOX_POST_OPT_EN	uc/EXAMPLES/os_cfg.h	93;"	d
+OS_MBOX_QUERY_EN	uc/EXAMPLES/os_cfg.h	94;"	d
+OS_MEM	uc/SOFTWARE/ucos_ii.h	/^} OS_MEM;$/;"	t	typeref:struct:os_mem
+OS_MEM_DATA	uc/SOFTWARE/ucos_ii.h	/^} OS_MEM_DATA;$/;"	t	typeref:struct:os_mem_data
+OS_MEM_EN	uc/EXAMPLES/os_cfg.h	98;"	d
+OS_MEM_NAME_EN	uc/EXAMPLES/os_cfg.h	99;"	d
+OS_MEM_QUERY_EN	uc/EXAMPLES/os_cfg.h	100;"	d
+OS_MUTEX_ACCEPT_EN	uc/EXAMPLES/os_cfg.h	105;"	d
+OS_MUTEX_AVAILABLE	uc/SOFTWARE/os_mutex.c	41;"	d	file:
+OS_MUTEX_DATA	uc/SOFTWARE/ucos_ii.h	/^} OS_MUTEX_DATA;$/;"	t	typeref:struct:os_mutex_data
+OS_MUTEX_DEL_EN	uc/EXAMPLES/os_cfg.h	106;"	d
+OS_MUTEX_EN	uc/EXAMPLES/os_cfg.h	104;"	d
+OS_MUTEX_KEEP_LOWER_8	uc/SOFTWARE/os_mutex.c	38;"	d	file:
+OS_MUTEX_KEEP_UPPER_8	uc/SOFTWARE/os_mutex.c	39;"	d	file:
+OS_MUTEX_QUERY_EN	uc/EXAMPLES/os_cfg.h	107;"	d
+OS_MemClr	uc/SOFTWARE/os_core.c	/^void  OS_MemClr (INT8U  *pdest,$/;"	f
+OS_MemCopy	uc/SOFTWARE/os_core.c	/^void  OS_MemCopy (INT8U  *pdest,$/;"	f
+OS_MemInit	uc/SOFTWARE/os_mem.c	/^void  OS_MemInit (void)$/;"	f
+OS_N_SYS_TASKS	uc/SOFTWARE/ucos_ii.h	81;"	d
+OS_N_SYS_TASKS	uc/SOFTWARE/ucos_ii.h	83;"	d
+OS_PEND_OPT_BROADCAST	uc/SOFTWARE/ucos_ii.h	200;"	d
+OS_PEND_OPT_NONE	uc/SOFTWARE/ucos_ii.h	199;"	d
+OS_POST_OPT_BROADCAST	uc/SOFTWARE/ucos_ii.h	210;"	d
+OS_POST_OPT_FRONT	uc/SOFTWARE/ucos_ii.h	211;"	d
+OS_POST_OPT_NONE	uc/SOFTWARE/ucos_ii.h	209;"	d
+OS_POST_OPT_NO_SCHED	uc/SOFTWARE/ucos_ii.h	212;"	d
+OS_PRIO	uc/SOFTWARE/ucos_ii.h	/^typedef  INT16U   OS_PRIO;$/;"	t
+OS_PRIO	uc/SOFTWARE/ucos_ii.h	/^typedef  INT8U    OS_PRIO;$/;"	t
+OS_PRIO_MUTEX_CEIL_DIS	uc/SOFTWARE/ucos_ii.h	78;"	d
+OS_PRIO_SELF	uc/SOFTWARE/ucos_ii.h	77;"	d
+OS_Q	uc/SOFTWARE/ucos_ii.h	/^} OS_Q;$/;"	t	typeref:struct:os_q
+OS_QInit	uc/SOFTWARE/os_q.c	/^void  OS_QInit (void)$/;"	f
+OS_Q_ACCEPT_EN	uc/EXAMPLES/os_cfg.h	112;"	d
+OS_Q_DATA	uc/SOFTWARE/ucos_ii.h	/^} OS_Q_DATA;$/;"	t	typeref:struct:os_q_data
+OS_Q_DEL_EN	uc/EXAMPLES/os_cfg.h	113;"	d
+OS_Q_EN	uc/EXAMPLES/os_cfg.h	111;"	d
+OS_Q_FLUSH_EN	uc/EXAMPLES/os_cfg.h	114;"	d
+OS_Q_PEND_ABORT_EN	uc/EXAMPLES/os_cfg.h	115;"	d
+OS_Q_POST_EN	uc/EXAMPLES/os_cfg.h	116;"	d
+OS_Q_POST_FRONT_EN	uc/EXAMPLES/os_cfg.h	117;"	d
+OS_Q_POST_OPT_EN	uc/EXAMPLES/os_cfg.h	118;"	d
+OS_Q_QUERY_EN	uc/EXAMPLES/os_cfg.h	119;"	d
+OS_RDY_TBL_SIZE	uc/SOFTWARE/ucos_ii.h	91;"	d
+OS_RDY_TBL_SIZE	uc/SOFTWARE/ucos_ii.h	94;"	d
+OS_SCHED_LOCK_EN	uc/EXAMPLES/os_cfg.h	48;"	d
+OS_SEM_ACCEPT_EN	uc/EXAMPLES/os_cfg.h	124;"	d
+OS_SEM_DATA	uc/SOFTWARE/ucos_ii.h	/^} OS_SEM_DATA;$/;"	t	typeref:struct:os_sem_data
+OS_SEM_DEL_EN	uc/EXAMPLES/os_cfg.h	125;"	d
+OS_SEM_EN	uc/EXAMPLES/os_cfg.h	123;"	d
+OS_SEM_PEND_ABORT_EN	uc/EXAMPLES/os_cfg.h	126;"	d
+OS_SEM_QUERY_EN	uc/EXAMPLES/os_cfg.h	127;"	d
+OS_SEM_SET_EN	uc/EXAMPLES/os_cfg.h	128;"	d
+OS_STAT_FLAG	uc/SOFTWARE/ucos_ii.h	117;"	d
+OS_STAT_MBOX	uc/SOFTWARE/ucos_ii.h	113;"	d
+OS_STAT_MULTI	uc/SOFTWARE/ucos_ii.h	118;"	d
+OS_STAT_MUTEX	uc/SOFTWARE/ucos_ii.h	116;"	d
+OS_STAT_PEND_ABORT	uc/SOFTWARE/ucos_ii.h	129;"	d
+OS_STAT_PEND_ANY	uc/SOFTWARE/ucos_ii.h	120;"	d
+OS_STAT_PEND_OK	uc/SOFTWARE/ucos_ii.h	127;"	d
+OS_STAT_PEND_TO	uc/SOFTWARE/ucos_ii.h	128;"	d
+OS_STAT_Q	uc/SOFTWARE/ucos_ii.h	114;"	d
+OS_STAT_RDY	uc/SOFTWARE/ucos_ii.h	111;"	d
+OS_STAT_SEM	uc/SOFTWARE/ucos_ii.h	112;"	d
+OS_STAT_SUSPEND	uc/SOFTWARE/ucos_ii.h	115;"	d
+OS_STK	uc/AM3359/os_cpu.h	/^typedef unsigned int   OS_STK;                   \/* Each stack entry is 32-bit wide                    *\/$/;"	t
+OS_STK_DATA	uc/SOFTWARE/ucos_ii.h	/^} OS_STK_DATA;$/;"	t	typeref:struct:os_stk_data
+OS_STK_GROWTH	uc/AM3359/os_cpu.h	198;"	d
+OS_Sched	uc/SOFTWARE/os_core.c	/^void  OS_Sched (void)$/;"	f
+OS_SchedNew	uc/SOFTWARE/os_core.c	/^static  void  OS_SchedNew (void)$/;"	f	file:
+OS_StrLen	uc/SOFTWARE/os_core.c	/^INT8U  OS_StrLen (INT8U *psrc)$/;"	f
+OS_TASK_CHANGE_PRIO_EN	uc/EXAMPLES/os_cfg.h	63;"	d
+OS_TASK_CREATE_EN	uc/EXAMPLES/os_cfg.h	64;"	d
+OS_TASK_CREATE_EXT_EN	uc/EXAMPLES/os_cfg.h	65;"	d
+OS_TASK_DEL_EN	uc/EXAMPLES/os_cfg.h	66;"	d
+OS_TASK_IDLE_ID	uc/SOFTWARE/ucos_ii.h	97;"	d
+OS_TASK_IDLE_PRIO	uc/SOFTWARE/ucos_ii.h	87;"	d
+OS_TASK_IDLE_STK_SIZE	uc/EXAMPLES/os_cfg.h	59;"	d
+OS_TASK_NAME_EN	uc/EXAMPLES/os_cfg.h	67;"	d
+OS_TASK_OPT_NONE	uc/SOFTWARE/ucos_ii.h	219;"	d
+OS_TASK_OPT_NO_TLS	uc/SOFTWARE/ucos_ii.h	223;"	d
+OS_TASK_OPT_SAVE_FP	uc/SOFTWARE/ucos_ii.h	222;"	d
+OS_TASK_OPT_STK_CHK	uc/SOFTWARE/ucos_ii.h	220;"	d
+OS_TASK_OPT_STK_CLR	uc/SOFTWARE/ucos_ii.h	221;"	d
+OS_TASK_PROFILE_EN	uc/EXAMPLES/os_cfg.h	68;"	d
+OS_TASK_QUERY_EN	uc/EXAMPLES/os_cfg.h	69;"	d
+OS_TASK_REG_TBL_SIZE	uc/EXAMPLES/os_cfg.h	70;"	d
+OS_TASK_STAT_EN	uc/EXAMPLES/os_cfg.h	71;"	d
+OS_TASK_STAT_ID	uc/SOFTWARE/ucos_ii.h	98;"	d
+OS_TASK_STAT_PRIO	uc/SOFTWARE/ucos_ii.h	86;"	d
+OS_TASK_STAT_STK_CHK_EN	uc/EXAMPLES/os_cfg.h	72;"	d
+OS_TASK_STAT_STK_SIZE	uc/EXAMPLES/os_cfg.h	58;"	d
+OS_TASK_SUSPEND_EN	uc/EXAMPLES/os_cfg.h	73;"	d
+OS_TASK_SW	uc/AM3359/os_cpu.h	197;"	d
+OS_TASK_SW_HOOK_EN	uc/EXAMPLES/os_cfg.h	74;"	d
+OS_TASK_TMR_ID	uc/SOFTWARE/ucos_ii.h	99;"	d
+OS_TASK_TMR_PRIO	uc/EXAMPLES/app_cfg.h	58;"	d
+OS_TASK_TMR_STK_SIZE	uc/EXAMPLES/os_cfg.h	57;"	d
+OS_TCB	uc/SOFTWARE/ucos_ii.h	/^} OS_TCB;$/;"	t	typeref:struct:os_tcb
+OS_TCBInit	uc/SOFTWARE/os_core.c	/^INT8U  OS_TCBInit (INT8U    prio,$/;"	f
+OS_TCB_RESERVED	uc/SOFTWARE/ucos_ii.h	103;"	d
+OS_TICKS_PER_SEC	uc/EXAMPLES/os_cfg.h	51;"	d
+OS_TICK_STEP_DIS	uc/SOFTWARE/ucos_ii.h	179;"	d
+OS_TICK_STEP_EN	uc/EXAMPLES/os_cfg.h	50;"	d
+OS_TICK_STEP_ONCE	uc/SOFTWARE/ucos_ii.h	181;"	d
+OS_TICK_STEP_WAIT	uc/SOFTWARE/ucos_ii.h	180;"	d
+OS_TIME_DLY_HMSM_EN	uc/EXAMPLES/os_cfg.h	132;"	d
+OS_TIME_DLY_RESUME_EN	uc/EXAMPLES/os_cfg.h	133;"	d
+OS_TIME_GET_SET_EN	uc/EXAMPLES/os_cfg.h	134;"	d
+OS_TIME_TICK_HOOK_EN	uc/EXAMPLES/os_cfg.h	135;"	d
+OS_TLS	uc/SOFTWARE/ucos_ii.h	/^typedef  void                       *OS_TLS;$/;"	t
+OS_TLS_DESTRUCT_PTR	uc/SOFTWARE/ucos_ii.h	/^typedef  void                      (*OS_TLS_DESTRUCT_PTR)(OS_TCB    *ptcb,$/;"	t
+OS_TLS_ID	uc/SOFTWARE/ucos_ii.h	/^typedef  INT8U                       OS_TLS_ID;$/;"	t
+OS_TLS_TBL_SIZE	uc/EXAMPLES/os_cfg.h	53;"	d
+OS_TLS_TblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OS_TLS_TblSize        = 0u;$/;"	v
+OS_TLS_TblSize	uc/SOFTWARE/os_dbg_r.c	/^INT16U  const  OS_TLS_TblSize        = OS_TLS_TBL_SIZE * sizeof(OS_TLS);$/;"	v
+OS_TMR	uc/SOFTWARE/ucos_ii.h	/^} OS_TMR;$/;"	t	typeref:struct:os_tmr
+OS_TMR_CALLBACK	uc/SOFTWARE/ucos_ii.h	/^typedef  void (*OS_TMR_CALLBACK)(void *ptmr, void *parg);$/;"	t
+OS_TMR_CFG_MAX	uc/EXAMPLES/os_cfg.h	140;"	d
+OS_TMR_CFG_NAME_EN	uc/EXAMPLES/os_cfg.h	141;"	d
+OS_TMR_CFG_TICKS_PER_SEC	uc/EXAMPLES/os_cfg.h	143;"	d
+OS_TMR_CFG_WHEEL_SIZE	uc/EXAMPLES/os_cfg.h	142;"	d
+OS_TMR_EN	uc/EXAMPLES/os_cfg.h	139;"	d
+OS_TMR_LINK_DLY	uc/SOFTWARE/os_tmr.c	50;"	d	file:
+OS_TMR_LINK_PERIODIC	uc/SOFTWARE/os_tmr.c	51;"	d	file:
+OS_TMR_OPT_CALLBACK	uc/SOFTWARE/ucos_ii.h	235;"	d
+OS_TMR_OPT_CALLBACK_ARG	uc/SOFTWARE/ucos_ii.h	236;"	d
+OS_TMR_OPT_NONE	uc/SOFTWARE/ucos_ii.h	230;"	d
+OS_TMR_OPT_ONE_SHOT	uc/SOFTWARE/ucos_ii.h	232;"	d
+OS_TMR_OPT_PERIODIC	uc/SOFTWARE/ucos_ii.h	233;"	d
+OS_TMR_STATE_COMPLETED	uc/SOFTWARE/ucos_ii.h	243;"	d
+OS_TMR_STATE_RUNNING	uc/SOFTWARE/ucos_ii.h	244;"	d
+OS_TMR_STATE_STOPPED	uc/SOFTWARE/ucos_ii.h	242;"	d
+OS_TMR_STATE_UNUSED	uc/SOFTWARE/ucos_ii.h	241;"	d
+OS_TMR_TYPE	uc/SOFTWARE/ucos_ii.h	143;"	d
+OS_TMR_WHEEL	uc/SOFTWARE/ucos_ii.h	/^} OS_TMR_WHEEL;$/;"	t	typeref:struct:os_tmr_wheel
+OS_TRUE	uc/SOFTWARE/ucos_ii.h	72;"	d
+OS_TaskIdle	uc/SOFTWARE/os_core.c	/^void  OS_TaskIdle (void *p_arg)$/;"	f
+OS_TaskReturn	uc/SOFTWARE/os_task.c	/^void  OS_TaskReturn (void)$/;"	f
+OS_TaskStat	uc/SOFTWARE/os_core.c	/^void  OS_TaskStat (void *p_arg)$/;"	f
+OS_TaskStatStkChk	uc/SOFTWARE/os_core.c	/^void  OS_TaskStatStkChk (void)$/;"	f
+OS_TaskStkClr	uc/SOFTWARE/os_task.c	/^void  OS_TaskStkClr (OS_STK  *pbos,$/;"	f
+OS_VERSION	uc/SOFTWARE/ucos_ii.h	36;"	d
+OS_uCOS_II_H	uc/SOFTWARE/ucos_ii.h	24;"	d
+PAD_CTRL_MUXMODE	src/armv7a/am335x/bl_platform.c	91;"	d	file:
+PAD_CTRL_PULLUDDISABLE	src/armv7a/am335x/bl_platform.c	87;"	d	file:
+PAD_CTRL_PULLUPSEL	src/armv7a/am335x/bl_platform.c	88;"	d	file:
+PAD_CTRL_RXACTIVE	src/armv7a/am335x/bl_platform.c	89;"	d	file:
+PAD_CTRL_SLOWSLEW	src/armv7a/am335x/bl_platform.c	90;"	d	file:
+PATH_BUF_SIZE	src/bl_hsmmcsd.c	80;"	d	file:
+PERPLL_M	include/armv7a/am335x/bl_platform.h	160;"	d
+PERPLL_M2	include/armv7a/am335x/bl_platform.h	162;"	d
+PERPLL_N	include/armv7a/am335x/bl_platform.h	161;"	d
+PLLInit	src/armv7a/am335x/bl_platform.c	/^void PLLInit(void)$/;"	f
+PMIC_SR_I2C_SLAVE_ADDR	src/armv7a/am335x/bl_platform.c	103;"	d	file:
+PMIC_VOLT_SEL_0950MV	include/armv7a/am335x/bl_platform.h	191;"	d
+PMIC_VOLT_SEL_0950MV	include/armv7a/am335x/bl_platform.h	200;"	d
+PMIC_VOLT_SEL_1100MV	include/armv7a/am335x/bl_platform.h	192;"	d
+PMIC_VOLT_SEL_1100MV	include/armv7a/am335x/bl_platform.h	201;"	d
+PMIC_VOLT_SEL_1200MV	include/armv7a/am335x/bl_platform.h	193;"	d
+PMIC_VOLT_SEL_1200MV	include/armv7a/am335x/bl_platform.h	202;"	d
+PMIC_VOLT_SEL_1260MV	include/armv7a/am335x/bl_platform.h	194;"	d
+PMIC_VOLT_SEL_1260MV	include/armv7a/am335x/bl_platform.h	203;"	d
+PMIC_VOLT_SEL_1325MV	include/armv7a/am335x/bl_platform.h	195;"	d
+PMIC_VOLT_SEL_1325MV	include/armv7a/am335x/bl_platform.h	204;"	d
+PerPLLInit	src/armv7a/am335x/bl_platform.c	/^void PerPLLInit(void)$/;"	f
+PowerDomainTransitionInit	src/armv7a/am335x/bl_platform.c	/^void PowerDomainTransitionInit(void)$/;"	f
+RPRC_BOOTADDR	include/bl_rprc.h	46;"	d
+RPRC_MAGIC_NUMBER	include/bl_rprc.h	44;"	d
+RPRC_RESOURCE	include/bl_rprc.h	45;"	d
+SMPS_DRIVE_SCLSR_EN1	src/armv7a/am335x/bl_platform.c	104;"	d	file:
+SMPS_DRIVE_SDASR_EN2	src/armv7a/am335x/bl_platform.c	105;"	d	file:
+SPIBootCopy	src/bl_copy.c	/^static unsigned int SPIBootCopy(void)$/;"	f	file:
+SPIBootCopy	src/bl_copy_rprc.c	/^static unsigned int SPIBootCopy(void)$/;"	f	file:
+SPIConfigure	src/bl_mcspi.c	/^void SPIConfigure(void)$/;"	f
+SPI_BASE	include/armv7a/am335x/bl_platform.h	74;"	d
+SPI_CHAN	include/armv7a/am335x/bl_platform.h	73;"	d
+SPI_FLASH_READ	src/bl_mcspi.c	57;"	d	file:
+SPI_readBytes	src/bl_copy_rprc.c	/^static void SPI_readBytes(void *value, int *cursor, int size)$/;"	f	file:
+SVC_STACK_SIZE	src/armv7a/cgt/bl_init.asm	/^SVC_STACK_SIZE .set 0x8$/;"	l
+SelectI2CInstance	src/armv7a/am335x/bl_platform.c	/^void SelectI2CInstance(unsigned int i2cInstance)$/;"	f
+SelectVdd1Source	src/armv7a/am335x/bl_platform.c	/^void SelectVdd1Source(unsigned int vddSource)$/;"	f
+SelectVdd2Source	src/armv7a/am335x/bl_platform.c	/^void SelectVdd2Source(unsigned int vddSource)$/;"	f
+SetVdd1OpVoltage	src/armv7a/am335x/bl_platform.c	/^void SetVdd1OpVoltage(unsigned int opVolSelector)$/;"	f
+SetVdd2OpVoltage	src/armv7a/am335x/bl_platform.c	/^void SetVdd2OpVoltage(unsigned int opVolSelector)$/;"	f
+SetVdd2SrVoltage	src/armv7a/am335x/bl_platform.c	/^void SetVdd2SrVoltage(unsigned int opVolSelector)$/;"	f
+SetupI2C	src/armv7a/am335x/bl_platform.c	/^void SetupI2C(void)$/;"	f
+SetupI2CTransmit	src/armv7a/am335x/bl_platform.c	/^void SetupI2CTransmit(unsigned int dcount)$/;"	f
+SetupReception	src/armv7a/am335x/bl_platform.c	/^void SetupReception(unsigned int dcount)$/;"	f
+TPS65217RegRead	src/armv7a/am335x/bl_platform.c	/^void TPS65217RegRead(unsigned char regOffset, unsigned char* dest)$/;"	f
+TPS65217RegWrite	src/armv7a/am335x/bl_platform.c	/^void TPS65217RegWrite(unsigned char port_level, unsigned char regOffset,$/;"	f
+TPS65217VoltageUpdate	src/armv7a/am335x/bl_platform.c	/^void TPS65217VoltageUpdate(unsigned char dc_cntrl_reg, unsigned char volt_sel)$/;"	f
+UARTBootCopy	src/bl_copy.c	/^static unsigned int UARTBootCopy(void)$/;"	f	file:
+UARTGetInt	src/bl_uart.c	/^void UARTGetInt(int *val)$/;"	f
+UARTSetup	src/armv7a/am335x/bl_platform.c	/^void UARTSetup(void)$/;"	f
+UART_BASE	include/armv7a/am335x/bl_platform.h	140;"	d
+UND_STACK_SIZE	src/armv7a/cgt/bl_init.asm	/^UND_STACK_SIZE .set 0x8$/;"	l
+_BL_PLATFORM_H__	include/armv7a/am335x/bl_platform.h	43;"	d
+__BL_COPY_H__	include/bl_copy.h	41;"	d
+__BL_H__	include/bl.h	43;"	d
+__BL_MMCSD_H__	include/bl_mmcsd.h	42;"	d
+__BL_NAND_H__	include/bl_nand.h	42;"	d
+__BL_RPRC_H__	include/bl_rprc.h	41;"	d
+__BL_SPI_H__	include/bl_spi.h	42;"	d
+_bss_end	src/armv7a/cgt/bl_init.asm	/^_bss_end:$/;"	l
+_bss_start	src/armv7a/cgt/bl_init.asm	/^_bss_start:$/;"	l
+_data_auto_init	src/armv7a/cgt/bl_init.asm	/^_data_auto_init:$/;"	l
+_fatDevice	src/bl_hsmmcsd.c	/^typedef struct _fatDevice$/;"	s	file:
+_main	src/armv7a/cgt/bl_init.asm	/^_main:$/;"	l
+_nandbootheader_	include/bl_nand.h	/^typedef struct _nandbootheader_$/;"	s
+_spibootheader_	include/bl_spi.h	/^typedef struct _spibootheader_$/;"	s
+_stackptr	src/armv7a/cgt/bl_init.asm	/^_stackptr:$/;"	l
+_ti_header_	include/bl_copy.h	/^    typedef struct _ti_header_$/;"	s
+addr	include/bl_rprc.h	/^    unsigned int addr;$/;"	m	struct:rprcSectionHeader
+appEntry	src/bl_main.c	/^static void (*appEntry)();$/;"	v	file:
+appSize	include/bl_spi.h	/^    unsigned int appSize;    $/;"	m	struct:_spibootheader_
+block	include/bl_nand.h	/^    unsigned int block;$/;"	m	struct:_nandbootheader_
+cmdCompFlag	src/bl_hsmmcsd.c	/^volatile unsigned int cmdCompFlag = 0;$/;"	v
+cmdTimeout	src/bl_hsmmcsd.c	/^volatile unsigned int cmdTimeout = 0;$/;"	v
+ctrlInfo	src/bl_hsmmcsd.c	/^mmcsdCtrlInfo  ctrlInfo __attribute__ ((aligned (32)));$/;"	v
+ctrlInfo	src/bl_hsmmcsd.c	/^mmcsdCtrlInfo ctrlInfo;$/;"	v
+dataFromSlave	src/armv7a/am335x/bl_platform.c	/^volatile unsigned char dataFromSlave[2];$/;"	v
+dataToSlave	src/armv7a/am335x/bl_platform.c	/^volatile unsigned char dataToSlave[3];$/;"	v
+dev	src/bl_hsmmcsd.c	/^    void *dev;$/;"	m	struct:_fatDevice	file:
+deviceType	src/armv7a/am335x/bl_platform.c	/^char *deviceType = "AM335x";$/;"	v
+deviceVersion	src/armv7a/am335x/bl_platform.c	/^volatile unsigned int deviceVersion;$/;"	v
+eccData	src/bl_nand.c	/^unsigned char eccData[NAND_ECC_BUFF_SIZE];$/;"	v
+entryPoint	include/bl_nand.h	/^    unsigned int entryPoint;  $/;"	m	struct:_nandbootheader_
+entryPoint	include/bl_spi.h	/^    unsigned int entryPoint;  $/;"	m	struct:_spibootheader_
+entryPoint	src/bl_main.c	/^unsigned int entryPoint = 0;$/;"	v
+errFlag	src/bl_hsmmcsd.c	/^volatile unsigned int errFlag = 0;$/;"	v
+fatDevice	src/bl_hsmmcsd.c	/^}fatDevice;$/;"	t	typeref:struct:_fatDevice	file:
+flag	src/armv7a/am335x/bl_platform.c	/^volatile unsigned int flag = 1;$/;"	v
+freqMultDDR	src/armv7a/am335x/bl_platform.c	/^volatile unsigned int freqMultDDR;$/;"	v
+fresult	src/bl_hsmmcsd.c	/^    FRESULT fresult;$/;"	m	struct:__anon1	file:
+fs	src/bl_hsmmcsd.c	/^    FATFS *fs;$/;"	m	struct:_fatDevice	file:
+g_cTmpBuf	src/bl_hsmmcsd.c	/^static char g_cTmpBuf[DATA_BUF_SIZE] __attribute__ ((aligned (32)));$/;"	v	file:
+g_cTmpBuf	src/bl_hsmmcsd.c	/^static char g_cTmpBuf[DATA_BUF_SIZE];$/;"	v	file:
+g_sCState	src/bl_hsmmcsd.c	/^volatile unsigned int g_sCState = 0;$/;"	v
+g_sFatFs	src/bl_hsmmcsd.c	/^static FATFS g_sFatFs;$/;"	v	file:
+g_sFileObject	src/bl_hsmmcsd.c	/^static FIL g_sFileObject;$/;"	v	file:
+g_sFresultStrings	src/bl_hsmmcsd.c	/^tFresultString g_sFresultStrings[] =$/;"	v
+g_sPState	src/bl_hsmmcsd.c	/^volatile unsigned int g_sPState = 0;$/;"	v
+hsmmcsd_buffer	src/bl_hsmmcsd.c	/^volatile unsigned char *hsmmcsd_buffer = NULL;$/;"	v
+hsmmcsd_dataLen	src/bl_hsmmcsd.c	/^unsigned int hsmmcsd_dataLen = 0;$/;"	v
+image_size	include/bl_copy.h	/^        unsigned int image_size;  $/;"	m	struct:_ti_header_
+isBBB	src/armv7a/am335x/bl_platform.c	/^unsigned char isBBB = 0;$/;"	v
+ldAddress	include/bl_nand.h	/^    unsigned int ldAddress;$/;"	m	struct:_nandbootheader_
+ldAddress	include/bl_spi.h	/^    unsigned int ldAddress;   $/;"	m	struct:_spibootheader_
+load_addr	include/bl_copy.h	/^        unsigned int load_addr; $/;"	m	struct:_ti_header_
+loop_zi_copy	src/armv7a/ewarm/bl_init.S	/^loop_zi_copy:$/;"	l
+magic	include/bl_rprc.h	/^    unsigned int magic;$/;"	m	struct:rprcFileHeader
+magicNum	include/bl_nand.h	/^    unsigned int magicNum;    $/;"	m	struct:_nandbootheader_
+magicNum	include/bl_spi.h	/^    unsigned int magicNum;    $/;"	m	struct:_spibootheader_
+main	src/bl_main.c	/^int main(void)$/;"	f
+main_ucos	src/bl_main.c	/^void main_ucos(void)$/;"	f
+memAddress	include/bl_spi.h	/^    unsigned int memAddress; $/;"	m	struct:_spibootheader_
+nandCtrlInfo	src/bl_nand.c	/^NandCtrlInfo_t          nandCtrlInfo;$/;"	v
+nandDmaInfo	src/bl_nand.c	/^NandDmaInfo_t           nandDmaInfo;$/;"	v
+nandEccInfo	src/bl_nand.c	/^NandEccInfo_t           nandEccInfo;$/;"	v
+nandInfo	src/bl_nand.c	/^NandInfo_t              nandInfo;$/;"	v
+nandTimingInfo	src/armv7a/am335x/bl_platform.c	/^  static GPMCNANDTimingInfo_t nandTimingInfo;$/;"	v	file:
+numOfBytes	src/armv7a/am335x/bl_platform.c	/^volatile unsigned int numOfBytes;$/;"	v
+numPage	include/bl_nand.h	/^    unsigned int numPage;$/;"	m	struct:_nandbootheader_
+oppConfig	include/armv7a/am335x/bl_platform.h	/^typedef struct oppConfig$/;"	s
+oppMaxIdx	src/armv7a/am335x/bl_platform.c	/^volatile unsigned int oppMaxIdx;$/;"	v
+oppTable	src/armv7a/am335x/bl_platform.c	/^tOPPConfig oppTable[] =$/;"	v
+os_event	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_event {$/;"	s
+os_flag_grp	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_flag_grp {                \/* Event Flag Group                                        *\/$/;"	s
+os_flag_node	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_flag_node {               \/* Event Flag Wait List Node                               *\/$/;"	s
+os_mbox_data	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_mbox_data {$/;"	s
+os_mem	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_mem {                     \/* MEMORY CONTROL BLOCK                                    *\/$/;"	s
+os_mem_data	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_mem_data {$/;"	s
+os_mutex_data	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_mutex_data {$/;"	s
+os_q	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_q {                       \/* QUEUE CONTROL BLOCK                                     *\/$/;"	s
+os_q_data	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_q_data {$/;"	s
+os_sem_data	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_sem_data {$/;"	s
+os_stk_data	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_stk_data {$/;"	s
+os_tcb	uc/SOFTWARE/ucos_ii.h	/^typedef struct os_tcb {$/;"	s
+os_tmr	uc/SOFTWARE/ucos_ii.h	/^typedef  struct  os_tmr {$/;"	s
+os_tmr_wheel	uc/SOFTWARE/ucos_ii.h	/^typedef  struct  os_tmr_wheel {$/;"	s
+page	include/bl_nand.h	/^    unsigned int page; $/;"	m	struct:_nandbootheader_
+pcResultStr	src/bl_hsmmcsd.c	/^    char *pcResultStr;$/;"	m	struct:__anon1	file:
+pllMult	include/armv7a/am335x/bl_platform.h	/^    unsigned int pllMult;$/;"	m	struct:oppConfig
+pmicVolt	include/armv7a/am335x/bl_platform.h	/^    unsigned int pmicVolt;$/;"	m	struct:oppConfig
+rCount	src/armv7a/am335x/bl_platform.c	/^volatile unsigned int rCount;$/;"	v
+rprcFileHeader	include/bl_rprc.h	/^typedef struct rprcFileHeader {$/;"	s
+rprcFileHeader	include/bl_rprc.h	/^} rprcFileHeader;$/;"	t	typeref:struct:rprcFileHeader
+rprcSectionHeader	include/bl_rprc.h	/^typedef struct rprcSectionHeader {$/;"	s
+rprcSectionHeader	include/bl_rprc.h	/^} rprcSectionHeader;$/;"	t	typeref:struct:rprcSectionHeader
+rsvd	include/bl_rprc.h	/^    unsigned int rsvd;  \/* note: only use 32 LSBs of standard 64-bit address *\/$/;"	m	struct:rprcSectionHeader
+rxData	src/bl_nand.c	/^volatile unsigned char  __attribute__ ((aligned (4))) rxData[NAND_DATA_BUFF_SIZE];$/;"	v
+rxData	src/bl_nand.c	/^volatile unsigned char rxData[NAND_DATA_BUFF_SIZE];$/;"	v
+sdBlkSize	src/bl_hsmmcsd.c	/^volatile unsigned int sdBlkSize = MMCSD_BLK_SIZE;$/;"	v
+sdCard	src/bl_hsmmcsd.c	/^mmcsdCardInfo sdCard __attribute__ ((aligned (32)));$/;"	v
+sdCard	src/bl_hsmmcsd.c	/^mmcsdCardInfo sdCard;$/;"	v
+size	include/bl_rprc.h	/^    unsigned int size;$/;"	m	struct:rprcSectionHeader
+tCount	src/armv7a/am335x/bl_platform.c	/^volatile unsigned int tCount;$/;"	v
+tFresultString	src/bl_hsmmcsd.c	/^tFresultString;$/;"	t	typeref:struct:__anon1	file:
+tOPPConfig	include/armv7a/am335x/bl_platform.h	/^} tOPPConfig;$/;"	t	typeref:struct:oppConfig
+text_len	include/bl_rprc.h	/^    unsigned int text_len;$/;"	m	struct:rprcFileHeader
+ti_header	include/bl_copy.h	/^    }ti_header;$/;"	t	typeref:struct:_ti_header_
+type	include/bl_rprc.h	/^    unsigned int type;$/;"	m	struct:rprcSectionHeader
+version	include/bl_rprc.h	/^    unsigned int version;$/;"	m	struct:rprcFileHeader
+xferPend	src/bl_hsmmcsd.c	/^volatile unsigned int xferPend = 0;$/;"	v
