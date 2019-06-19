@@ -187,7 +187,62 @@ OSStartHighRdy:
     LDR     PC,  [SP], #4
     @LDMFD   SP!, {R0-R12, LR, PC}^                              @    Pop new task's context.
     
-
+
+
+OSTickISR:
+   STR     LR,  [SP, #-4]!                                     @ STORE PROCESSOR REGISTER
+   STR     LR,  [SP, #-4]!
+   STR     R12, [SP, #-4]!
+   STR     R11, [SP, #-4]!
+   STR     R10, [SP, #-4]!
+   STR     R9,  [SP, #-4]!
+   STR     R8,  [SP, #-4]!
+   STR     R7,  [SP, #-4]!
+   STR     R6,  [SP, #-4]!
+   STR     R5,  [SP, #-4]!
+   STR     R4,  [SP, #-4]!
+   STR     R3,  [SP, #-4]!
+   STR     R2,  [SP, #-4]!
+   STR     R1,  [SP, #-4]!
+   STR     R0,  [SP, #-4]!
+
+   MRS     R0, CPSR                                             @     Push current CPSR,
+   STMFD   SP!, {R0}                                            @     Store current cpsr,
+
+   LDR R0, =OSIntNesting
+   LDRB R1, [R0]
+   ADD R1, R1, #1                                               @     Add IntNesting 
+   STRB R1, [R0]
+
+   BL OSTimeTick
+   BL OSIntExit
+
+   LDMFD SP!, {R0}
+   MSR CPSR_xsf, R0
+   LDMFD SP!, {R0-R12, LR, PC}^
+
+                                                                @ RESTORE NEW TASK'S CONTEXT:
+   @LDMFD   SP!, {R0}                                          @    Pop new task's CPSR,
+   LDR     R0,  [SP], #4                                       @    Pop new task's CPSR,
+   MSR     CPSR_cxsf, R0
+
+   LDR     R0,  [SP], #4           
+   LDR     R1,  [SP], #4
+   LDR     R2,  [SP], #4
+   LDR     R3,  [SP], #4
+   LDR     R4,  [SP], #4
+   LDR     R5,  [SP], #4
+   LDR     R6,  [SP], #4
+   LDR     R7,  [SP], #4
+   LDR     R8,  [SP], #4
+   LDR     R9,  [SP], #4
+   LDR     R10, [SP], #4
+   LDR     R11, [SP], #4
+   LDR     R12, [SP], #4
+   LDR     LR,  [SP], #4
+   LDR     PC,  [SP], #4
+
+
 @*********************************************************************************************************
 @                         PERFORM A CONTEXT SWITCH (From task level) - OSCtxSw()
 @

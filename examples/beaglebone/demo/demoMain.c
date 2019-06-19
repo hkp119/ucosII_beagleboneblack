@@ -425,23 +425,23 @@ static void UartAction(unsigned int actionInput)
 */
 static void PeripheralsSetUp(void)
 {
-    enableModuleClock(CLK_UART0);
-    enableModuleClock(CLK_I2C0);
+//   enableModuleClock(CLK_UART0);
+//    enableModuleClock(CLK_I2C0);
     /* Timer6 is used for Standby wakeup */
     enableModuleClock(CLK_TIMER6);
     GPIO0ModuleClkConfig();
     DMTimer2ModuleClkConfig();
-    DMTimer3ModuleClkConfig();
-    DMTimer4ModuleClkConfig();
-    RTCModuleClkConfig();
-    CPSWPinMuxSetup();
-    CPSWClkEnable();
-    EDMAModuleClkConfig();
+//    DMTimer3ModuleClkConfig();
+//    DMTimer4ModuleClkConfig();
+//    RTCModuleClkConfig();
+//    CPSWPinMuxSetup();
+//    CPSWClkEnable();
+//    EDMAModuleClkConfig();
     GPIO1ModuleClkConfig();
     GPIO1Pin23PinMuxSetup();
-    HSMMCSDPinMuxSetup();
-    HSMMCSDModuleClkConfig();
-    I2CPinMuxSetup(0);
+//    HSMMCSDPinMuxSetup();
+//    HSMMCSDModuleClkConfig();
+//    I2CPinMuxSetup(0);
 }
 
 /*
